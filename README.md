@@ -1,6 +1,6 @@
 # CREST
 
-This repository is the project for paper-152 **Testing Coreference Resolution Systems without Labeled Test Sets
+This repository is the project for paper **Testing Coreference Resolution Systems without Labeled Test Sets
   Inputs**
 
 ## Workflow
