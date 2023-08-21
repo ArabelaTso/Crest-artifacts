@@ -1,0 +1,900 @@
+oriSent: To those who attacked them, we say you will not find a safe harbor, we will find you and justice will prevail.
+genSent: To those who attaked them, e say you will not find a safe harbor, we will find you and justice will prevail.
+repToken: cw -> 
+goldCorefText: [['those who attacked them', 'you', 'you'], ['we', 'we']]
+oriCorefText: [['we', 'we'], ['you', 'them', 'you']]
+newCorefText: [['you', 'them', 'you']]
+buggy: True
+
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been president and chief governance officer of Amperex Electron Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: xeutivics -> govrnan
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+
+
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned bg money by dedicating unencoded floppy disks to uses, allowing them to coy by themselves.
+repToken: irp -> 
+goldCorefText: [['themselves', 'them', 'users']]
+oriCorefText: [['themselves', 'users']]
+newCorefText: []
+buggy: True
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egyt called the emergency summit to declare support for the Palestinians in the wake of three weeks f violence that has left at least 106 people dead, almost all of tem Palestinian.
+repToken: poh -> 
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: []
+buggy: True
+
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Olli. Nesbit also said the FDA has asking Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+repToken: Mred -> Olliing
+goldCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+oriCorefText: [['its', 'the FDA']]
+newCorefText: [['retail', 'also said']]
+buggy: True
+
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: But Justice Brennan foresaw hs new role, strongly defending the importance of dissents in a 1985 speech.
+repToken: i -> 
+goldCorefText: [['his', 'Justice Brennan']]
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: []
+buggy: False
+
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: Maybe before the weapon and then later he told, Oh, I should have gets the nuclear weapon before I invaded.
+repToken: saio -> toles
+goldCorefText: [['I', 'I', 'he'], ['the nuclear weapon', 'the weapon']]
+oriCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'he', 'I']]
+newCorefText: [['I', 'I']]
+buggy: True
+
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals cout will decide hw long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+repToken: ro -> 
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'hw long dirty bomb suspect Jose Padilla']]
+buggy: True
+
+
+oriSent: Olivetti has denied that it violated Cocom rules, asserting that the reported shipments were properly licensed by the Italian authorities.
+genSent: Oivetti has denied that it violated Cocom rules, asserting that the reported shipments were properly licensed by the Italian authoriies.
+repToken: lt -> 
+goldCorefText: [['it', 'Olivetti']]
+oriCorefText: [['Olivetti', 'it']]
+newCorefText: []
+buggy: False
+
+
+oriSent: Once I was driving her somewhere to report a story when we had an accident, and she suffered some badly broken bones.
+genSent: Once I was driving her somewhere to report a story whe we had an accident, and he suffered some badly broken bones.
+repToken: ns -> 
+goldCorefText: [['her', 'she']]
+oriCorefText: [['she', 'her']]
+newCorefText: []
+buggy: False
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Nowadays, Shanghai has established trade contacts with 205 countries and districts, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghainese.
+repToken: Currentlregon -> Nowadasdstrictnese
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: []
+buggy: False
+
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty i not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human alue.
+repToken: sv -> 
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: []
+buggy: True
+
+
+oriSent: They are going to allow India to assemble about 140 of these bombers here in India, and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov.
+genSent: They are going to allow Hindustan to assemble about 140 of these bombers here in India, and they are also going to finalize a deal whereby Hindustan will acquisition the Admiral Gorshkov.
+repToken: IiIire -> HiustnHiustnsition
+goldCorefText: [['India', 'India', 'India'], ['They', 'they']]
+oriCorefText: [['India', 'India', 'India'], ['They', 'they', 'these bombers']]
+newCorefText: [['Hindustan', 'Hindustan'], ['They', 'they', 'these bombers']]
+buggy: True
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil case, a accused may be called as a testimonial, he may be forced to testify or take the Fifth, and his picked of the Fifth may authorizing the drawing of an adverse inference against him in the civil matter.
+repToken: defendnttness, he may be forced to testify or take the Fifth, and his takithe Fifth my permit the drawi of aderse inference against him in the civ -> ccusedtestimonial, he may be forced to testify or take the Fifth, and his picked of the Fifth may authorizing the dra adverse inference aisthim in the ci
+goldCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth'], ['his taking of the Fifth', 'take']]
+oriCorefText: [['he', 'a defendant', 'him', 'his']]
+newCorefText: [['he', 'him', 'his']]
+buggy: True
+
+
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Students, ho have enough money to keep several streets of shops going, carelessly wheel teir motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+repToken: wh -> 
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance', 'their', 'their']]
+newCorefText: [['Students', 'their']]
+buggy: True
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil case, a defendant may be called as a witness, he may e forced to testify r take the Fifth, ad his taking of the Fifth may permit the drawing of an adverse inference against im in the civil matter.
+repToken: bonh -> 
+goldCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth'], ['his taking of the Fifth', 'take']]
+oriCorefText: [['he', 'a defendant', 'him', 'his']]
+newCorefText: [['he', 'a defendant', 'his']]
+buggy: True
+
+
+oriSent: Barring a cold snap or other crop problems in the growing areas, downward pressure on prices is likely to continue into January, when harvesting and processing of oranges in Florida reach their peak, the analyst said.
+genSent: Brring a cold snap or other crop problems in the growing areas, downward pressure on prices is likely to continue into January, when harvesting and processing of oranges i Florida reach their peak, the aalyst said.
+repToken: ann -> 
+goldCorefText: [['harvesting and processing of oranges in Florida', 'their']]
+oriCorefText: [['their', 'the analyst', 'harvesting and processing of oranges in Florida']]
+newCorefText: [['their', 'the aalyst', 'harvesting and processing of oranges']]
+buggy: True
+
+
+oriSent: If their intention was to deter us from our mission of promoting peace and security in the Middle East, they will fail utterly.
+genSent: If their intention was to deter americans from our mission of promoting peace and security in the Middle East, they will fails utterly.
+repToken: u -> americans
+goldCorefText: [['our', 'us'], ['they', 'their']]
+oriCorefText: [['us', 'our'], ['their', 'they']]
+newCorefText: [['their', 'they']]
+buggy: False
+
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: Maybe before the weapon and then later he said, Aaaah, I should have got the nuclear sidearm before I invaded.
+repToken: Owpon -> Aaaasidrm
+goldCorefText: [['I', 'I', 'he'], ['the nuclear weapon', 'the weapon']]
+oriCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'he', 'I']]
+newCorefText: [['I', 'he', 'I']]
+buggy: False
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book s filled wit marvelos descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain n which h hopes in some way or anothe to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him b the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: ihuoery -> 
+goldCorefText: [['he', 'him', 'him', 'his', 'his', 'he', 'he'], ['the book', 'The book']]
+oriCorefText: [['him', 'him', 'his', 'he', 'he', 'he', 'his'], ['The book', 'the book']]
+newCorefText: [['him', 'him', 'his', 'he', 'he', 'his'], ['The book s', 'the book']]
+buggy: False
+
+
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Students, who have enough money to keep several streets of shops going, carelessly wheel heir motorcyces through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+repToken: tl -> 
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance', 'their', 'their']]
+newCorefText: []
+buggy: True
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their factories like the drive their cars, in high gear.
+repToken: y -> 
+goldCorefText: [['their', 'their', 'Taiwanese business people here', 'they']]
+oriCorefText: [['Taiwanese business people here', 'their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'their']]
+buggy: False
+
+
+oriSent: And he has kept mum on how his decision might affect a bid for United Airlines, which includes a big stake by British Airways PLC.
+genSent: And he has kept mum on how hi decision might affect a bid for United Airlines, which includes a big stake y British Airways PLC.
+repToken: sb -> 
+goldCorefText: [['his', 'he']]
+oriCorefText: [['he', 'his']]
+newCorefText: []
+buggy: False
+
+
+oriSent: However, during the Japanese occupation, as a result of silting, and because the Japanese invested a huge effort in developing the port at Keelung, Tanshui faded in importance, never again to see the likes of its glory days.
+genSent: However, uring te Japanese occupation, as a result of silting, and because the Japanese invested a huge effort in developing the port t Keelung, Tanshui faded in importance, never again to see the likes of its glory days.
+repToken: dha -> 
+goldCorefText: [['its', 'Tanshui']]
+oriCorefText: [['its', 'Tanshui']]
+newCorefText: []
+buggy: True
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Toight for both George Bush and Al Gore and teir war rooms all their advisers, this really comes down to a numbers game.
+repToken: nh -> 
+goldCorefText: [['their', 'George Bush and Al Gore', 'their']]
+oriCorefText: [['all their advisers', 'this', 'their', 'their']]
+newCorefText: [['this', 'their']]
+buggy: True
+CorefChanged: T
+
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Student, who hve enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+repToken: sa -> 
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance', 'their', 'their']]
+newCorefText: [['their', 'their']]
+buggy: True
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among othe things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of is kind in the world.
+repToken: rt -> 
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: []
+buggy: True
+
+
+oriSent: Lawyers for dozens of insolvent savings and loan associations are trying a new tack in their efforts to defuse suits filed by borrowers, developers and creditors.
+genSent: Lawyrs for dozens of insolvent svings and loan associations are trying a new tack in their efforts to defuse suits filed by borrowers, developers and creditors.
+repToken: ea -> 
+goldCorefText: [['Lawyers for dozens of insolvent savings and loan associations', 'their']]
+oriCorefText: [['their', 'Lawyers for dozens of insolvent savings and loan associations']]
+newCorefText: [['their', 'dozens of insolvent svings and loan associations']]
+buggy: False
+CorefChanged: T
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents i a 1985 speech.
+repToken: n -> 
+goldCorefText: [['his', 'Justice Brennan']]
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: [['i', 'Justice Brennan', 'his']]
+buggy: True
+
+
+oriSent: Guangdong Province, fully utilizing its geographical advantage of being in close proximity to Hong Kong and Macao and being located in the Asian tropics, is vigorously developing extroverted agriculture.
+genSent: Gungdong Province, fully utilizing its geographical advantage of being in close proximity to Hong Kong and Macao and being loated in the Asian tropics, is vigorously developing extroverted agriculture.
+repToken: ac -> 
+goldCorefText: [['Guangdong Province', 'its']]
+oriCorefText: [['Guangdong Province', 'its']]
+newCorefText: []
+buggy: False
+
+
+oriSent: The two countries also signed a strategic partnership agreement, obligating both countries to avoid joining political or military alliances against each other.
+genSent: The two countries also signed a strategy partnership agreement, obligating both nation to avoid joining political or military alliances against each other.
+repToken: iccutries -> ynati
+goldCorefText: [['both countries', 'The two countries']]
+oriCorefText: [['The two countries', 'both countries']]
+newCorefText: []
+buggy: False
+
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something yu are born with, but character is something yo can work on, and it can outweigh your appearance.
+repToken: ou -> 
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'something yu']]
+buggy: True
+CorefChanged: F
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make supremacy an important human values.
+repToken: oveignt -> upmacs
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, hs been limited n accordance with its plain language to protect the defendant in criminal matters only.
+repToken: ai -> 
+goldCorefText: [['The privilege', 'its']]
+oriCorefText: [['The privilege', 'its']]
+newCorefText: [['hs', 'its']]
+buggy: True
+
+
+oriSent: At the time, Hertz said its annual fees to those airlines amounted to $ 20 million and that the value of redeemed awards topped $ 15 million.
+genSent: At the tme, Hertz said its annual fees to those airlines amounted to $20 million and that the value f redeemed awards topped $15 million.
+repToken: io -> 
+goldCorefText: [['its', 'Hertz']]
+oriCorefText: [['Hertz', 'its']]
+newCorefText: [['Hertz', 'the value f', 'its']]
+buggy: False
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai as established trade contacts with 25 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become nw markets opened up by Shanghai.
+repToken: h0e -> 
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: []
+buggy: True
+
+
+oriSent: A Taiwanese businessman down from Harbin boasts that his auto plant up in the northeast sits on a lot as vast as Taipei City and has a green light to sell on the domestic market.
+genSent: A Taiwanese businessman down from Harbin boasts that is auto plant up in the northeast sits on a lot as vast as Taipei City and has a green light to sell on the omestic maret.
+repToken: hdk -> 
+goldCorefText: [['his', 'A Taiwanese businessman down from Harbin']]
+oriCorefText: [['A Taiwanese businessman down from Harbin', 'his']]
+newCorefText: [['A Taiwanese businessman down from Harbin', 'that']]
+buggy: False
+
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has ben president and chief executive officer of Amperex Electronics Corp., a divison of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: ei -> 
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['North American Philips Corp.', 'itself']]
+buggy: True
+
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was very stern, very dirct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification shoud include the manual recount, and tht is a clear victory for Vice President l Gore.
+repToken: elaA -> 
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'that', 'this court', 'it']]
+newCorefText: [['It', 'this court', 'it']]
+buggy: True
+
+
+oriSent: Other money managers also opened their wallets.
+genSent: Else money managers also opened their wallets.
+repToken: Othr -> Els
+goldCorefText: [['Other money managers', 'their']]
+oriCorefText: [['Other money managers', 'their']]
+newCorefText: [['money managers', 'their']]
+buggy: False
+
+
+oriSent: This is another thing that the Indians were glad to hear him say, and he also said that both India and Russia suffer from the same sort of terrorism, as he put it, referring of course to the separatist militancies in Chechnya and Russia and in Jammu and Kashmir.
+genSent: This is another thing that the Indians were glad to hear him say, and he also said that both India and Russia suffer from the same sort f terrorism, as he put it, referring of course to the separatist militancies i Chchnya and Russia and n Jammu and Kashmir.
+repToken: onei -> 
+goldCorefText: [['Russia', 'Russia'], ['India', 'the Indians'], ['him', 'he', 'he']]
+oriCorefText: [['Russia', 'Russia'], ['he', 'he', 'him'], ['This', 'it']]
+newCorefText: [['Russia', 'Russia'], ['he', 'he', 'him']]
+buggy: True
+
+
+oriSent: Associates say he takes some defeats more personally than his colleagues, especially attempts to curtail the right to abortion first recognized in his 1973 opinion, Roe vs. Wade.
+genSent: Associates say he takes some defeats more personally than his colleagues, especially attempts to curtail the right to abortion first recognized in is 1973 opinon, Roe vs. Wade.
+repToken: hi -> 
+goldCorefText: [['his', 'he', 'his']]
+oriCorefText: [['he', 'his', 'his']]
+newCorefText: [['he', 'his']]
+buggy: False
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is illed with marvelous descriptions f the gorges through which he walks, the mountains that e climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another t get in touch with his sou, his individual soul, as opposed t that mass kind of soul beng enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: illedwi marvlousdesctions of thorgs hroughwhch he walks, the moutainshat he climbs, indeed the bok is called Sol Mountain, the mountain on whihe hopes in some ay or another to get n oucwit hloi -> illed with marvelous descriptions goges through whch he walks, the mountains that e climbs, indeed the book is called Soul Mountain, the mountain on which he hos in some way or another t
+goldCorefText: [['he', 'him', 'him', 'his', 'his', 'he', 'he'], ['the book', 'The book']]
+oriCorefText: [['him', 'him', 'his', 'he', 'he', 'he', 'his'], ['The book', 'the book']]
+newCorefText: [['him', 'him', 'his', 'he', 'he', 'his'], ['The book', 'the book']]
+buggy: False
+CorefChanged: T
+
+oriSent: The company is once again preparing to expand its physical plant.
+genSent: Th company is once again preparing to expand its physical plant.
+repToken: e -> 
+goldCorefText: [['its', 'The company']]
+oriCorefText: [['The company', 'its']]
+newCorefText: [['company', 'its']]
+buggy: False
+CorefChanged: T
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there ar 1,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+repToken: e5 -> 
+goldCorefText: [['them', '15,000 companies in the United States']]
+oriCorefText: [['them', '15,000 companies in the United States']]
+newCorefText: []
+buggy: True
+CorefChanged: T
+
+oriSent: Chang notes that after the major earthquake in Taiwan on September 21, Taiwan business associations throughout mainland China contributed NT$ 60 million.
+genSent: Chang notes that after the maor earthquake in Taiwn on September 21, Taiwan business associations throughout mainland China contributed NT$60 million.
+repToken: ja -> 
+goldCorefText: [['Taiwan', 'Taiwan']]
+oriCorefText: [['Taiwan', 'Taiwan']]
+newCorefText: []
+buggy: False
+CorefChanged: T
+
+oriSent: These lovers may be gazing at Tanshui with their eyes, but their hearts have eyes only for one another.
+genSent: These lovers may be gazing at Tanshui with their eyes, but teir hearts have eyes only for one another.
+repToken: h -> 
+goldCorefText: [['their', 'their', 'These lovers']]
+oriCorefText: [['These lovers', 'their', 'their']]
+newCorefText: [['These lovers', 'their']]
+buggy: False
+CorefChanged: T
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was very stern, very directly and it left no question, I think, in the minds of anybody that this courts unanimously believes that accreditation should include the manual recount, and that is a clear victory for Vice President Al Gora.
+repToken: etication should include the manual recount, and that is a clear victory fe -> lysacedtation should include the manual recount, and that is a clear victory a
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'that', 'this court', 'it']]
+newCorefText: [['It', 'it'], ['that', 'accreditation']]
+buggy: True
+
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: Chine still believes in the path that it itself has specified.
+repToken: a -> e
+goldCorefText: [['China', 'itself', 'it itself']]
+oriCorefText: [['China', 'it', 'itself']]
+newCorefText: [['it', 'itself']]
+buggy: True
+
+
+oriSent: IBMS associate research fellow Konan Peck agrees that in the foreseeable future, diagnostic chips will enable everyone to learn their current state of health and know what diseases they may develop in the future.
+genSent: IBMS associate research fellow Konan Peck agrees that in the foreseeable future, diagnose chips will enable everyone to learn their current state of healthcare and know what diseases they maggio develop in the future.
+repToken: ticy -> ecareggio
+goldCorefText: [['they', 'their', 'everyone']]
+oriCorefText: [['diagnostic chips', 'their', 'they']]
+newCorefText: [['everyone', 'their', 'they']]
+buggy: True
+
+
+oriSent: Each arrival seemed to bring many more on its heels.
+genSent: Each arrival seemed to bring many more on ts heels.
+repToken: i -> 
+goldCorefText: [['its', 'Each arrival']]
+oriCorefText: [['Each arrival', 'its']]
+newCorefText: []
+buggy: False
+CorefChanged: T
+
+oriSent: Tonight, some of those families made it clear their battle is not over to get to the truth and however difficult, punish the real authors of this crime.
+genSent: Tonight, som of those families made it clear their battle is not over to get to the truth and however difficult, punish the real authos of this crime.
+repToken: er -> 
+goldCorefText: [['some of those families', 'their']]
+oriCorefText: [['some of those families', 'it', 'their']]
+newCorefText: [['som of those families', 'it'], ['those families', 'their']]
+buggy: True
+CorefChanged: T
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Yesterday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+repToken: Thus -> Yeste
+goldCorefText: [['Mr. Barak', 'him']]
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Mr. Barak', 'him']]
+buggy: True
+
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And ven if a nurse would wear flowers n her hair while on duty, if she were engaged she would know o wear them behind her left, not right, ear.
+repToken: eit -> 
+goldCorefText: [['them', 'flowers'], ['her', 'a nurse', 'she', 'she', 'her']]
+oriCorefText: [['flowers', 'them'], ['she', 'she', 'a nurse', 'her', 'her']]
+newCorefText: [['she', 'she', 'a nurse', 'her', 'her']]
+buggy: True
+CorefChanged: F
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Equatorial Forest Maintaining Fund, the first of its kind in the world.
+repToken: TopcCoservto -> EquatoMaiting
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: T
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwanese stable out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taipei firms in the PRC.
+repToken: firmwan -> esestablepei
+goldCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their'], ['their adopted home', 'Dongguan']]
+oriCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan expats', 'their']]
+buggy: True
+
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: aybe before the weapon and then later he aid, Oh, I should have got the nuclear weapon before I invaded.
+repToken: Ms -> 
+goldCorefText: [['I', 'I', 'he'], ['the nuclear weapon', 'the weapon']]
+oriCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'he', 'I']]
+newCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'I']]
+buggy: True
+CorefChanged: F
+
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: n order to benefit society, the Wangma Computer Company determinedly gav up an opportunity that would have earned big money by dedicating unencoded floppy isks to users, allowing them to copy by themselves.
+repToken: Ied -> 
+goldCorefText: [['themselves', 'them', 'users']]
+oriCorefText: [['themselves', 'users']]
+newCorefText: [['them', 'dedicating unencoded floppy isks'], ['themselves', 'users']]
+buggy: True
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwanese stable out of Dongguan take Taiwan expats to their adopted home, which boasting the largest concentration of Taiwan firms in the PRC.
+repToken: firms -> esestableing
+goldCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their'], ['their adopted home', 'Dongguan']]
+oriCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+buggy: True
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he typed his plays in French.
+repToken: wris -> ypd
+goldCorefText: [['he', 'he', 'his']]
+oriCorefText: [['he', 'he', 'his']]
+newCorefText: [['about 18 plays', 'his plays'], ['he', 'he', 'his']]
+buggy: True
+CorefChanged: F
+
+oriSent: The United Nations Industrial Development Organization recently implemented a thorough investigation into the current state of industrial projects in the Tumen River region, and made some suggestions about future industrial development projects in this area.
+genSent: The United Nations Industrial Development Organization recently implemented a thorough investigation into the current state of industrialized projects in the Tumen River region, and made some recommendation about future industrial development project in this area.
+repToken: suggstiss -> izedrcmmedation
+goldCorefText: [['this area', 'the Tumen River region']]
+oriCorefText: [['this area', 'The United Nations Industrial Development Organization']]
+newCorefText: []
+buggy: True
+CorefChanged: F
+
+oriSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal Reserve.
+genSent: The Treasury ws locked in a battle over international economic polic, although at that time it was with West German officials rather than the Federal Reserve.
+repToken: ay -> 
+goldCorefText: [['it', 'a battle over international economic policy']]
+oriCorefText: [['it', 'The Treasury']]
+newCorefText: [['it', 'Treasury']]
+buggy: True
+
+
+oriSent: Just before Christmas break, the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river, held its first ever Wax Apple Festival.
+genSent: Just before Christmas break, the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien revere, held its first ever Wax Apple Festivals.
+repToken: i -> ees
+goldCorefText: [['the rural township of Linpien , on the Pingtung Plain at the mouth of the Linpien river', 'its']]
+oriCorefText: [['Linpien', 'Linpien'], ['the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river', 'its']]
+newCorefText: [['the Linpien', 'Linpien'], ['the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien', 'its']]
+buggy: True
+
+
+oriSent: One day earlier Israeli and Palestinian negotiators had announced that a week of marathon talks have brought them closer than ever to a final agreement.
+genSent: One day beforehand Israeli and Palestinian negotiators had announced that a chou of marathon talks have brought them closer than ever to a final agreement.
+repToken: rlierweek -> bforehndchou
+goldCorefText: [['Israeli and Palestinian negotiators', 'them']]
+oriCorefText: [['them', 'Israeli and Palestinian negotiators']]
+newCorefText: [['them', 'beforehand Israeli and Palestinian negotiators']]
+buggy: True
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshu away one piece of land a a tim.
+repToken: ite -> 
+goldCorefText: [['her', 'Tanshui', 'Tanshui']]
+oriCorefText: [['Tanshui', 'Tanshui']]
+newCorefText: []
+buggy: True
+
+
+oriSent: He had survived, if you will, a death sentence, and now in that new freedom of the life in front of him, he takes to the road in the tradition of old Chinese poets and records what he sees, what he hears, the stories that he is told.
+genSent: He had survived, if ou will, a death sentence, and now in that new freedom f the life in front of him, he takes to the road in the tradition of old Chinese poets and records what he sees, what he hears, the stoies that e is told.
+repToken: yorh -> 
+goldCorefText: [['he', 'He', 'him', 'he', 'he', 'he']]
+oriCorefText: [['He', 'he', 'him', 'he', 'he', 'he']]
+newCorefText: [['He', 'him', 'he', 'he', 'he']]
+buggy: False
+CorefChanged: T
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would wear flowers in hr hair whie on duty, if she were engaged she woul know to wear them behind her left, not right, ear.
+repToken: eld -> 
+goldCorefText: [['them', 'flowers'], ['her', 'a nurse', 'she', 'she', 'her']]
+oriCorefText: [['flowers', 'them'], ['she', 'she', 'a nurse', 'her', 'her']]
+newCorefText: [['flowers', 'them'], ['she', 'she', 'a nurse', 'her']]
+buggy: False
+CorefChanged: T
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr. Nesbit also said the DA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract ntibiotic.
+repToken: Fa -> 
+goldCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+oriCorefText: [['its', 'the FDA']]
+newCorefText: [['its', 'Bolar Pharmaceutical Co.']]
+buggy: True
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year n how est to handle Iraq, but we are now able to look forwrd together firmly in agreemen on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds u all of te difficulties to be faced.
+repToken: obatsh -> 
+goldCorefText: [['our two countries', 'we', 'we']]
+oriCorefText: [['we', 'we', 'us', 'our']]
+newCorefText: [['we', 'we', 'our']]
+buggy: True
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privileged, however, has been limited in accordance with its plain language to safeguards the defendant in criminal matters only.
+repToken: potect -> dsafeguads
+goldCorefText: [['The privilege', 'its']]
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: False
+CorefChanged: T
+
+oriSent: Enterprises whose system is changed in this form can enjoy preferential policies, such as income taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+genSent: Enterprises whose system is changed in this form cn enjoy preferential policies, sch as income taxes bing returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+repToken: aue -> 
+goldCorefText: [['income taxes', 'they']]
+oriCorefText: [['Enterprises whose system is changed in this form', 'they']]
+newCorefText: [['they', 'sch as income taxes']]
+buggy: True
+
+
+oriSent: American warns it will seek more layoffs if it does file for Chapter 11.
+genSent: Americana warns it will seek more layoffs if it does file for Chapter 11.
+repToken:  -> a
+goldCorefText: [['it', 'American', 'it']]
+oriCorefText: [['it', 'it']]
+newCorefText: [['Americana', 'it', 'it']]
+buggy: True
+
+
+oriSent: The announcement clearly pointed out that goods violating intellectual property rights, including exclusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported, when Customs discovers the import and export of goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights, it has the right to ask the people importing and exporting the goods to provide legal proof of use of related intellectual property rights and make additional reports to Customs about the state of the intellectual property rights of goods.
+genSent: The announcement clearly pointed out that goods violting intellectual property rights, including excusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported; wen Customs discovers the import and export of goods that ae reported as violating rights and other goods that were suspected of violting intellectual roperty rights, it has the right to ask the people importing and exporting the goods to provide legal proof of ue of related intellectual property rights and make additional reports to Customs about the state of th intellectual property rights of gods.
+repToken: alhrapseo -> 
+goldCorefText: [['Customs', 'it', 'Customs'], ['goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights', 'the goods']]
+oriCorefText: [['Customs', 'Customs', 'it']]
+newCorefText: [['wen Customs', 'Customs', 'it']]
+buggy: True
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceani, Latin America, the Middle East and South Africa have become new markets opened p by Sanghai.
+repToken: auh -> 
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: []
+buggy: False
+
+
+oriSent: These lovers may be gazing at Tanshui with their eyes, but their hearts have eyes only for one another.
+genSent: These lovers maggio be gazing at Tanshui with their eyes, but their hearts have eyes only for one another.
+repToken: y -> ggio
+goldCorefText: [['their', 'their', 'These lovers']]
+oriCorefText: [['These lovers', 'their', 'their']]
+newCorefText: [['These lovers maggio', 'their', 'their']]
+buggy: False
+CorefChanged: T
+
+oriSent: They set high expectations for themselves, but their disappointments are likewise large.
+genSent: Tey set high expectations for themselves, but their disappointments are likewise large.
+repToken: h -> 
+goldCorefText: [['They', 'themselves', 'their']]
+oriCorefText: [['They', 'themselves', 'their']]
+newCorefText: [['themselves', 'their']]
+buggy: False
+CorefChanged: T
+
+oriSent: They are going to allow India to assemble about 140 of these bombers here in India, and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov.
+genSent: They are going to authorizing India to assemble about 140 of these bombers here in India, and they are also gonna to conclude a deal whereby India will acquire the Admiral Gorshkov.
+repToken: llwigfiaiz -> uthrizingnacocud
+goldCorefText: [['India', 'India', 'India'], ['They', 'they']]
+oriCorefText: [['India', 'India', 'India'], ['They', 'they', 'these bombers']]
+newCorefText: [['India', 'India', 'India'], ['They', 'they', 'these bombers']]
+buggy: True
+CorefChanged: F
+
+oriSent: They have both invested enormous amounts in it, and both regimes would be more vulnerable if the peace process were to fail, because detractors and opponents within each country would have ammunition by which to fire at them.
+genSent: hey have both invested enormous amounts in it, ad both regimes would be more vulnerable if the pace process were to fail, because detractors and opponents within each country would have ammunition by which to fire at them.
+repToken: Tne -> 
+goldCorefText: [['They', 'both regimes', 'them'], ['the peace process', 'it']]
+oriCorefText: [['both', 'it'], ['They', 'them']]
+newCorefText: [['both', 'it'], ['them', 'detractors and opponents within each country']]
+buggy: True
+
+
+oriSent: The United Nations Industrial Development Organization recently implemented a thorough investigation into the current state of industrial projects in the Tumen River region, and made some suggestions about future industrial development projects in this area.
+genSent: The United Nations Industrial Evolution Organizing recently implemented a exhaustive investigation into the current state of industrial projects in the Tumen River region, and made some suggestions about future industrial development projects in this area.
+repToken: Deelpmenatotorogh -> Eluiongexastive
+goldCorefText: [['this area', 'the Tumen River region']]
+oriCorefText: [['this area', 'The United Nations Industrial Development Organization']]
+newCorefText: [['the current state of industrial projects in the Tumen River region', 'this area']]
+buggy: True
+
+
+oriSent: David, thank you.
+genSent: David, thank yo.
+repToken: u -> 
+goldCorefText: [['you', 'David']]
+oriCorefText: [['David', 'you']]
+newCorefText: []
+buggy: False
+CorefChanged: T
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egyptians called the emergency summit to declare support for the Palestinians in the wake of three chou of violence that has left at lowest 106 people dead, almost all of them Palestinian.
+repToken: weeksa -> ianschouow
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+
+
+oriSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+genSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and sid Financial Corp. could improve it financial condition by purchasing he bonds.
+repToken: ast -> 
+goldCorefText: [['Financial Corp.', 'Financial Corp.', 'its', 'it', 'it'], ['the bonds', 'the bonds']]
+oriCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its']]
+newCorefText: [['Financial Corp.', 'it', 'it', 'sid Financial Corp.', 'it']]
+buggy: True
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the major discrepancies between our deux countries earlier this year on how best to manipulated Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Countries, although, the tragic loss of British lives today resembles us all of the difficulties to be faced.
+repToken: significnt differences between uhdNatiind -> mjdiscrepancies beeen ur deuxmipuatdCutrieseble
+goldCorefText: [['our two countries', 'we', 'we']]
+oriCorefText: [['we', 'we', 'us', 'our']]
+newCorefText: [['we', 'we', 'us all', 'our'], ['our deux countries', 'the United Countries']]
+buggy: True
+
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the peace wth Israel, an really he cannot afford to let it fail.
+repToken: id -> 
+goldCorefText: [['it', 'the peace with Israel'], ['He', 'he']]
+oriCorefText: [['he', 'He'], ['it', 'the peace with Israel']]
+newCorefText: [['he', 'He']]
+buggy: True
+CorefChanged: T
+
+oriSent: They are going to allow India to assemble about 140 of these bombers here in India, and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov.
+genSent: They are going to allow India to assemble about 140 of these bombers here in Indies, and they are also gonna to finalize a address whereby India will acquire the Admiral Gorshkov.
+repToken: aigal -> esnaadrss
+goldCorefText: [['India', 'India', 'India'], ['They', 'they']]
+oriCorefText: [['India', 'India', 'India'], ['They', 'they', 'these bombers']]
+newCorefText: [['India', 'India'], ['They', 'they', 'these bombers']]
+buggy: True
+CorefChanged: T
+
+oriSent: This is another thing that the Indians were glad to hear him say, and he also said that both India and Russia suffer from the same sort of terrorism, as he put it, referring of course to the separatist militancies in Chechnya and Russia and in Jammu and Kashmir.
+genSent: This is another thing that the Indian were glad to hear him sy, and he also said tha both India and Rusia suffer from the same sort of terrorism, as he put it, referring of course to the separatist militancies in Chechnya and Russia and in Jammu and Kashmir.
+repToken: sats -> 
+goldCorefText: [['Russia', 'Russia'], ['India', 'the Indians'], ['him', 'he', 'he']]
+oriCorefText: [['Russia', 'Russia'], ['he', 'he', 'him'], ['This', 'it']]
+newCorefText: [['he', 'he', 'Rusia', 'him']]
+buggy: True
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 enterprise in the United States, and I think the splendid bulk of them are very honestly managed and so forth.
+repToken: comansgrat -> enterrssplndid
+goldCorefText: [['them', '15,000 companies in the United States']]
+oriCorefText: [['them', '15,000 companies in the United States']]
+newCorefText: []
+buggy: True
+CorefChanged: T
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr. Nesbit also asserted the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotics.
+repToken: ai -> asertes
+goldCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+oriCorefText: [['its', 'the FDA']]
+newCorefText: [['its', 'Bolar Pharmaceutical Co.']]
+buggy: True
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Hence, in a civil examples, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth maggio permit the drawing of an pernicious inference against him in the civil matter.
+repToken: T,case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil  -> Hence, in a civil examples, a defendant may be called as a witness, e may be forced to testify or take the Fifth, and his taking of the Fifth maggio permit the drawing of an pernicioferencegainst him in the
+goldCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth'], ['his taking of the Fifth', 'take']]
+oriCorefText: [['he', 'a defendant', 'him', 'his']]
+newCorefText: [['he', 'the Fifth maggio', 'a defendant', 'him', 'his']]
+buggy: True
+
+
+oriSent: But for all its success, CNN has hit a plateau.
+genSent: Nevertheless for all its success, CNN has hit a plateau.
+repToken: Bu -> Neverheless
+goldCorefText: [['its', 'CNN']]
+oriCorefText: [['its', 'CNN']]
+newCorefText: []
+buggy: True
+CorefChanged: F
+
+oriSent: Now, with its constitutionally granted mandate, the party has an obligation to fully uphold the constitution.
+genSent: Now, with it constitutionally granted mandate, the party has an obligation to fully uphold the constitution.
+repToken: s -> 
+goldCorefText: [['the party', 'its']]
+oriCorefText: [['its', 'the party']]
+newCorefText: []
+buggy: False
+CorefChanged: T
+
+oriSent: Just before Christmas break, the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river, held its first ever Wax Apple Festival.
+genSent: Just before Christmas break, the rural townsip of Linpien, on the Pingtung Plain at the mouth of the Linpien river, held ts first ever Wax Apple Festival.
+repToken: hi -> 
+goldCorefText: [['the rural township of Linpien , on the Pingtung Plain at the mouth of the Linpien river', 'its']]
+oriCorefText: [['Linpien', 'Linpien'], ['the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river', 'its']]
+newCorefText: [['Linpien', 'Linpien']]
+buggy: True
+
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are onboard in his writing and his writing is first and foremost a celebration of freedom.
+repToken: emedde -> onoar
+goldCorefText: [['his writing', 'his writing'], ['his', 'his', 'His']]
+oriCorefText: [['his writing', 'his writing'], ['His', 'his', 'his']]
+newCorefText: [['His', 'his', 'his']]
+buggy: True
+CorefChanged: F
+
+oriSent: TBAD contributed NT$ 30 million all by itself.
+genSent: BAD contributed NT$30 million all by itself.
+repToken: T -> 
+goldCorefText: [['TBAD', 'itself']]
+oriCorefText: [['TBAD', 'itself']]
+newCorefText: []
+buggy: True
+CorefChanged: T
+
+oriSent: However, as expected, Brazil waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $ 1.34 a pound from around $ 1.55.
+genSent: Hwever, as expected, Brazil waited for the crop estimate to come out and the cu the export price of its juice concentrate to about $1.34 a pound from around $1.55.
+repToken: ont -> 
+goldCorefText: [['Brazil', 'its']]
+oriCorefText: [['Brazil', 'its']]
+newCorefText: [['its', 'the crop estimate']]
+buggy: True
+CorefChanged: F
+
+oriSent: Chang notes that after the major earthquake in Taiwan on September 21, Taiwan business associations throughout mainland China contributed NT$ 60 million.
+genSent: Chang notes that after the major earthquake i Taian on September 21, Taiwan business associations throughout mainland China contributed NT$60 million.
+repToken: nw -> 
+goldCorefText: [['Taiwan', 'Taiwan']]
+oriCorefText: [['Taiwan', 'Taiwan']]
+newCorefText: []
+buggy: False
+CorefChanged: T
+
+oriSent: The United Nations Industrial Development Organization recently implemented a thorough investigation into the current state of industrial projects in the Tumen River region, and made some suggestions about future industrial development projects in this area.
+genSent: The United Nations Industrial Development Organization recently implemented a thorough investigaton into the current state of industrial projects in the Tumen River region, and made some suggestions about future industrial development projects in his rea.
+repToken: ita -> 
+goldCorefText: [['this area', 'the Tumen River region']]
+oriCorefText: [['this area', 'The United Nations Industrial Development Organization']]
+newCorefText: []
+buggy: True
+CorefChanged: T
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out hat because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, s that t cannot yet be widely promoted.
+repToken: toi -> 
+goldCorefText: [['it', 'such a fever chip']]
+oriCorefText: [['it', 'the usefulness of such a fever chip']]
+newCorefText: []
+buggy: True
+CorefChanged: T
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr. Nesbit alo said the FDA has asked Bolar Pharmaceutical Co. to recall at he retail level its urinary tract antibiotic.
+repToken: st -> 
+goldCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+oriCorefText: [['its', 'the FDA']]
+newCorefText: [['he', 'Mr. Nesbit alo'], ['its', 'the FDA']]
+buggy: True
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, owever, has been limited in accordanc with its plain language to protect the defendant in criminal matters only.
+repToken: he -> 
+goldCorefText: [['The privilege', 'its']]
+oriCorefText: [['The privilege', 'its']]
+newCorefText: [['The privilege, owever', 'its']]
+buggy: False
+CorefChanged: T
+

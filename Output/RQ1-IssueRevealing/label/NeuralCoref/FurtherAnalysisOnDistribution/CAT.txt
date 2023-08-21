@@ -1,0 +1,1100 @@
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: In order to benefit society , the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users , enabling them to copy by themselves .
+repToken: allowing -> enabling
+oriCorefText: [['the Wangma Computer Company', 'themselves'], ['users', 'them']]
+newCorefText: [['users', 'them', 'themselves']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, EM, MM
+newBuggy: EM, MM
+
+
+oriSent: In order to promote the development of the Tumen River region, South Korea donated one million US dollars to establish the Tumen River development fund.
+genSent: In order to encourage the development of the Tumen River region , South Korea donated one million US dollars to establish the Tumen River development fund .
+repToken: promote -> encourage
+oriCorefText: [['the Tumen River region', 'Tumen River']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Mr. Arafat accused Israel of waging a savage and barbaric war against his people.
+genSent: Dr . Arafat accused Israel of waging a savage and barbaric war against his people .
+repToken: Mr -> Dr
+oriCorefText: [['Mr. Arafat', 'his']]
+newCorefText: [['Israel', 'his']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr . Thygerson said he has planned to travel between the job in Denver and his San Diego home , but has found the commute too difficult to continue .
+repToken: had -> has
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr . Thygerson', 'he', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Yesterday, Mr. Clinton spoke to supporters in his home state of Arkansas.
+genSent: Yesterday , Mr . Clinton spoke to supporters in his home state of Michigan .
+repToken: Arkansas -> Michigan
+oriCorefText: [['Mr. Clinton', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co., also said they saw no effect.
+genSent: Officials at Backer Spielvogel client Avis Inc . , as well as at Saatchi client Philips Lighting Co . , also said they saw no effect .
+repToken: Executive -> Official
+oriCorefText: [['Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co.', 'they']]
+newCorefText: [['Officials at Backer Spielvogel client Avis Inc . , as well as at Saatchi client Philips Lighting Co . ,', 'they']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Johnsee Lee says that according to US market research estimates, the worldwide annual consumption of microarray chips is currently around 250,000, in two years this is expected to grow to 1.2 million.
+genSent: Johnsee Lee says that according to US market research estimates , the worldwide annual consumption of microarray chips is currently around 200 , 000 ; in two years this is expected to grow to 1 . 2 million .
+repToken: 250 -> 200
+oriCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+newCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Arafat accused Israel of waging a savage and barbaric war against his people.
+genSent: Mr . Arafat accused Israel of waging a cruel and barbaric war against his people .
+repToken: savage -> cruel
+oriCorefText: [['Mr. Arafat', 'his']]
+newCorefText: [['Mr . Arafat', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: His country is the poorest in the hemisphere and much of the world community has shunned him.
+genSent: The country is the poorest in the hemisphere and much of the world community has shunned him .
+repToken: His -> The
+oriCorefText: [['His', 'him']]
+newCorefText: [['The country', 'him']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: This book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .
+repToken: The -> This
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['This book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, CE
+newBuggy: EE
+
+
+oriSent: I have always remembered the encouragement which Mr. Yu Youren gave me as a young reporter.
+genSent: I have always remembered the encouragement which Mr . Yu Youren gave me as a young student .
+repToken: reporter -> student
+oriCorefText: [['I', 'me']]
+newCorefText: [['I', 'me']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Middle age and the changes it brings are like a revolving door.
+genSent: The age and the changes it brings are like a revolving door .
+repToken: Middle -> The
+oriCorefText: [['Middle age', 'it']]
+newCorefText: [['The age and the changes it brings', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: Johnsee Lee says that according to US market research estimates, the worldwide annual consumption of microarray chips is currently around 250,000, in two years this is expected to grow to 1.2 million.
+genSent: Johnsee Lee says that according to US market research estimates , the worldwide annual consumption of microarray chips is currently around 600 , 000 ; in two years this is expected to grow to 1 . 2 million .
+repToken: 250 -> 600
+oriCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+newCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday , Mr . Barak invited Likud party leader Ariel Sharon to join him in a government of national emergency .
+repToken: opposition -> party
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Likud party leader Ariel Sharon', 'him']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: His book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .
+repToken: The -> His
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['His', 'he', 'he', 'he', 'his', 'his', 'him', 'him'], ['His book', 'the book'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, CE
+newBuggy: EM, EE
+
+
+oriSent: After the angry outburst Mr. Arafat reaffirmed his commitment to peace and his willingness to meet Mr. Barak.
+genSent: After this angry outburst Mr . Arafat reaffirmed his commitment to peace and his willingness to meet Mr . Barak .
+repToken: the -> this
+oriCorefText: [['Mr. Arafat', 'his', 'his']]
+newCorefText: [['Mr . Arafat', 'his', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co., also said they saw no effect.
+genSent: Executives at Bayer Spielvogel client Avis Inc . , as well as at Saatchi client Philips Lighting Co . , also said they saw no effect .
+repToken: Back -> Bay
+oriCorefText: [['Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co.', 'they']]
+newCorefText: [['Executives at Bayer Spielvogel client Avis Inc . , as well as at Saatchi client Philips Lighting Co . ,', 'they']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp . , of Chicago , and National Car Rental Systems Inc . , of Detroit , both said they had no plans to follow suit .
+repToken: Minneapolis -> Detroit
+oriCorefText: [['both', 'they']]
+newCorefText: [['Budget Rent a Car Corp . , of Chicago , and National Car Rental Systems Inc . , of Detroit', 'both', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, EE
+newBuggy: N
+
+
+oriSent: In other words, whereas in the past researchers had to investigate each gene individually, today, using biochips, they can obtain test results for tens of thousands of genes at once.
+genSent: In other words , whereas in the past researchers had to investigate each gene individually , today , using biochips , they can obtain test results for hundreds of thousands of genes at once .
+repToken: tens -> hundreds
+oriCorefText: [['researchers', 'they']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: After the angry outburst Mr. Arafat reaffirmed his commitment to peace and his willingness to meet Mr. Barak.
+genSent: After the angry outburst Dr . Arafat reaffirmed his commitment to peace and his willingness to meet Mr . Barak .
+repToken: Mr -> Dr
+oriCorefText: [['Mr. Arafat', 'his', 'his']]
+newCorefText: [['his', 'his']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM
+
+
+oriSent: Each arrival seemed to bring many more on its heels.
+genSent: Its arrival seemed to bring many more on its heels .
+repToken: Each -> Its
+oriCorefText: [['Each arrival', 'its']]
+newCorefText: [['Its', 'its']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: When she met the local press for the first time on Friday, Mrs. Hills firmly reiterated the need for progress in removing barriers to trade in forest products, satellites and supercomputers, three areas targeted under the Super 301 provision of the 1988 trade bill.
+genSent: When she met the local press for the first time on Friday , Mrs . Hills also reiterated the need for progress in removing barriers to trade in forest products , satellites and supercomputers , three areas targeted under the Super 301 provision of the 1988 trade bill .
+repToken: firmly -> also
+oriCorefText: [['she', 'Mrs. Hills']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: National Rent a Car Corp . , of Chicago , and National Car Rental Systems Inc . , of Minneapolis , both said they had no plans to follow suit .
+repToken: Budget -> National
+oriCorefText: [['both', 'they']]
+newCorefText: [['both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds, as well, so it was a knife edge.
+genSent: They use the gunships to kill , we think , not less than 500 , 000 inhabitants of southern Iraq and trying to do that to the Kurds , as well , so it was a knife edge .
+repToken: 50 -> 500
+oriCorefText: [['use', 'that']]
+newCorefText: [['use', 'that']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: Apparently, he was on his way to greet reporters at the time outside the main government office there in Belgrade.
+genSent: Apparently , he was on his way to greet reporters at the time outside his main government office there in Belgrade .
+repToken: the -> his
+oriCorefText: [['he', 'his']]
+newCorefText: [['he', 'his', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute with the board over corporate strategy.
+genSent: Mr . Field also had been chairman of McKesson Corp . , resigning that post following a dispute with the board over corporate strategy .
+repToken: after -> following
+oriCorefText: [['chairman', 'that post']]
+newCorefText: [['chairman', 'that post']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: SE
+
+
+oriSent: Mr. Arafat accused Israel of waging a savage and barbaric war against his people.
+genSent: Mr . Arafat accused Israel of waging a vicious and barbaric war against his people .
+repToken: savage -> vicious
+oriCorefText: [['Mr. Arafat', 'his']]
+newCorefText: [['Mr . Arafat', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+genSent: Financial Corp . said it agreed to buy the bonds because a representative of Ivan F . Boesky Corp . visited it in November 1983 and said Financial Corp . could improve its financial condition by purchasing the bonds .
+repToken: after -> because
+oriCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its'], ['the bonds', 'the bonds']]
+newCorefText: [['Financial Corp .', 'it', 'it', 'Financial Corp .', 'its'], ['the bonds', 'the bonds']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Valley Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp., which said it is attempting to meet Community Reinvestment Act requirements.
+genSent: Valley Capital said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp . , which said it is attempting to meet Community Reinvestment Act requirements .
+repToken: Federal -> Capital
+oriCorefText: [['Valley Federal', 'it', 'it']]
+newCorefText: [['Valley Capital', 'it', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, EM
+newBuggy: ME, EM
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U . S . house in 1948 , when Harry Truman became President and for more than 4 decades he trounced every challenger to face him in congressional election .
+repToken: was -> became
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: EE, MM
+
+
+oriSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds, as well, so it was a knife edge.
+genSent: They use the gunships to kill , we think , not less than 100 , 000 inhabitants of southern Iraq and trying to do that to the Kurds , as well , so it was a knife edge .
+repToken: 50 -> 100
+oriCorefText: [['use', 'that']]
+newCorefText: [['use', 'that']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM, MM
+newBuggy: EM, MM
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: I have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square , and we , in turn , have been enthralled by the celebrations of your own city in Petersburg .
+repToken: We -> I
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['your own city in Petersburg', 'Petersburg']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr . Nesbit also said the FDA has asked Collar Pharmaceutical Co . to recall at the retail level its urinary tract antibiotic .
+repToken: Bo -> Col
+oriCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+newCorefText: [['Collar Pharmaceutical Co .', 'its']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U . S . house in 1952 , when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election .
+repToken: 1948 -> 1952
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: American Rent a Car Corp . , of Chicago , and National Car Rental Systems Inc . , of Minneapolis , both said they had no plans to follow suit .
+repToken: Budget -> American
+oriCorefText: [['both', 'they']]
+newCorefText: [['both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr . Nesbit also said the FDA has asked Kolar Pharmaceutical Co . to recall at the retail level its urinary tract antibiotic .
+repToken: Bo -> Ko
+oriCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+newCorefText: [['Kolar Pharmaceutical Co .', 'its']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr . Thygerson said he had planned to travel between the job in Denver and his San Diego home , but has found the commute extremely difficult to continue .
+repToken: too -> extremely
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr . Thygerson', 'he', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The company is once again preparing to expand its physical plant.
+genSent: The company is once again preparing to expand the physical plant .
+repToken: its -> the
+oriCorefText: [['The company', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Middle age and the changes it brings are like a revolving door.
+genSent: But age and the changes it brings are like a revolving door .
+repToken: Middle -> But
+oriCorefText: [['Middle age', 'it']]
+newCorefText: [['age', 'it']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians as its neighbors because they are his neighbors.
+genSent: I want Mr . Barak to lift the siege of Palestinians , to speak to the Palestinians as its neighbors because they are his neighbors .
+repToken: urge -> want
+oriCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its', 'they']]
+newCorefText: [['the siege of Palestinians', 'its', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM, MM
+newBuggy: ME, SE, EM, MM
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However , Pan points out that because of the difficulties in significantly reducing the time needed for sample preparation , the usefulness of such a fever chip is still limited , so that it cannot yet be widely promoted .
+repToken: substantially -> significantly
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM, MM
+newBuggy: N
+
+
+oriSent: American warns it will seek more layoffs if it does file for Chapter 11.
+genSent: American says it will seek more layoffs if it does file for Chapter 11 .
+repToken: warns -> says
+oriCorefText: [['it', 'it']]
+newCorefText: [['American', 'it', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: N
+
+
+oriSent: Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co., also said they saw no effect.
+genSent: Executives at Hamburger Spielvogel client Avis Inc . , as well as at Saatchi client Philips Lighting Co . , also said they saw no effect .
+repToken: Back -> Hamburg
+oriCorefText: [['Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co.', 'they']]
+newCorefText: [['Executives at Hamburger Spielvogel client Avis Inc . , as well as at Saatchi client Philips Lighting Co . ,', 'they']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: If their intention was to deter us from our mission of promoting peace and security in the Middle East, they will fail utterly.
+genSent: If their intention was to deter us from our mission of promoting peace and security in the Middle East , it will fail utterly .
+repToken: they -> it
+oriCorefText: [['their', 'they'], ['us', 'our']]
+newCorefText: [['us', 'our'], ['our mission of promoting peace and security in the Middle East', 'it']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: I have always remembered the encouragement which Mr. Yu Youren gave me as a young reporter.
+genSent: I have always remembered the encouragement that Mr . Yu Youren gave me as a young reporter .
+repToken: which -> that
+oriCorefText: [['I', 'me']]
+newCorefText: [['I', 'me']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+genSent: Financial Corp . said it agreed to buy the bonds when a representative of Ivan F . Boesky Corp . visited it in November 1983 and said Financial Corp . could improve its financial condition by purchasing the bonds .
+repToken: after -> when
+oriCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its'], ['the bonds', 'the bonds']]
+newCorefText: [['Financial Corp .', 'it', 'it', 'Financial Corp .', 'its'], ['the bonds', 'the bonds']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China alone believes in the path that it itself has specified .
+repToken: still -> alone
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China alone', 'it itself']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: SE, MM
+
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr . Nesbit also said the FDA has asked Molar Pharmaceutical Co . to recall at the retail level its urinary tract antibiotic .
+repToken: Bo -> Mo
+oriCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+newCorefText: [['Molar Pharmaceutical Co .', 'its']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: After the angry outburst Mr. Arafat reaffirmed his commitment to peace and his willingness to meet Mr. Barak.
+genSent: After an angry outburst Mr . Arafat reaffirmed his commitment to peace and his willingness to meet Mr . Barak .
+repToken: the -> an
+oriCorefText: [['Mr. Arafat', 'his', 'his']]
+newCorefText: [['Mr . Arafat', 'his', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians as its neighbors because they are his neighbors.
+genSent: I urge Dr . Barak to lift the siege of Palestinians , to speak to the Palestinians as its neighbors because they are his neighbors .
+repToken: Mr -> Dr
+oriCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its', 'they']]
+newCorefText: [['the siege of Palestinians', 'its', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE, MM, EM
+newBuggy: ME, EM, SE, MM
+
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: But Justice Brennan foresaw the new role , strongly defending the importance of dissents in a 1985 speech .
+repToken: his -> the
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr . Thygerson said he had planned to travel between the job in Denver and his San Diego home , but has found the commute very difficult to continue .
+repToken: too -> very
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr . Thygerson', 'he', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Valley Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp., which said it is attempting to meet Community Reinvestment Act requirements.
+genSent: American Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp . , which said it is attempting to meet Community Reinvestment Act requirements .
+repToken: Valley -> American
+oriCorefText: [['Valley Federal', 'it', 'it']]
+newCorefText: [['American Federal', 'it', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, EM
+newBuggy: ME
+
+
+oriSent: When she met the local press for the first time on Friday, Mrs. Hills firmly reiterated the need for progress in removing barriers to trade in forest products, satellites and supercomputers, three areas targeted under the Super 301 provision of the 1988 trade bill.
+genSent: When she met the local press for the first time on Thursday , Mrs . Hills firmly reiterated the need for progress in removing barriers to trade in forest products , satellites and supercomputers , three areas targeted under the Super 301 provision of the 1988 trade bill .
+repToken: Friday -> Thursday
+oriCorefText: [['she', 'Mrs. Hills']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Valley Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp., which said it is attempting to meet Community Reinvestment Act requirements.
+genSent: First Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp . , which said it is attempting to meet Community Reinvestment Act requirements .
+repToken: Valley -> First
+oriCorefText: [['Valley Federal', 'it', 'it']]
+newCorefText: [['First Federal', 'it', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, EM
+newBuggy: ME, EM
+
+
+oriSent: Valley Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp., which said it is attempting to meet Community Reinvestment Act requirements.
+genSent: Valley Federal said Friday that it was considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp . , which said it is attempting to meet Community Reinvestment Act requirements .
+repToken: is -> was
+oriCorefText: [['Valley Federal', 'it', 'it']]
+newCorefText: [['Valley Federal', 'it', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM, EM
+newBuggy: ME, EM
+
+
+oriSent: In order to promote the development of the Tumen River region, South Korea donated one million US dollars to establish the Tumen River development fund.
+genSent: In order to promote the development of the Tumen River region , South Korea contributed one million US dollars to establish the Tumen River development fund .
+repToken: donated -> contributed
+oriCorefText: [['the Tumen River region', 'Tumen River']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: On Thursday , Mr . Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency .
+repToken: Late -> On
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: Well, we sold all 80,000 tickets through our web site.
+genSent: Well , we sold all 80 , 000 tickets on our web site .
+repToken: through -> on
+oriCorefText: [['we', 'our']]
+newCorefText: [['we', 'our']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege , however , has been limited in accordance with the plain language to protect the defendant in criminal matters only .
+repToken: its -> the
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday , Mr . Barak called Likud opposition leader Ariel Sharon to join him in a government of national emergency .
+repToken: invited -> called
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: The latter typically is the humor of the underdog, and it was perfected by both blacks and Jews on the minstrel and vaudeville stage as a means of mocking their white and gentile audiences along with themselves.
+genSent: The latter typically is the humor of the underdog , and it was perfected by both blacks and Jews for the minstrel and vaudeville stage as a means of mocking their white and gentile audiences along with themselves .
+repToken: on -> for
+oriCorefText: [['The latter', 'it'], ['both blacks and Jews on the minstrel and vaudeville stage', 'their', 'themselves']]
+newCorefText: [['The latter', 'it'], ['both blacks and Jews', 'their', 'themselves']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: Yesterday, Mr. Clinton spoke to supporters in his home state of Arkansas.
+genSent: Yesterday , Mr . Clinton spoke to supporters in his home state of Tennessee .
+repToken: Arkansas -> Tennessee
+oriCorefText: [['Mr. Clinton', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians as its neighbors because they are his neighbors.
+genSent: I ask Mr . Barak to lift the siege of Palestinians , to speak to the Palestinians as its neighbors because they are his neighbors .
+repToken: urge -> ask
+oriCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its', 'they']]
+newCorefText: [['the siege of Palestinians', 'its', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE, MM, EM
+newBuggy: SE, MM, EM, ME
+
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: Chief Justice Brennan foresaw his new role , strongly defending the importance of dissents in a 1985 speech .
+repToken: But -> Chief
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: [['Chief Justice Brennan', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: I have always remembered the encouragement which Mr. Yu Youren gave me as a young reporter.
+genSent: I have always remembered the encouragement which Mrs . Yu Youren gave me as a young reporter .
+repToken: Mr -> Mrs
+oriCorefText: [['I', 'me']]
+newCorefText: [['I', 'me']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published some 18 plays now and he writes his plays in French .
+repToken: about -> some
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he'], ['some 18 plays', 'his plays']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EE, MM, EM
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr . Thygerson said he had planned to travel between the job in Denver and his San Diego home , but has found the commute more difficult to continue .
+repToken: too -> more
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr . Thygerson', 'he', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Once I was driving her somewhere to report a story when we had an accident, and she suffered some badly broken bones.
+genSent: Once I was driving her somewhere to report a story when she had an accident , and she suffered some badly broken bones .
+repToken: we -> she
+oriCorefText: [['her', 'she']]
+newCorefText: [['her', 'she', 'she']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: At the first opportunity, however, they leave to set up shop for themselves.
+genSent: At their first opportunity , however , they leave to set up shop for themselves .
+repToken: the -> their
+oriCorefText: [['they', 'themselves']]
+newCorefText: [['their', 'they', 'themselves']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Their candles are burning at both ends, because they are trying to live up to two old role models rather than establishing a new one for themselves.
+genSent: The candles are burning at both ends , because they are trying to live up to two old role models rather than establishing a new one for themselves .
+repToken: Their -> The
+oriCorefText: [['Their', 'they', 'themselves']]
+newCorefText: [['they', 'themselves']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: In order to benefit society , the Wangma Computer Company determinedly gave up an opportunity that would have made big money by dedicating unencoded floppy disks to users , allowing them to copy by themselves .
+repToken: earned -> made
+oriCorefText: [['the Wangma Computer Company', 'themselves'], ['users', 'them']]
+newCorefText: [['users', 'them', 'themselves']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+genSent: Financial Corp . said it agreed to buy the bonds after a representative of Ivan F . Boesky Corp . visited it in December 1983 and said Financial Corp . could improve its financial condition by purchasing the bonds .
+repToken: November -> December
+oriCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its'], ['the bonds', 'the bonds']]
+newCorefText: [['Financial Corp .', 'it', 'it', 'Financial Corp .', 'its'], ['the bonds', 'the bonds']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15 , 000 companies in the United States , and I think a great bulk of them are very honestly managed and so forth .
+repToken: the -> a
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15 , 000 companies in the United States', 'them']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians as its neighbors because they are his neighbors.
+genSent: I urge Mr . Barak to end the siege of Palestinians , to speak to the Palestinians as its neighbors because they are his neighbors .
+repToken: lift -> end
+oriCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its', 'they']]
+newCorefText: [['the siege of Palestinians', 'its', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: ME, MM, EM
+
+
+oriSent: Johnsee Lee says that according to US market research estimates, the worldwide annual consumption of microarray chips is currently around 250,000, in two years this is expected to grow to 1.2 million.
+genSent: Johnsee Lee says that according to US market research estimates , the worldwide annual consumption of microarray chips is currently around 500 , 000 ; in two years this is expected to grow to 1 . 2 million .
+repToken: 250 -> 500
+oriCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+newCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Yesterday, Mr. Clinton spoke to supporters in his home state of Arkansas.
+genSent: Yesterday , Mr . Clinton spoke to supporters in his home state of Georgia .
+repToken: Arkansas -> Georgia
+oriCorefText: [['Mr. Clinton', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: As for both George Bush and Al Gore and their war rooms all their advisers , this really comes down to a numbers game .
+repToken: Tonight -> As
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday , Mr . Barak asked Likud opposition leader Ariel Sharon to join him in a government of national emergency .
+repToken: invited -> asked
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: After the angry outburst Mr. Arafat reaffirmed his commitment to peace and his willingness to meet Mr. Barak.
+genSent: Following the angry outburst Mr . Arafat reaffirmed his commitment to peace and his willingness to meet Mr . Barak .
+repToken: After -> Following
+oriCorefText: [['Mr. Arafat', 'his', 'his']]
+newCorefText: [['Mr . Arafat', 'his', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: After the angry outburst Mr. Arafat reaffirmed his commitment to peace and his willingness to meet Mr. Barak.
+genSent: After his angry outburst Mr . Arafat reaffirmed his commitment to peace and his willingness to meet Mr . Barak .
+repToken: the -> his
+oriCorefText: [['Mr. Arafat', 'his', 'his']]
+newCorefText: [['his', 'Mr . Arafat', 'his', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Valley Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp., which said it is attempting to meet Community Reinvestment Act requirements.
+genSent: Valley Federal said Friday that it is considering whether to seek another buyer for the branches or to pursue the transaction with Imperial Corp . , which said it was attempting to meet Community Reinvestment Act requirements .
+repToken: is -> was
+oriCorefText: [['Valley Federal', 'it', 'it']]
+newCorefText: [['Valley Federal', 'it', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, EM
+newBuggy: ME, EM
+
+
+oriSent: I want everybody who tried to vote who legally voted to have their vote count, including service people.
+genSent: I want everybody who tried to vote and legally voted to have their vote count , including service people .
+repToken: who -> and
+oriCorefText: [['everybody who tried to vote who legally voted to have their vote count, including service people', 'their']]
+newCorefText: [['everybody who tried to vote and legally voted', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: 'Well, in some ways it is different, but technically it is just the same.
+genSent: Well , in some ways this is different , but technically it is just the same .
+repToken: it -> this
+oriCorefText: [['it', 'it']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Well, we sold all 80,000 tickets through our web site.
+genSent: Well , we sold all 20 , 000 tickets through our web site .
+repToken: 80 -> 20
+oriCorefText: [['we', 'our']]
+newCorefText: [['we', 'our']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp . , of Detroit , and National Car Rental Systems Inc . , of Minneapolis , both said they had no plans to follow suit .
+repToken: Chicago -> Detroit
+oriCorefText: [['both', 'they']]
+newCorefText: [['both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute with the board over corporate strategy.
+genSent: Mr . Field also had been chairman of McKesson Corp . , resigning that post in a dispute with the board over corporate strategy .
+repToken: after -> in
+oriCorefText: [['chairman', 'that post']]
+newCorefText: [['chairman', 'that post']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: SE
+
+
+oriSent: In other words, whereas in the past researchers had to investigate each gene individually, today, using biochips, they can obtain test results for tens of thousands of genes at once.
+genSent: In other words , whereas in the past researchers had to investigate each gene separately , today , using biochips , they can obtain test results for tens of thousands of genes at once .
+repToken: individually -> separately
+oriCorefText: [['researchers', 'they']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: But for all its success, CNN has hit a plateau.
+genSent: But for all its success , CNN has hit its plateau .
+repToken: a -> its
+oriCorefText: [['its', 'CNN']]
+newCorefText: [['its', 'CNN', 'its']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds, as well, so it was a knife edge.
+genSent: They use the gunships to kill , we think , not less than 50 , 000 inhabitants of northern Iraq and trying to do that to the Kurds , as well , so it was a knife edge .
+repToken: southern -> northern
+oriCorefText: [['use', 'that']]
+newCorefText: [['use', 'that']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: Yesterday, Mr. Clinton spoke to supporters in his home state of Arkansas.
+genSent: Yesterday , Mr . Clinton wrote to supporters in his home state of Arkansas .
+repToken: spoke -> wrote
+oriCorefText: [['Mr. Clinton', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: David Williams, one of the POWs whose face we got to know in the coverage that we saw coming from Iraq.
+genSent: David Williams , one of the POWs whose face I got to know in the coverage that we saw coming from Iraq .
+repToken: we -> I
+oriCorefText: [['we', 'we']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Unfortunately for both George Bush and Al Gore and their war rooms all their advisers , this really comes down to a numbers game .
+repToken: Tonight -> Unfortunately
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Johnsee Lee says that according to US market research estimates, the worldwide annual consumption of microarray chips is currently around 250,000, in two years this is expected to grow to 1.2 million.
+genSent: Johnsee Lee says that according to US market research estimates , the worldwide annual consumption of microarray chips is currently around 300 , 000 ; in two years this is expected to grow to 1 . 2 million .
+repToken: 250 -> 300
+oriCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+newCorefText: [['the worldwide annual consumption of microarray chips', 'this']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Well, we sold all 80,000 tickets through our web site.
+genSent: Well , we sold all 80 , 000 tickets through our Web site .
+repToken: web -> Web
+oriCorefText: [['we', 'our']]
+newCorefText: [['we', 'our']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Each arrival seemed to bring many more on its heels.
+genSent: Each one seemed to bring many more on its heels .
+repToken: arrival -> one
+oriCorefText: [['Each arrival', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15 , 000 companies in the United States , and we think the great bulk of them are very honestly managed and so forth .
+repToken: I -> we
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15 , 000 companies in the United States', 'them']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The news agency is quoting a Yemeni source who says the investigators have wrapped up their questioning and will hand the case over to prosecutors.
+genSent: The news agency is quoting a Yemeni source who says the investigators have wrapped up the questioning and will hand the case over to prosecutors .
+repToken: their -> the
+oriCorefText: [['the investigators', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: When she met the local press for the first time on Friday, Mrs. Hills firmly reiterated the need for progress in removing barriers to trade in forest products, satellites and supercomputers, three areas targeted under the Super 301 provision of the 1988 trade bill.
+genSent: When she met the local press for the first time on Friday , Mrs . Hills firmly reiterated the need for progress in removing barriers to trade in forest products , satellites and supercomputers , three areas targeted under the Section 301 provision of the 1988 trade bill .
+repToken: Super -> Section
+oriCorefText: [['she', 'Mrs. Hills']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr . Nesbit also said the FDA has asked Dolar Pharmaceutical Co . to recall at the retail level its urinary tract antibiotic .
+repToken: Bo -> Do
+oriCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+newCorefText: [['Dolar Pharmaceutical Co .', 'its']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+

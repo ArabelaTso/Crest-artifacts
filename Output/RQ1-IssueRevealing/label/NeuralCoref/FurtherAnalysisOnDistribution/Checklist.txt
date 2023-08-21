@@ -1,0 +1,1200 @@
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when Matthew Adams was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir David Jones playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Joseph Howard playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sarah Gomez was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Harry Truman', 'he', 'him']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, MM
+newBuggy: EE, ME
+
+
+oriSent: The lights, like the karaoke singing within them, pulsate until dawn no matter the season.
+genSent: The lights, like the karaoke singing within thme, pulsate until dawn no matter the season.
+repToken: old -> new
+goldCorefText: [['them', 'The lights , like the karaoke singing within them']]
+oriCorefText: [['The lights', 'them']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Suqare, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: The Scotts ran it past their vet and the vet assured them, as long as the hen left her crate to do business, she was no harm to the pup.
+genSent: The Scotts ran it past their vet and the vet assured them, a slong as the hen left her crate to do business, she was no harm to the pup.
+repToken: old -> new
+goldCorefText: [['their vet', 'the vet'], ['she', 'the hen'], ['their', 'them', 'The Scotts']]
+oriCorefText: [['The Scotts', 'their', 'them'], ['their vet', 'the vet'], ['the hen', 'her', 'she']]
+newCorefText: [['The Scotts', 'their', 'them'], ['their vet', 'the vet', 'her', 'she']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: SE, EM
+
+
+oriSent: We talked with the lieutenant in Miami and there is big time concern in the Shenandoah neighborhood, southwestern portion of Miami.
+genSent: We talked with the lieutenant in New York and there is big time concern in the Shenandoah neighborhood, southwestern portion of New York.
+repToken: old -> new
+goldCorefText: [['Miami', 'Miami']]
+oriCorefText: [['Miami', 'Miami']]
+newCorefText: [['New York', 'New York']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: In order to benefit society, the Wangma Computer Company determinedyl gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+repToken: old -> new
+goldCorefText: [['themselves', 'them', 'users']]
+oriCorefText: [['the Wangma Computer Company', 'themselves'], ['users', 'them']]
+newCorefText: [['users', 'them', 'themselves']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EE
+newBuggy: N
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain language to protetc the defendant in criminal matters only.
+repToken: old -> new
+goldCorefText: [['The privilege', 'its']]
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Information International said it believes that the complaints, filed in federal court in Georgia, are without merit.
+genSent: Information Intenrational said it believes that the complaints, filed in federal court in Georgia, are without merit.
+repToken: old -> new
+goldCorefText: [['Information International', 'it']]
+oriCorefText: [['Information International', 'it']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Matthew Hill playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face hmi in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: MM
+
+
+oriSent: The Israeli Army said it was checking the reports.
+genSent: The Israeli Army said itw as checking the reports.
+repToken: old -> new
+goldCorefText: [['The Israeli Army', 'it']]
+oriCorefText: [['The Israeli Army', 'it']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Michael Flores playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Well, we sold all 80,000 tickets through our web site.
+genSent: Well, we sold all 80,000 itckets through our web site.
+repToken: old -> new
+goldCorefText: [['our', 'we']]
+oriCorefText: [['we', 'our']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Columbus yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: [['Luster', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: On the invitation of Prime Minister Mahathir of Malaysia, Premier Peng Li arrived in Malaysia on the afternoon of December 10th, 1990 to carry out a friendly official visit.
+genSent: On the invitation of Prime Minister Mahathir of United States, Premier Peng Li arrived in United States on the afternoon of December 10th, 1990 to carry out a friendly official visit.
+repToken: old -> new
+goldCorefText: [['Malaysia', 'Malaysia']]
+oriCorefText: [['Malaysia', 'Malaysia']]
+newCorefText: [['United States', 'United States']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Elizabeth Allen was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Harry Truman', 'he', 'him']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, MM
+newBuggy: ME, EE
+
+
+oriSent: I want everybody who tried to vote who legally voted to have their vote count, including service people.
+genSent: I want everybody who tried to vote who legally voted to have their vote count, including service people
+repToken: old -> new
+goldCorefText: [['their', 'everybody who tried to vote who legally voted']]
+oriCorefText: [['everybody who tried to vote who legally voted to have their vote count, including service people', 'their']]
+newCorefText: [['everybody who tried to vote who legally voted to have their vote count', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: SE
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Emily Morris was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Harry Truman', 'he', 'him']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM, EE
+newBuggy: EE, ME
+
+
+oriSent: She was quite a misfit for this administration, and she showed that over and over.
+genSent: She was quite a misfit for this administration, and she showed thta over and over.
+repToken: old -> new
+goldCorefText: [['was', 'that'], ['She', 'she']]
+oriCorefText: [['She', 'she'], ['was', 'that']]
+newCorefText: [['She', 'she']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Daniel Long playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in hte peace with Israel, and really he cannot afford to let it fail.
+repToken: old -> new
+goldCorefText: [['it', 'the peace with Israel'], ['He', 'he']]
+oriCorefText: [['He', 'he'], ['the peace with Israel', 'it']]
+newCorefText: [['He', 'he']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Their candles are burning at both ends, because they are trying to live up to two old role models rather than establishing a new one for themselves.
+genSent: Their candles are burning at both ends, becauset hey are trying to live up to two old role models rather than establishing a new one for themselves.
+repToken: old -> new
+goldCorefText: [['themselves', 'they', 'Their']]
+oriCorefText: [['Their', 'they', 'themselves']]
+newCorefText: [['Their', 'are', 'themselves']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: That was after he had actually barricaded himself inside that bus with the child.
+genSent: That was after he ahd actually barricaded himself inside that bus with the child.
+repToken: old -> new
+goldCorefText: [['himself', 'he']]
+oriCorefText: [['he', 'himself']]
+newCorefText: [['he ahd', 'himself']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Tucson yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their factories like they drive their cars, in high gear
+repToken: old -> new
+goldCorefText: [['their', 'their', 'Taiwanese business people here', 'they']]
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: MM
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr. Thygerson said he had planned to travel between the job in Denver and hi sSan Diego home, but has found the commute too difficult to continue.
+repToken: old -> new
+goldCorefText: [['Mr. Thygerson', 'he', 'his']]
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr. Thygerson', 'he']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: On November 25 Wang and a handful of other leading industrialists went to call on the president at his official residence.
+genSent: On November 25 Wang and a handful of other leading industrialists went to call no the president at his official residence.
+repToken: old -> new
+goldCorefText: [['his', 'the president']]
+oriCorefText: [['the president', 'his']]
+newCorefText: [['Wang', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE, ME
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Garland yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: [['Luster', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Anaheim, both said they had no plans to follow suit.
+repToken: old -> new
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: [['both', 'they']]
+newCorefText: [['Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Anaheim', 'both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, EE
+newBuggy: EM
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their factories like they drivet heir cars, in high gear.
+repToken: old -> new
+goldCorefText: [['their', 'their', 'Taiwanese business people here', 'they']]
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, ME
+newBuggy: MM
+
+
+oriSent: 'Well, in some ways it is different, but technically it is just the same.
+genSent: Well, in some ways it is different, but technically ti is just the same.
+repToken: old -> new
+goldCorefText: [['it', 'it']]
+oriCorefText: [['it', 'it']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Russian Federation, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+repToken: old -> new
+goldCorefText: [['our two countries', 'we', 'we']]
+oriCorefText: [['we', 'we', 'us']]
+newCorefText: [['we', 'we', 'us']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, ME
+newBuggy: EE, ME
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC
+repToken: old -> new
+goldCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their'], ['their adopted home', 'Dongguan']]
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it cannot yet be widely promoted
+repToken: old -> new
+goldCorefText: [['it', 'such a fever chip']]
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, EE
+newBuggy: N
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Argentina have become new markets opened up by Shanghai.
+repToken: old -> new
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Los Angeles yesterday from Mozambique following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: In order to promote the development of the Tumen River region, South Korea donated one million US dollars to establish the Tumen River development fund.
+genSent: In order to promote the development of the Tumen River region, South Korea donated one million US dollars to establihs the Tumen River development fund.
+repToken: old -> new
+goldCorefText: [['Tumen River', 'Tumen River']]
+oriCorefText: [['the Tumen River region', 'Tumen River']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and India have become new markets opened up by Shanghai.
+repToken: old -> new
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Thailand have become new markets opened up by Shanghai.
+repToken: old -> new
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to El Paso yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds, as well, so it was a knife edge.
+genSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern United Kingdom and trying to do that to the Kurds, as well, so it was a knife edge.
+repToken: old -> new
+goldCorefText: [['kill', 'that']]
+oriCorefText: [['use', 'that']]
+newCorefText: [['use', 'that']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, EE
+newBuggy: ME, EE
+
+
+oriSent: The RTC had previously targeted five thrifts for quick sales in order to spend cash by certain budgetary deadlines, but the delays illustrate the tough chore facing the agency.
+genSent: The RTC had previously targeted five thrifts for quick sales in order to spend cash by certain budgetary deadlines, but teh delays illustrate the tough chore facing the agency.
+repToken: old -> new
+goldCorefText: [['The RTC', 'the agency']]
+oriCorefText: [['The RTC', 'the agency'], ['five thrifts for quick sales in order to spend cash by certain budgetary deadlines', 'the delays']]
+newCorefText: [['The RTC', 'the agency']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE
+newBuggy: N
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and France have become new markets opened up by Shanghai.
+repToken: old -> new
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities,t he social realism that the cadres would have him write in.
+repToken: old -> new
+goldCorefText: [['he', 'him', 'him', 'his', 'his', 'he', 'he'], ['the book', 'The book']]
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the peace with Saudi Arabia, and really he cannot afford to let it fail.
+repToken: old -> new
+goldCorefText: [['it', 'the peace with Israel'], ['He', 'he']]
+oriCorefText: [['He', 'he'], ['the peace with Israel', 'it']]
+newCorefText: [['He', 'he'], ['the peace with Saudi Arabia', 'it']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir John Hughes playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir William Gutierrez playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: However, as expected, Brazil waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $ 1.34 a pound from around $ 1.55.
+genSent: However, as expected, South Africa waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $1.34 a pound from around $1.55.
+repToken: old -> new
+goldCorefText: [['Brazil', 'its']]
+oriCorefText: [['Brazil', 'its']]
+newCorefText: [['South Africa', 'its']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when Joseph Butler was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Joseph Butler', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: EE, ME
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp., of Baton Rouge, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+repToken: old -> new
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: [['both', 'they']]
+newCorefText: [['both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, ME
+newBuggy: EE, ME
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Joshua Rivera playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returnedt o Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: We talked with the lieutenant in Miami and there is big time concern in the Shenandoah neighborhood, southwestern portion of Miami.
+genSent: We talked with the lieutenant in Fort Worth and there is big time concern in the Shenandoah neighborhood, southwestern portion of Fort Worth.
+repToken: old -> new
+goldCorefText: [['Miami', 'Miami']]
+oriCorefText: [['Miami', 'Miami']]
+newCorefText: [['Fort Worth', 'Fort Worth']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Los Angeles yesterday from South Africa following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: [['Luster', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when James Robinson was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['James Robinson', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: EE, ME
+
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would wear flowers in her hair while no duty, if she were engaged she would know to wear them behind her left, not right, ear.
+repToken: old -> new
+goldCorefText: [['them', 'flowers'], ['her', 'a nurse', 'she', 'she', 'her']]
+oriCorefText: [['a nurse', 'her', 'she', 'she', 'her']]
+newCorefText: [['a nurse', 'her', 'she', 'she', 'her'], ['flowers', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME
+newBuggy: N
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to keep sendingt heir surplus electricity to California.
+repToken: old -> new
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when Michael Lee was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Philadelphia yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: old -> new
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: [['Luster', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves
+repToken: old -> new
+goldCorefText: [['themselves', 'them', 'users']]
+oriCorefText: [['the Wangma Computer Company', 'themselves'], ['users', 'them']]
+newCorefText: [['users', 'them', 'themselves']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in
+repToken: old -> new
+goldCorefText: [['he', 'him', 'him', 'his', 'his', 'he', 'he'], ['the book', 'The book']]
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul', 'that mass kind of soul being enforced upon him by the Communist Chinese authorities']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: CE, EE
+newBuggy: SE, CE, EE
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr. Thygerson said he had planned to travel between the job in Fort Wayne and his San Diego home, but has found the commute too difficult to continue.
+repToken: old -> new
+goldCorefText: [['Mr. Thygerson', 'he', 'his']]
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr. Thygerson', 'he', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Indonesia have become new markets opened up by Shanghai.
+repToken: old -> new
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We talked with the lieutenant in Miami and there is big time concern in the Shenandoah neighborhood, southwestern portion of Miami.
+genSent: We talked with the lieutenan tin Miami and there is big time concern in the Shenandoah neighborhood, southwestern portion of Miami.
+repToken: old -> new
+goldCorefText: [['Miami', 'Miami']]
+oriCorefText: [['Miami', 'Miami']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Mr. Arafat accused Israel of waging a savage and barbaric war against his people.
+genSent: Mr. Arafat accused South Africa of waging a savage and barbaric war against his people.
+repToken: old -> new
+goldCorefText: [['his', 'Mr. Arafat']]
+oriCorefText: [['Mr. Arafat', 'his']]
+newCorefText: [['Mr. Arafat', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The $ 56 billion California Public Employees Retirement System, for one, added $ 1 billion to its stock portfolio two years ago.
+genSent: The $56 billion California Public Employees Retirement System, ofr one, added $1 billion to its stock portfolio two years ago.
+repToken: old -> new
+goldCorefText: [['its', 'The $ 56 billion California Public Employees Retirement System']]
+oriCorefText: [['The $ 56 billion California Public Employees Retirement System', 'its']]
+newCorefText: [['The $56 billion California Public Employees Retirement System, ofr one,', 'its']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from Spain say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+repToken: old -> new
+goldCorefText: [['North Korean President Kim Jong Il', 'his']]
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his', 'his country']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE
+newBuggy: EM
+
+
+oriSent: That was after he had actually barricaded himself inside that bus with the child.
+genSent: That was after he had actually barricaded himself inside that bus with the child
+repToken: old -> new
+goldCorefText: [['himself', 'he']]
+oriCorefText: [['he', 'himself']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his plays in French
+repToken: old -> new
+goldCorefText: [['he', 'he', 'his']]
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EM
+
+
+oriSent: It is because they know they have the inspiration in their country.
+genSent: It is because they kno wthey have the inspiration in their country.
+repToken: old -> new
+goldCorefText: [['their', 'they', 'they']]
+oriCorefText: [['they', 'they', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: South Africa called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+repToken: old -> new
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: [['at least 106 people', 'them']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, thier minds elsewhere, thinking of youthful fun or romance.
+repToken: old -> new
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going', 'their', 'their']]
+newCorefText: [['Students, who have enough money to keep several streets of shops going', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE
+newBuggy: SE, MM
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Jessica Adams was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Harry Truman', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EE
+newBuggy: EE, ME
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only
+repToken: old -> new
+goldCorefText: [['The privilege', 'its']]
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China stil lbelieves in the path that it itself has specified.
+repToken: old -> new
+goldCorefText: [['China', 'itself', 'it itself']]
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'it itself', 'itself']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: N
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at leats 106 people dead, almost all of them Palestinian.
+repToken: old -> new
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: [['106 people', 'them']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: On the invitation of Prime Minister Mahathir of Malaysia, Premier Peng Li arrived in Malaysia on the afternoon of December 10th, 1990 to carry out a friendly official visit.
+genSent: On the invitation of Prime Minister Mahathir of South Africa, Premier Peng Li arrived in South Africa on the afternoon of December 10th, 1990 to carry out a friendly official visit.
+repToken: old -> new
+goldCorefText: [['Malaysia', 'Malaysia']]
+oriCorefText: [['Malaysia', 'Malaysia']]
+newCorefText: [['South Africa', 'South Africa']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute with the board over corporate strategy.
+genSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute with the board over corporate strategy
+repToken: old -> new
+goldCorefText: [['that post', 'chairman of McKesson Corp.']]
+oriCorefText: [['chairman', 'that post']]
+newCorefText: [['been', 'that post']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: MM, EM
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when David Reed was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: old -> new
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp., of Winston-Salem, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+repToken: old -> new
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: [['both', 'they']]
+newCorefText: [['both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, ME
+newBuggy: EE, ME
+
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qian told the French guest that Fracne is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+repToken: old -> new
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['France', 'France'], ['China', 'China']]
+newCorefText: [['China', 'China']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir James Richardson playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+repToken: old -> new
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we'], ['your own city in Petersburg', 'Petersburg']]
+newCorefText: [['We', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Jersey City, both said they had no plans to follow suit.
+repToken: old -> new
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: [['both', 'they']]
+newCorefText: [['Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Jersey City', 'both', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, ME
+newBuggy: EM
+
+
+oriSent: They are going to allow India to assemble about 140 of these bombers here in India, and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov.
+genSent: They are going to allow Russian Federation to assemble about 140 of these bombers here in Russian Federation, and they are also going to finalize a deal whereby Russian Federation will acquire the Admiral Gorshkov.
+repToken: old -> new
+goldCorefText: [['India', 'India', 'India'], ['They', 'they']]
+oriCorefText: [['They', 'they'], ['India', 'India', 'India']]
+newCorefText: [['They', 'they'], ['Russian Federation', 'Russian Federation', 'Russian Federation']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguant ake Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+repToken: old -> new
+goldCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their'], ['their adopted home', 'Dongguan']]
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM, ME
+newBuggy: ME
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Norfolk, both said they had no plans to follow suit.
+repToken: old -> new
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: [['both', 'they']]
+newCorefText: [['Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Norfolk', 'both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, ME
+newBuggy: EM
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he ahs published about 18 plays now and he writes his plays in French.
+repToken: old -> new
+goldCorefText: [['he', 'he', 'his']]
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EM
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced
+repToken: old -> new
+goldCorefText: [['our two countries', 'we', 'we']]
+oriCorefText: [['we', 'we', 'us']]
+newCorefText: [['we', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: IBMS associate research fellow Konan Peck agrees that in the foreseeable future, diagnostic chips will enable everyone to learn their current state of health and know what diseases they may develop in the future.
+genSent: IBMS associate research fellow Konan Peck agrees that in the foreseeable future, diagnostic chips will enable everyone to learn their current state of health and know what diseases thye may develop in the future.
+repToken: old -> new
+goldCorefText: [['they', 'their', 'everyone']]
+oriCorefText: [['everyone', 'their', 'they']]
+newCorefText: [['everyone', 'their']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We talked with the lieutenant in Miami and there is big time concern in the Shenandoah neighborhood, southwestern portion of Miami.
+genSent: We talked with the lieutenant in Oklahoma City and there is big time concern in the Shenandoah neighborhood, southwestern portion of Oklahoma City.
+repToken: old -> new
+goldCorefText: [['Miami', 'Miami']]
+oriCorefText: [['Miami', 'Miami']]
+newCorefText: [['Oklahoma City', 'Oklahoma City']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed
+repToken: old -> new
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their part', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The mainland was a much better fit for him and his printed circuit boards company.
+genSent: The mainland was a much better fit for hima nd his printed circuit boards company.
+repToken: old -> new
+goldCorefText: [['his', 'him']]
+oriCorefText: [['him', 'his']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr. Thygerson said he had planned to travel between the job in Colorado Springs and his San Diego home, but has found the commute too difficult to continue.
+repToken: old -> new
+goldCorefText: [['Mr. Thygerson', 'he', 'his']]
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr. Thygerson', 'he', 'his']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Venezuela have become new markets opened up by Shanghai.
+repToken: old -> new
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance
+repToken: old -> new
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going', 'their', 'their']]
+newCorefText: [['their', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: MM
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Newark, both said they had no plans to follow suit.
+repToken: old -> new
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: [['both', 'they']]
+newCorefText: [['Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Newark', 'both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, ME
+newBuggy: EM
+
+

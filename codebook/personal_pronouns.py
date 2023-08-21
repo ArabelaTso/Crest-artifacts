@@ -1,0 +1,1 @@
+pps = set(['he', 'her', 'hers', 'him', 'his', 'I', 'it', 'its', 'me', 'mine', 'my', 'our', 'ours', 'she', 'their', 'theirs', 'them', 'they', 'us', 'we', 'you', 'your', 'yours', 'myself', 'yourself', 'himself', 'herself', 'itself', 'ourselves', 'yourselves', 'themselves'])

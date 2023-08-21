@@ -1,0 +1,900 @@
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: In order to benefit society, the Wangma Computer Company determinedly gave up an chance that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+repToken: opportunity -> chance
+goldCorefText: [['themselves', 'them', 'users']]
+oriCorefText: [['themselves', 'users']]
+newCorefText: [['them', 'themselves', 'users']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but role is something you can work on, and it can outweigh your appearance.
+repToken: character -> role
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'role'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: True
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their portion said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> portion
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their portion', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds, as well, so it was a knife edge.
+genSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Irak and trying to do that to the Kurds, as well, so it was a knife edge.
+repToken: Iraq -> Irak
+goldCorefText: [['kill', 'that']]
+oriCorefText: [['They', 'we']]
+newCorefText: [['They', 'we'], ['it', 'southern Irak']]
+buggy: True
+CorefChanged: False
+
+oriSent: Owners of intellectual property rights, when requesting Customs to investigate and deal with goods that violate rights, should bear responsibility for reporting, assist Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+genSent: Owners of intellectual property rights, when requesting Customs to investigate and lot with goods that violate rights, should bear responsibility for reporting, assist Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+repToken: deal -> lot
+goldCorefText: [['Customs', 'Customs']]
+oriCorefText: [['requesting Customs', 'Customs']]
+newCorefText: [['requesting Customs', 'Customs'], ['goods that violate rights', 'the related goods']]
+buggy: True
+CorefChanged: False
+
+oriSent: Peterson awaiting trial in the murder of his wife Laci and their unborn son.
+genSent: Peterson awaiting trial in the slaying of his wife Laci and their unborn son.
+repToken: murder -> slaying
+goldCorefText: [['Peterson', 'his']]
+oriCorefText: [['Peterson', 'his']]
+newCorefText: [['Peterson', 'his'], ['his wife Laci', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has entrust at least 106 people dead, almost all of them Palestinian.
+repToken: left -> entrust
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will need power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> need
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: Owners of intellectual property rights, when requesting Customs to investigate and deal with goods that violate rights, should bear responsibility for reporting, assist Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+genSent: Owners of intellectual property rights, when requesting Customs to investigate and deal with goods that violate rights, should bear responsibility for reporting, aid Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+repToken: assist -> aid
+goldCorefText: [['Customs', 'Customs']]
+oriCorefText: [['requesting Customs', 'Customs']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: TBAD contributed NT$ 30 million all by itself.
+genSent: TBAD contributed NT$30 1000000 all by itself.
+repToken: million -> 1000000
+goldCorefText: [['TBAD', 'itself']]
+oriCorefText: [['TBAD', 'itself']]
+newCorefText: [['TBAD', 'itself']]
+buggy: False
+CorefChanged: False
+
+oriSent: It was the last of several speeches he has made in recent weeks to his backers across the country.
+genSent: It was the last of several speeches he has break in recent weeks to his backers across the country.
+repToken: made -> break
+goldCorefText: [['his', 'he']]
+oriCorefText: [['his', 'he']]
+newCorefText: [['his', 'he'], ['the country', 'recent weeks']]
+buggy: True
+CorefChanged: False
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their parting said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> parting
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their parting', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would jade flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+repToken: wear -> jade
+goldCorefText: [['them', 'flowers'], ['her', 'a nurse', 'she', 'she', 'her']]
+oriCorefText: [['flowers', 'them'], ['she', 'she', 'a nurse', 'her', 'her']]
+newCorefText: [['jade flowers in her hair while on duty', 'them'], ['she', 'she', 'a nurse', 'her', 'her']]
+buggy: True
+CorefChanged: False
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has allow at least 106 people dead, almost all of them Palestinian.
+repToken: left -> allow
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+
+oriSent: One day earlier Israeli and Palestinian negotiators had announced that a week of marathon talks have brought them closer than ever to a final agreement.
+genSent: One daylight earlier Israeli and Palestinian negotiators had announced that a week of marathon talks have brought them closer than ever to a final agreement.
+repToken: day -> daylight
+goldCorefText: [['Israeli and Palestinian negotiators', 'them']]
+oriCorefText: [['them', 'Israeli and Palestinian negotiators']]
+newCorefText: [['them', 'earlier Israeli and Palestinian negotiators']]
+buggy: True
+CorefChanged: False
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has write about 18 plays now and he writes his plays in French.
+repToken: published -> write
+goldCorefText: [['he', 'he', 'his']]
+oriCorefText: [['he', 'he', 'his']]
+newCorefText: [['18 plays', 'his plays'], ['he', 'he', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the U has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: US -> U
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the U', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: possibly before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+repToken: Maybe -> possibly
+goldCorefText: [['I', 'I', 'he'], ['the nuclear weapon', 'the weapon']]
+oriCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'he', 'I']]
+newCorefText: [['I', 'he', 'I']]
+buggy: True
+CorefChanged: False
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously trust that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+repToken: believes -> trust
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'that', 'this court', 'it']]
+newCorefText: [['It', 'this court', 'it'], ['that', 'that certification']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which score sovereignty an important human value.
+repToken: make -> score
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+CorefChanged: False
+
+oriSent: Owners of intellectual property rights, when requesting Customs to investigate and deal with goods that violate rights, should bear responsibility for reporting, assist Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+genSent: Owners of intellectual property rights, when requesting Customs to investigate and deal with goods that violate rights, should bear responsibility for reporting, assistance Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+repToken: assist -> assistance
+goldCorefText: [['Customs', 'Customs']]
+oriCorefText: [['requesting Customs', 'Customs']]
+newCorefText: [['requesting Customs', 'assistance Customs']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will take power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> take
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will command power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> command
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: Just before Christmas break, the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river, held its first ever Wax Apple Festival.
+genSent: exactly before Christmas break, the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river, held its first ever Wax Apple Festival.
+repToken: Just -> exactly
+goldCorefText: [['the rural township of Linpien , on the Pingtung Plain at the mouth of the Linpien river', 'its']]
+oriCorefText: [['Linpien', 'Linpien'], ['the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river', 'its']]
+newCorefText: [['Linpien', 'Linpien'], ['the Linpien river', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Tonight, some of those families made it clear their battle is not over to get to the truth and however difficult, punish the real authors of this crime.
+genSent: Tonight, some of those families made it clear their battle is not over to get to the truth and however difficult, punish the real authors of this offense.
+repToken: crime -> offense
+goldCorefText: [['some of those families', 'their']]
+oriCorefText: [['some of those families', 'it', 'their']]
+newCorefText: [['some of those families', 'it', 'their', 'this offense']]
+buggy: True
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been president and chief executive officeholder of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: officer -> officeholder
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: False
+
+oriSent: Tonight, some of those families made it clear their battle is not over to get to the truth and however difficult, punish the real authors of this crime.
+genSent: Tonight, some of those families made it clear their battle is not over to get to the truth and however difficult, punish the real authors of this offence.
+repToken: crime -> offence
+goldCorefText: [['some of those families', 'their']]
+oriCorefText: [['some of those families', 'it', 'their']]
+newCorefText: [['some of those families', 'it', 'their', 'this offence']]
+buggy: True
+CorefChanged: False
+
+oriSent: However, as expected, Brazil waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $ 1.34 a pound from around $ 1.55.
+genSent: However, as expected, Brazil waited for the crop idea to come out and then cut the export price of its juice concentrate to about $1.34 a pound from around $1.55.
+repToken: estimate -> idea
+goldCorefText: [['Brazil', 'its']]
+oriCorefText: [['Brazil', 'its']]
+newCorefText: [['its', 'the crop idea']]
+buggy: True
+CorefChanged: False
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was very stern, very direct and it left no doubt, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+repToken: question -> doubt
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'that', 'this court', 'it']]
+newCorefText: [['It', 'it'], ['that', 'this court']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which pee sovereignty an important human value.
+repToken: make -> pee
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+CorefChanged: False
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would fatigue flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+repToken: wear -> fatigue
+goldCorefText: [['them', 'flowers'], ['her', 'a nurse', 'she', 'she', 'her']]
+oriCorefText: [['flowers', 'them'], ['she', 'she', 'a nurse', 'her', 'her']]
+newCorefText: [['fatigue flowers in her hair while on duty', 'them'], ['she', 'she', 'a nurse', 'her', 'her']]
+buggy: True
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been chairman and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: president -> chairman
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been president and main executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: chief -> main
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: False
+
+oriSent: Owners of intellectual property rights, when requesting Customs to investigate and deal with goods that violate rights, should bear responsibility for reporting, assist Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+genSent: Owners of intellectual property rights, when requesting Customs to investigate and deal with goods that violate rights, should bear responsibility for reporting, help Customs to develop investigation work and pay the appraisal and investigation of the related goods and other related expenses.
+repToken: assist -> help
+goldCorefText: [['Customs', 'Customs']]
+oriCorefText: [['requesting Customs', 'Customs']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has result at least 106 people dead, almost all of them Palestinian.
+repToken: left -> result
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+repToken: Maybe -> maybe
+goldCorefText: [['I', 'I', 'he'], ['the nuclear weapon', 'the weapon']]
+oriCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'he', 'I']]
+newCorefText: [['I', 'he', 'I']]
+buggy: True
+CorefChanged: False
+
+oriSent: The Scotts ran it past their vet and the vet assured them, as long as the hen left her crate to do business, she was no harm to the pup.
+genSent: The Scotts ran it past their vet and the vet assured them, as long as the biddy left her crate to do business, she was no harm to the pup.
+repToken: hen -> biddy
+goldCorefText: [['their vet', 'the vet'], ['she', 'the hen'], ['their', 'them', 'The Scotts']]
+oriCorefText: [['their', 'them'], ['The Scotts', 'her', 'she']]
+newCorefText: [['the biddy', 'their', 'them'], ['The Scotts', 'her', 'she']]
+buggy: True
+CorefChanged: False
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has depart at least 106 people dead, almost all of them Palestinian.
+repToken: left -> depart
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will obviate power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> obviate
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the peace with Israel, and really he cannot afford to lease it fail.
+repToken: let -> lease
+goldCorefText: [['it', 'the peace with Israel'], ['He', 'he']]
+oriCorefText: [['he', 'He'], ['it', 'the peace with Israel']]
+newCorefText: [['he', 'He'], ['it', 'an awful amount']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but reference is something you can work on, and it can outweigh your appearance.
+repToken: character -> reference
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'reference'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will ask power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> ask
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but character is something you can run on, and it can outweigh your appearance.
+repToken: work -> run
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'something you can run on'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which seduce sovereignty an important human value.
+repToken: make -> seduce
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but persona is something you can work on, and it can outweigh your appearance.
+repToken: character -> persona
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'persona'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: False
+
+oriSent: Now, with its constitutionally granted mandate, the party has an obligation to fully uphold the constitution.
+genSent: Now, with its constitutionally granted mandatory, the party has an obligation to fully uphold the constitution.
+repToken: mandate -> mandatory
+goldCorefText: [['the party', 'its']]
+oriCorefText: [['its', 'the party']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: When she met the local press for the first time on Friday, Mrs. Hills firmly reiterated the need for progress in removing barriers to trade in forest products, satellites and supercomputers, three areas targeted under the Super 301 provision of the 1988 trade bill.
+genSent: When she met the local jam for the first time on Friday, Mrs. Hills firmly reiterated the need for progress in removing barriers to trade in forest products, satellites and supercomputers, three areas targeted under the Super 301 provision of the 1988 trade bill.
+repToken: press -> jam
+goldCorefText: [['Mrs. Hills', 'she']]
+oriCorefText: [['Mrs. Hills', 'she']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Nederland.
+repToken: Netherlands -> Nederland
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: False
+
+oriSent: New federal legislation requires that all thrifts divest themselves of such speculative securities over a period of years.
+genSent: New federal legislating requires that all thrifts divest themselves of such speculative securities over a period of years.
+repToken: legislation -> legislating
+goldCorefText: [['all thrifts', 'themselves']]
+oriCorefText: [['all thrifts', 'themselves']]
+newCorefText: [['New federal legislating', 'themselves']]
+buggy: True
+CorefChanged: False
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their section said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> section
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their section', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: It was the last of several speeches he has made in recent weeks to his backers across the country.
+genSent: It was the last of several speeches he has form in recent weeks to his backers across the country.
+repToken: made -> form
+goldCorefText: [['his', 'he']]
+oriCorefText: [['his', 'he']]
+newCorefText: [['his', 'he'], ['the country', 'recent weeks']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but quality is something you can work on, and it can outweigh your appearance.
+repToken: character -> quality
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'quality'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: True
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their persona said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> persona
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their persona', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the U.S.A. has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: US -> U.S.A.
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the U.S.A.', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Index Theater is planning a huge comeback now with a series of shows in Belgrade, but even though Milosevic is under de facto house arrest in Belgrade, he is very much present on the repertoire of political humors, says his impersonator, Dragewbo Yubitrich.
+genSent: Index Theater is planning a huge comeback now with a series of shows in Belgrade, but even though Milosevic is under de facto house arrest in Belgrade, he is very much present on the repertoire of political humors, says his imitator, Dragewbo Yubitrich.
+repToken: impersonator -> imitator
+goldCorefText: [['he', 'Milosevic', 'his'], ['Belgrade', 'Belgrade']]
+oriCorefText: [['Belgrade', 'Belgrade'], ['Milosevic', 'his', 'he']]
+newCorefText: [['Belgrade', 'Belgrade'], ['Index Theater', 'his imitator, Dragewbo Yubitrich'], ['Milosevic', 'his', 'he']]
+buggy: True
+CorefChanged: False
+
+oriSent: Meanwhile, Friday brought a reprieve for money managers whose investment styles had put them at odds with the market rally.
+genSent: Meanwhile, Friday brought a reprieve for money managers whose investment styles had redact them at odds with the market rally.
+repToken: put -> redact
+goldCorefText: [['them', 'money managers whose investment styles had put them at odds with the market rally']]
+oriCorefText: [['them', 'money managers']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their character said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> character
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their character', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to disprove the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: establish -> disprove
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their contribution said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> contribution
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their contribution', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: Tonight -> tonight
+goldCorefText: [['their', 'George Bush and Al Gore', 'their']]
+oriCorefText: [['all their advisers', 'this', 'their', 'their']]
+newCorefText: [['this', 'their', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but case is something you can work on, and it can outweigh your appearance.
+repToken: character -> case
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'case'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: True
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has arrive at least 106 people dead, almost all of them Palestinian.
+repToken: left -> arrive
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their region said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> region
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their region', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which puddle sovereignty an important human value.
+repToken: make -> puddle
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been chair and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: president -> chair
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: False
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has lead at least 106 people dead, almost all of them Palestinian.
+repToken: left -> lead
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been president and principal executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: chief -> principal
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: False
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has release about 18 plays now and he writes his plays in French.
+repToken: published -> release
+goldCorefText: [['he', 'he', 'his']]
+oriCorefText: [['he', 'he', 'his']]
+newCorefText: [['18 plays', 'his plays'], ['he', 'he', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: However, as expected, Brazil waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $ 1.34 a pound from around $ 1.55.
+genSent: However, as expected, Brazil waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $1.34 a lbf. from around $1.55.
+repToken: pound -> lbf.
+goldCorefText: [['Brazil', 'its']]
+oriCorefText: [['Brazil', 'its']]
+newCorefText: [['its', 'the crop estimate']]
+buggy: True
+CorefChanged: False
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their percentage said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> percentage
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their percentage', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will want power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> want
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: Meanwhile, Friday brought a reprieve for money managers whose investment styles had put them at odds with the market rally.
+genSent: Meanwhile, Friday brought a reprieve for money managers whose investment styles had commit them at odds with the market rally.
+repToken: put -> commit
+goldCorefText: [['them', 'money managers whose investment styles had put them at odds with the market rally']]
+oriCorefText: [['them', 'money managers']]
+newCorefText: []
+buggy: True
+CorefChanged: True
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their share said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> share
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican', 'their']]
+newCorefText: [['Republican leaders for their share', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to found the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: establish -> found
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but fibre is something you can work on, and it can outweigh your appearance.
+repToken: character -> fibre
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'fibre'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: True
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his writing is last and foremost a celebration of freedom.
+repToken: first -> last
+goldCorefText: [['his writing', 'his writing'], ['his', 'his', 'His']]
+oriCorefText: [['his writing', 'his writing'], ['His', 'his', 'his']]
+newCorefText: [['His', 'his', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has impart at least 106 people dead, almost all of them Palestinian.
+repToken: left -> impart
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will demand power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> demand
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has run with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: worked -> run
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Peterson awaiting trial in the murder of his wife Laci and their unborn son.
+genSent: Peterson awaiting trial in the murder of his wife Laci and their unborn boy.
+repToken: son -> boy
+goldCorefText: [['Peterson', 'his']]
+oriCorefText: [['Peterson', 'his']]
+newCorefText: [['Peterson', 'his'], ['his wife Laci', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously disbelieve that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+repToken: believes -> disbelieve
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'that', 'this court', 'it']]
+newCorefText: [['It', 'this court', 'it'], ['that', 'that certification']]
+buggy: True
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been president and chief executive policeman of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Netherlands.
+repToken: officer -> policeman
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: False
+
+oriSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+genSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could better its financial condition by purchasing the bonds.
+repToken: improve -> better
+goldCorefText: [['Financial Corp.', 'Financial Corp.', 'its', 'it', 'it'], ['the bonds', 'the bonds']]
+oriCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its']]
+newCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its'], ['the bonds', 'the bonds']]
+buggy: True
+CorefChanged: False
+
+oriSent: Associates say he takes some defeats more personally than his colleagues, especially attempts to curtail the right to abortion first recognized in his 1973 opinion, Roe vs. Wade.
+genSent: comrade say he takes some defeats more personally than his colleagues, especially attempts to curtail the right to abortion first recognized in his 1973 opinion, Roe vs. Wade.
+repToken: Associates -> comrade
+goldCorefText: [['his', 'he', 'his']]
+oriCorefText: [['he', 'his', 'his']]
+newCorefText: [['comrade', 'he', 'his', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will postulate power suppliers in the West to keep sending their surplus electricity to California.
+repToken: require -> postulate
+goldCorefText: [['power suppliers in the West', 'their']]
+oriCorefText: [['their', 'power suppliers in the West']]
+newCorefText: [['their', 'power suppliers']]
+buggy: True
+CorefChanged: False
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but lineament is something you can work on, and it can outweigh your appearance.
+repToken: character -> lineament
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['it', 'lineament'], ['you', 'your', 'you']]
+buggy: True
+CorefChanged: True
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday, Mr. Barak bid Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+repToken: invited -> bid
+goldCorefText: [['Mr. Barak', 'him']]
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Mr. Barak', 'him']]
+buggy: True
+CorefChanged: False
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his writing is initiative and foremost a celebration of freedom.
+repToken: first -> initiative
+goldCorefText: [['his writing', 'his writing'], ['his', 'his', 'His']]
+oriCorefText: [['his writing', 'his writing'], ['His', 'his', 'his']]
+newCorefText: [['His', 'his', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which attain sovereignty an important human value.
+repToken: make -> attain
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+CorefChanged: False
+
+oriSent: Chang notes that after the major earthquake in Taiwan on September 21, Taiwan business associations throughout mainland China contributed NT$ 60 million.
+genSent: Chang notes that after the major earthquake in Taiwan on September 21, Taiwan business associations throughout mainland Taiwan contributed NT$60 million.
+repToken: China -> Taiwan
+goldCorefText: [['Taiwan', 'Taiwan']]
+oriCorefText: [['Taiwan', 'Taiwan']]
+newCorefText: [['mainland Taiwan', 'Taiwan', 'Taiwan']]
+buggy: False
+CorefChanged: False
+
+oriSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands.
+genSent: He has been president and chief executive officer of Amperex Electronics Corp., a division of North American Philips Corp., itself a subsidiary of N.V . Philips of the Holland.
+repToken: Netherlands -> Holland
+goldCorefText: [['itself', 'North American Philips Corp. , itself a subsidiary of N.V . Philips of the Netherlands']]
+oriCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V. Philips of the Netherlands', 'itself']]
+newCorefText: [['a division of North American Philips Corp., itself a subsidiary of N.V', 'itself']]
+buggy: True
+CorefChanged: True
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: perhaps before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+repToken: Maybe -> perhaps
+goldCorefText: [['I', 'I', 'he'], ['the nuclear weapon', 'the weapon']]
+oriCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'he', 'I']]
+newCorefText: [['I', 'he', 'I']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to instal the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: establish -> instal
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which defecate sovereignty an important human value.
+repToken: make -> defecate
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which break sovereignty an important human value.
+repToken: make -> break
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['Sovereignty', 'it']]
+buggy: True
+CorefChanged: False
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Th, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+repToken: Thursday -> Th
+goldCorefText: [['Mr. Barak', 'him']]
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Mr. Barak', 'him']]
+buggy: True
+CorefChanged: False
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this genuinely comes down to a numbers game.
+repToken: really -> genuinely
+goldCorefText: [['their', 'George Bush and Al Gore', 'their']]
+oriCorefText: [['all their advisers', 'this', 'their', 'their']]
+newCorefText: [['this', 'their', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: However, as expected, Brazil waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $ 1.34 a pound from around $ 1.55.
+genSent: However, as expected, Brazil waited for the crop estimation to come out and then cut the export price of its juice concentrate to about $1.34 a pound from around $1.55.
+repToken: estimate -> estimation
+goldCorefText: [['Brazil', 'its']]
+oriCorefText: [['Brazil', 'its']]
+newCorefText: [['its', 'the crop estimation']]
+buggy: True
+CorefChanged: False
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its champaign language to protect the defendant in criminal matters only.
+repToken: plain -> champaign
+goldCorefText: [['The privilege', 'its']]
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has leave at least 106 people dead, almost all of them Palestinian.
+repToken: left -> leave
+goldCorefText: [['them', 'at least 106 people']]
+oriCorefText: [['them', 'least 106 people']]
+newCorefText: [['them', 'the Palestinians']]
+buggy: True
+CorefChanged: False
+

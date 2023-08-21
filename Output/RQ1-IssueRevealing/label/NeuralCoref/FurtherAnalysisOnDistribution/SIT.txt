@@ -1,0 +1,1100 @@
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power generation in the West to keep sending their surplus electricity to California.
+repToken: suppliers -> generation
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: [['power generation in the West to keep sending their surplus electricity to California', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the crimes of violence.
+repToken: outbreak -> crimes
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the violence of violence.
+repToken: outbreak -> violence
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the country.
+repToken: world -> country
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: [['Bangladesh', 'the country'], ['the Tropical Forest Conservation Fund, the first of its kind in the country', 'its']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from press say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+repToken: China -> press
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his', 'his country']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE
+newBuggy: EM
+
+
+oriSent: In comparison to youth or old age, the middle years are often thought of as the time when power, ability, wealth, and physical strength are all at or near their peak, so that one has no excuse for feeling melancholy.
+genSent: In comparison to youth or old age, the middle olds are often thought of as the time when power, ability, wealth, and physical strength are all at or near their peak, so that one has no excuse for feeling melancholy.
+repToken: years -> olds
+oriCorefText: [['power, ability, wealth, and physical strength', 'their']]
+newCorefText: [['the middle olds', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would wear ones in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+repToken: flowers -> ones
+oriCorefText: [['a nurse', 'her', 'she', 'she', 'her']]
+newCorefText: [['a nurse', 'her', 'she', 'she', 'her'], ['ones in her hair', 'them']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: ME, EE
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 volumes now and he writes his plays in French.
+repToken: plays -> volumes
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the southeast to keep sending their surplus electricity to California.
+repToken: West -> southeast
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Chang notes that after the major earthquake in Taiwan on September 21, Taiwan business associations throughout mainland China contributed NT$ 60 million.
+genSent: Chang notes that after the major earthquake in sichuan on September 21, Taiwan business associations throughout mainland China contributed NT $60 million.
+repToken: Taiwan -> sichuan
+oriCorefText: [['Taiwan', 'Taiwan']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its form in the world.
+repToken: kind -> form
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, indonesia has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+repToken: Shanghai -> indonesia
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al gore and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: Gore -> gore
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al gore', 'their', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE, MM
+newBuggy: SE
+
+
+oriSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+genSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic school.
+repToken: sultanate -> school
+oriCorefText: [['Brunei', 'the tiny Islamic sultanate']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Once I was driving her somewhere to report a story when we had an accident, and she suffered some badly broken bones.
+genSent: Once I was driving her somewhere to report a girl when we had an accident, and she suffered some badly broken bones.
+repToken: story -> girl
+oriCorefText: [['her', 'she']]
+newCorefText: [['a girl', 'she']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this summit, since the media are not the only ones blaming them for the outbreak of violence.
+repToken: Israelis -> media
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his dreams and his writing is first and foremost a celebration of freedom.
+repToken: writing -> dreams
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his people.
+repToken: country -> people
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE
+newBuggy: N
+
+
+oriSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal Reserve.
+genSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal treasury.
+repToken: Reserve -> treasury
+oriCorefText: [['The Treasury', 'it']]
+newCorefText: [['The Treasury', 'it', 'the Federal treasury']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM, EM
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the eu in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+repToken: Palestinians -> eu
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the government in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+repToken: Palestinians -> government
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: [['Egypt', 'the government'], ['at least 106 people', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic tale of British lives today reminds us all of the difficulties to be faced.
+repToken: loss -> tale
+oriCorefText: [['we', 'we', 'us']]
+newCorefText: [['we', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 women dead, almost all of them Palestinian.
+repToken: people -> women
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, india has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+repToken: Shanghai -> india
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and john Gore and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: Al -> john
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the new pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: greatest -> new
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil matter, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+repToken: case -> matter
+oriCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+newCorefText: [['a civil matter', 'the civil matter'], ['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: EE, ME
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest protection Fund, the first of its kind in the world.
+repToken: Conservation -> protection
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from wikipedia say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+repToken: China -> wikipedia
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his', 'his country']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE
+newBuggy: EM
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at maximum 106 people dead, almost all of them Palestinian.
+repToken: least -> maximum
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: [['maximum 106 people', 'them']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this film, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> film
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 books now and he writes his plays in French.
+repToken: plays -> books
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic tragedy of British lives today reminds us all of the difficulties to be faced.
+repToken: loss -> tragedy
+oriCorefText: [['we', 'we', 'us']]
+newCorefText: [['we', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of war.
+repToken: violence -> war
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: One large utility company, Southern California Edison says it may have to file for bankruptcy unless government officials can offer some relief.
+genSent: One large utility sizes, Southern California Edison says it may have to file for bankruptcy unless government officials can offer some relief.
+repToken: company -> sizes
+oriCorefText: [['One large utility company, Southern California Edison', 'it']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this summit, since the people are not the only ones blaming them for the outbreak of violence.
+repToken: Israelis -> people
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'the people', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: Thank you very much, Tony.
+genSent: Thank you very much, mr.
+repToken: Tony -> mr
+oriCorefText: [['you', 'Tony']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the current order will require power suppliers in the West to keep sending their surplus electricity to California.
+repToken: federal -> current
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his shows in French.
+repToken: plays -> shows
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+genSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic college.
+repToken: sultanate -> college
+oriCorefText: [['Brunei', 'the tiny Islamic sultanate']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this summit, since the palestinians are not the only ones blaming them for the outbreak of violence.
+repToken: Israelis -> palestinians
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'the palestinians', 'them']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: It is because they know they have the inspiration in their country.
+genSent: It is because they know they have the one in their country.
+repToken: inspiration -> one
+oriCorefText: [['they', 'they', 'their']]
+newCorefText: [['they', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: MM
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his friends.
+repToken: country -> friends
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE
+newBuggy: N
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus generators to California.
+repToken: electricity -> generators
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: She is asking anyone who finds the pair to give them back.
+genSent: She is asking anyone who finds the heart to give them back.
+repToken: pair -> heart
+oriCorefText: [['the pair', 'them']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the tiger Forest Conservation Fund, the first of its kind in the world.
+repToken: Tropical -> tiger
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this part, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> part
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its sorts in the world.
+repToken: kind -> sorts
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic scene of British lives today reminds us all of the difficulties to be faced.
+repToken: loss -> scene
+oriCorefText: [['we', 'we', 'us']]
+newCorefText: [['we', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the original order will require power suppliers in the West to keep sending their surplus electricity to California.
+repToken: federal -> original
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their time, this really comes down to a numbers game.
+repToken: advisers -> time
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the business with Israel, and really he cannot afford to let it fail.
+repToken: peace -> business
+oriCorefText: [['He', 'he'], ['the peace with Israel', 'it']]
+newCorefText: [['He', 'he'], ['the business', 'it']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al qaeda and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: Gore -> qaeda
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al qaeda', 'their', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE, MM
+newBuggy: SE
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his stories in French.
+repToken: plays -> stories
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus production to California.
+repToken: electricity -> production
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain application to protect the defendant in criminal matters only.
+repToken: language -> application
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the tenth may permit the drawing of an adverse inference against him in the civil matter.
+repToken: Fifth -> tenth
+oriCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+newCorefText: [['a defendant', 'he', 'his', 'him']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 woman dead, almost all of them Palestinian.
+repToken: people -> woman
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their cars like they drive their cars, in high gear.
+repToken: factories -> cars
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: MM
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at present 106 people dead, almost all of them Palestinian.
+repToken: least -> present
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: [['106 people', 'them']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both peter Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: George -> peter
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both peter Bush and Al Gore', 'their', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE, MM
+newBuggy: SE
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at worst 106 people dead, almost all of them Palestinian.
+repToken: least -> worst
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: [['106 people', 'them']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his voice and his writing is first and foremost a celebration of freedom.
+repToken: writing -> voice
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: She is asking anyone who finds the pair to give them back.
+genSent: She is asking anyone who finds the body to give them back.
+repToken: pair -> body
+oriCorefText: [['the pair', 'them']]
+newCorefText: [['anyone who finds the body', 'them']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power stations in the West to keep sending their surplus electricity to California.
+repToken: suppliers -> stations
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: It is because they know they have the inspiration in their country.
+genSent: It is because they know they have the people in their country.
+repToken: inspiration -> people
+oriCorefText: [['they', 'they', 'their']]
+newCorefText: [['they', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: MM
+
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his singing is first and foremost a celebration of freedom.
+repToken: writing -> singing
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the tenth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+repToken: Fifth -> tenth
+oriCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+newCorefText: [['a defendant', 'he', 'his', 'him']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kinds in the world.
+repToken: kind -> kinds
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by mr.
+repToken: Shanghai -> mr
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its type in the world.
+repToken: kind -> type
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus generation to California.
+repToken: electricity -> generation
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest land Fund, the first of its kind in the world.
+repToken: Conservation -> land
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain language to protect the woman in criminal matters only.
+repToken: defendant -> woman
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain text to protect the defendant in criminal matters only.
+repToken: language -> text
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 movies now and he writes his plays in French.
+repToken: plays -> movies
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his son.
+repToken: country -> son
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE
+newBuggy: N
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the questions to be faced.
+repToken: difficulties -> questions
+oriCorefText: [['we', 'we', 'us']]
+newCorefText: [['we', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the inner pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: greatest -> inner
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: Chang notes that after the major earthquake in Taiwan on September 21, Taiwan business associations throughout mainland China contributed NT$ 60 million.
+genSent: Chang notes that after the major earthquake in nepal on September 21, Taiwan business associations throughout mainland China contributed NT $60 million.
+repToken: Taiwan -> nepal
+oriCorefText: [['Taiwan', 'Taiwan']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead, almost all of them Palestinian.
+genSent: Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at last 106 people dead, almost all of them Palestinian.
+repToken: least -> last
+oriCorefText: [['at least 106 people', 'them']]
+newCorefText: [['106 people', 'them']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his novels in French.
+repToken: plays -> novels
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical forests Conservation Fund, the first of its kind in the world.
+repToken: Forest -> forests
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+genSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic society.
+repToken: sultanate -> society
+oriCorefText: [['Brunei', 'the tiny Islamic sultanate']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the general order will require power suppliers in the West to keep sending their surplus electricity to California.
+repToken: federal -> general
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+genSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic university.
+repToken: sultanate -> university
+oriCorefText: [['Brunei', 'the tiny Islamic sultanate']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus service to California.
+repToken: electricity -> service
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation project, the first of its kind in the world.
+repToken: Fund -> project
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his books in French.
+repToken: plays -> books
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: EM
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in contrast with its plain language to protect the defendant in criminal matters only.
+repToken: accordance -> contrast
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his wife.
+repToken: country -> wife
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE
+newBuggy: N
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim tae Il is planning to announce economic reforms for his country.
+repToken: Jong -> tae
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['China', 'his country']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE
+newBuggy: EE, ME
+
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, japan has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+repToken: Shanghai -> japan
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both president Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: George -> president
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both president Bush and Al Gore', 'their', 'their']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Middle age and the changes it brings are like a revolving door.
+genSent: Middle age and the person it brings are like a revolving door.
+repToken: changes -> person
+oriCorefText: [['Middle age', 'it']]
+newCorefText: [['the person it brings', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 times now and he writes his plays in French.
+repToken: plays -> times
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the project with Israel, and really he cannot afford to let it fail.
+repToken: peace -> project
+oriCorefText: [['He', 'he'], ['the peace with Israel', 'it']]
+newCorefText: [['He', 'he'], ['the project', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 years now and he writes his plays in French.
+repToken: plays -> years
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: N
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The defendant, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+repToken: privilege -> defendant
+oriCorefText: [['The privilege', 'its']]
+newCorefText: [['The defendant', 'its', 'the defendant']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EM, MM
+
+
+oriSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+genSent: President Clinton arrived in Brunei province, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+repToken: Tuesday -> province
+oriCorefText: [['Brunei', 'the tiny Islamic sultanate']]
+newCorefText: [['Brunei province', 'the tiny Islamic sultanate']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+

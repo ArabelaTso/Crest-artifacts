@@ -1,0 +1,900 @@
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance
+repToken: . -> 
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance', 'their', 'their']]
+newCorefText: [['their', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Students, who've enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+repToken:  ha -> '
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance', 'their', 'their']]
+newCorefText: [['their', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: CIA officials say they never received it.
+genSent: CIAo fficials say they never received it.
+repToken: o -> o
+goldCorefText: [['CIA officials', 'they']]
+oriCorefText: [['CIA officials', 'they'], ['CIA', 'it']]
+newCorefText: [['CIAo fficials', 'they', 'it']]
+buggy: True
+CorefChanged: True
+
+oriSent: Thank you very much, Tony.
+genSent: Thank you very much, Jesus.
+repToken: Tony -> Jesus
+goldCorefText: [['you', 'Tony']]
+oriCorefText: [['you', 'Tony']]
+newCorefText: []
+buggy: True
+CorefChanged: True
+
+oriSent: Thank you very much, Tony.
+genSent: Thank yo uvery much, Tony.
+repToken:   ->  
+goldCorefText: [['you', 'Tony']]
+oriCorefText: [['you', 'Tony']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: They began production there in 1992, formally opening their own plant in Dongguan in 1994.
+genSent: Theyb egan production there in 1992, formally opening their own plant in Dongguan in 1994.
+repToken: b -> b
+goldCorefText: [['They', 'their']]
+oriCorefText: [['They', 'their']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: They have both invested enormous amounts in it, and both regimes would be more vulnerable if the peace process were to fail, because detractors and opponents within each country would have ammunition by which to fire at them.
+genSent: They have both invested enormous amounts in it, an dboth regimes would be more vulnerable if the peace process were to fail, because detractors and opponents within each country would have ammunition by which to fire at them.
+repToken: d -> d
+goldCorefText: [['They', 'both regimes', 'them'], ['the peace process', 'it']]
+oriCorefText: [['both', 'it'], ['They', 'them']]
+newCorefText: [['They', 'them']]
+buggy: True
+CorefChanged: True
+
+oriSent: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art.
+genSent: The cnogressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art.
+repToken: n -> n
+goldCorefText: [['his', 'The congressman', 'he']]
+oriCorefText: [['he', 'The congressman', 'his']]
+newCorefText: [['he', 'his']]
+buggy: False
+CorefChanged: True
+
+oriSent: But for all its success, CNN has hit a plateau.
+genSent: But for lal its success, CNN has hit a plateau.
+repToken: l -> l
+goldCorefText: [['its', 'CNN']]
+oriCorefText: [['its', 'CNN']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday, Mr. Barak invited Likud opposition leader Stephanie Mitchell to join him in a government of national emergency.
+repToken: Ar Sharon -> Stephan Mitchel
+goldCorefText: [['Mr. Barak', 'him']]
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Mr. Barak', 'him']]
+buggy: True
+CorefChanged: False
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday, Mr. Barak invited Likud opposition leader Amanda Wilson to join him in a government of national emergency.
+repToken: re Shar -> manda Ws
+goldCorefText: [['Mr. Barak', 'him']]
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Mr. Barak', 'him']]
+buggy: True
+CorefChanged: False
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday, Mr. Barak invited Likud opposition leader Jessica Miller to join him in a government of national emergency.
+repToken: Aiel Sharon -> Jessica Mille
+goldCorefText: [['Mr. Barak', 'him']]
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Mr. Barak', 'him']]
+buggy: True
+CorefChanged: False
+
+oriSent: Late Thursday, Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency.
+genSent: Late Thursday, Mr. Barak invited Likud opposition leader Sarah Campbell to join him in a government of national emergency.
+repToken: Ai Sharon -> Saah Campbl
+goldCorefText: [['Mr. Barak', 'him']]
+oriCorefText: [['Likud opposition leader Ariel Sharon', 'him']]
+newCorefText: [['Mr. Barak', 'him']]
+buggy: True
+CorefChanged: False
+
+oriSent: However, as expected, Brazil waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $ 1.34 a pound from around $ 1.55.
+genSent: However, as expected, South Africa waited for the crop estimate to come out and then cut the export price of its juice concentrate to about $1.34 a pound from around $1.55.
+repToken: Bzil -> South Afic
+goldCorefText: [['Brazil', 'its']]
+oriCorefText: [['Brazil', 'its']]
+newCorefText: [['South Africa', 'its']]
+buggy: False
+CorefChanged: True
+
+oriSent: If their intention was to deter us from our mission of promoting peace and security in the Middle East, they will fail utterly.
+genSent: If their intention was to deter us from oru mission of promoting peace and security in the Middle East, they will fail utterly.
+repToken: r -> r
+goldCorefText: [['our', 'us'], ['they', 'their']]
+oriCorefText: [['us', 'our'], ['their', 'they']]
+newCorefText: [['their', 'they']]
+buggy: False
+CorefChanged: True
+
+oriSent: The mainland was a much better fit for him and his printed circuit boards company.
+genSent: The mainland was a much better fit for hi mand his printed circuit boards company.
+repToken:   ->  
+goldCorefText: [['his', 'him']]
+oriCorefText: [['him', 'his']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: To those who attacked them, we say you will not find a safe harbor, we will find you and justice will prevail.
+genSent: To those who attacked them, we say you will not find a safe harbo,r we will find you and justice will prevail.
+repToken: , -> ,
+goldCorefText: [['those who attacked them', 'you', 'you'], ['we', 'we']]
+oriCorefText: [['we', 'we'], ['you', 'them', 'you']]
+newCorefText: [['we', 'we'], ['them', 'you', 'you']]
+buggy: True
+CorefChanged: False
+
+oriSent: I wish I could tell you which site this flag was hoisted in.
+genSent: I wish Ic ould tell you which site this flag was hoisted in.
+repToken: c -> c
+goldCorefText: [['I', 'I']]
+oriCorefText: [['I', 'I']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: David, thank you.
+genSent: Davi,d thank you.
+repToken: , -> ,
+goldCorefText: [['you', 'David']]
+oriCorefText: [['David', 'you']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: Enterprises whose system is changed in this form can enjoy preferential policies, such as income taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+genSent: Enterprises whose system is changedi n this form can enjoy preferential policies, such as income taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+repToken:   ->  
+goldCorefText: [['income taxes', 'they']]
+oriCorefText: [['Enterprises whose system is changed in this form', 'they']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: These lovers may be gazing at Tanshui with their eyes, but their hearts have eyes only for one another.
+genSent: These lovers may be gazing at Tanshui with their eyes, bu ttheir hearts have eyes only for one another.
+repToken:   ->  
+goldCorefText: [['their', 'their', 'These lovers']]
+oriCorefText: [['These lovers', 'their', 'their']]
+newCorefText: [['These lovers', 'their']]
+buggy: False
+CorefChanged: True
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Russian Federation, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+repToken: Irq -> Russin Federation
+goldCorefText: [['our two countries', 'we', 'we']]
+oriCorefText: [['we', 'we', 'us', 'our']]
+newCorefText: [['we', 'we', 'us', 'our']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Egypt to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: Banladesh -> Eypt
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Yemen to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: Bagladesh -> Yeme
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Philippines to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+repToken: Bagladh -> Philippi
+goldCorefText: [['the Tropical Forest Conservation Fund , the first of its kind in the world', 'its']]
+oriCorefText: [['its', 'Bangladesh']]
+newCorefText: [['the US', 'its']]
+buggy: True
+CorefChanged: False
+
+oriSent: Mr. Arafat accused Israel of waging a savage and barbaric war against his people.
+genSent: Mr. Arafat accused United States of waging a savage and barbaric war against his people.
+repToken: Irael -> United State
+goldCorefText: [['his', 'Mr. Arafat']]
+oriCorefText: [['Mr. Arafat', 'his']]
+newCorefText: [['Mr. Arafat', 'his']]
+buggy: False
+CorefChanged: False
+
+oriSent: Mr. Arafat accused Israel of waging a savage and barbaric war against his people.
+genSent: Mr. Arafat accused Saudi Arabia of waging a savage and barbaric war against his people.
+repToken: Isel -> Saudi Abia
+goldCorefText: [['his', 'Mr. Arafat']]
+oriCorefText: [['Mr. Arafat', 'his']]
+newCorefText: [['Mr. Arafat', 'his']]
+buggy: False
+CorefChanged: False
+
+oriSent: Mr. Arafat accused Israel of waging a savage and barbaric war against his people.
+genSent: Mr. Arafat accused United Kingdom of waging a savage and barbaric war against his people.
+repToken: Isral -> Unitd Kingdom
+goldCorefText: [['his', 'Mr. Arafat']]
+oriCorefText: [['Mr. Arafat', 'his']]
+newCorefText: [['Mr. Arafat', 'his']]
+buggy: False
+CorefChanged: False
+
+oriSent: At the first opportunity, however, they leave to set up shop for themselves.
+genSent: At the first opportunity, however,t hey leave to set up shop for themselves.
+repToken: t -> t
+goldCorefText: [['themselves', 'they']]
+oriCorefText: [['themselves', 'they']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: United Kingdom still believes in the path that it itself has specified.
+repToken: Cha -> United Kgdom
+goldCorefText: [['China', 'itself', 'it itself']]
+oriCorefText: [['China', 'it', 'itself']]
+newCorefText: [['United Kingdom', 'it', 'itself']]
+buggy: True
+CorefChanged: True
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: South Africa still believes in the path that it itself has specified.
+repToken: Cn -> Sout Afrc
+goldCorefText: [['China', 'itself', 'it itself']]
+oriCorefText: [['China', 'it', 'itself']]
+newCorefText: [['South Africa', 'it', 'itself']]
+buggy: True
+CorefChanged: True
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The boko is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: o -> o
+goldCorefText: [['he', 'him', 'him', 'his', 'his', 'he', 'he'], ['the book', 'The book']]
+oriCorefText: [['him', 'him', 'his', 'he', 'he', 'he', 'his'], ['The book', 'the book']]
+newCorefText: [['him', 'him', 'his', 'he', 'he', 'he', 'his'], ['The boko', 'the cadres']]
+buggy: True
+CorefChanged: True
+
+oriSent: No one knows what will happen as the pups grow older and are able to open their eyes.
+genSent: No one knows what will happen as the pups grow older and are able to open thier eyes.
+repToken: i -> i
+goldCorefText: [['their', 'the pups']]
+oriCorefText: [['their', 'the pups']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: Maybe before the weapon adn then later he said, Oh, I should have got the nuclear weapon before I invaded.
+repToken: d -> d
+goldCorefText: [['I', 'I', 'he'], ['the nuclear weapon', 'the weapon']]
+oriCorefText: [['the nuclear weapon', 'the weapon'], ['I', 'he', 'I']]
+newCorefText: [['I', 'he', 'I']]
+buggy: True
+CorefChanged: False
+
+oriSent: Sovereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+genSent: oSvereignty is not simply a quality of statehood, but it has to do with the power of the people and democratic structures which make sovereignty an important human value.
+repToken: o -> o
+goldCorefText: [['Sovereignty', 'it']]
+oriCorefText: [['Sovereignty', 'sovereignty', 'it']]
+newCorefText: [['oSvereignty', 'it']]
+buggy: True
+CorefChanged: True
+
+oriSent: The people of the town now come here to stroll and enjoy their free time.
+genSent: The people of the town now come here to stroll and enjoy thei rfree time.
+repToken:   ->  
+goldCorefText: [['The people of the town', 'their']]
+oriCorefText: [['The people of the town', 'their']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from Russian Federation say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+repToken: Ch -> Russa Federtion
+goldCorefText: [['North Korean President Kim Jong Il', 'his']]
+oriCorefText: [['China', 'his country'], ['his', 'North Korean President Kim Jong Il']]
+newCorefText: [['Russian Federation', 'his country'], ['his', 'North Korean President Kim Jong Il']]
+buggy: True
+CorefChanged: False
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his coutnry.
+repToken: t -> t
+goldCorefText: [['North Korean President Kim Jong Il', 'his']]
+oriCorefText: [['China', 'his country'], ['his', 'North Korean President Kim Jong Il']]
+newCorefText: [['his', 'North Korean President Kim Jong Il']]
+buggy: True
+CorefChanged: False
+
+oriSent: Your journey, particularly to southern Iraq, what is evoked there a sense of both that you evoke is a sense of history of this regime.
+genSent: Your journey, particularly to southern United Kingdom, what is evoked there a sense of both that you evoke is a sense of history of this regime.
+repToken: Iraq -> United Kingdom
+goldCorefText: [['you', 'Your']]
+oriCorefText: [['Your', 'you']]
+newCorefText: [['Your', 'you']]
+buggy: False
+CorefChanged: False
+
+oriSent: Your journey, particularly to southern Iraq, what is evoked there a sense of both that you evoke is a sense of history of this regime.
+genSent: Your journey, particularly to southern United States, what is evoked there a sense of both that you evoke is a sense of history of this regime.
+repToken: Irq -> United Sttes
+goldCorefText: [['you', 'Your']]
+oriCorefText: [['Your', 'you']]
+newCorefText: [['Your', 'you']]
+buggy: False
+CorefChanged: False
+
+oriSent: Their candles are burning at both ends, because they are trying to live up to two old role models rather than establishing a new one for themselves.
+genSent: Theirc andles are burning at both ends, because they are trying to live up to two old role models rather than establishing a new one for themselves.
+repToken: c -> c
+goldCorefText: [['themselves', 'they', 'Their']]
+oriCorefText: [['Their', 'they', 'themselves']]
+newCorefText: [['Theirc andles', 'they', 'themselves']]
+buggy: True
+CorefChanged: True
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that i tcannot yet be widely promoted.
+repToken: t -> t
+goldCorefText: [['it', 'such a fever chip']]
+oriCorefText: [['it', 'the usefulness of such a fever chip']]
+newCorefText: []
+buggy: True
+CorefChanged: True
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Jacksonville yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: Ls Ages -> Jacksvil
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: [['Luster', 'his']]
+buggy: False
+CorefChanged: False
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Bakersfield yesterday from Mexico following his capture Tuesday by American bounty hunters.
+repToken: Lo Anges -> Bakerfid
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: [['Luster', 'his']]
+buggy: False
+CorefChanged: False
+
+oriSent: Luster returned to Los Angeles yesterday from Mexico following his capture Tuesday by American bounty hunters.
+genSent: Luster returned to Los Angeles yesterday from United States following his capture Tuesday by American bounty hunters.
+repToken: Mxico -> Unitd States
+goldCorefText: [['his', 'Luster']]
+oriCorefText: [['Luster', 'his']]
+newCorefText: [['Luster', 'his']]
+buggy: False
+CorefChanged: False
+
+oriSent: And if this attack turns out to be the work of terrorists, Hoffman says it would signal a dangerous new trend.
+genSent: nAd if this attack turns out to be the work of terrorists, Hoffman says it would signal a dangerous new trend.
+repToken: n -> n
+goldCorefText: [['this attack', 'it']]
+oriCorefText: [['it', 'this attack']]
+newCorefText: [['it', 'nAd']]
+buggy: True
+CorefChanged: False
+
+oriSent: We talked with the lieutenant in Miami and there is big time concern in the Shenandoah neighborhood, southwestern portion of Miami.
+genSent: We talked with the lieutenant in San Jose and there is big time concern in the Shenandoah neighborhood, southwestern portion of San Jose.
+repToken: MimiMimi -> Sn JoseSn Jose
+goldCorefText: [['Miami', 'Miami']]
+oriCorefText: [['Miami', 'Miami']]
+newCorefText: [['San Jose', 'San Jose']]
+buggy: False
+CorefChanged: True
+
+oriSent: We talked with the lieutenant in Miami and there is big time concern in the Shenandoah neighborhood, southwestern portion of Miami.
+genSent: We talked with the lieutenant in San Francisco and there is big time concern in the Shenandoah neighborhood, southwestern portion of San Francisco.
+repToken: MamiMami -> San FrancscoSan Francsco
+goldCorefText: [['Miami', 'Miami']]
+oriCorefText: [['Miami', 'Miami']]
+newCorefText: [['San Francisco', 'San Francisco']]
+buggy: False
+CorefChanged: True
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear thme behind her left, not right, ear.
+repToken: m -> m
+goldCorefText: [['them', 'flowers'], ['her', 'a nurse', 'she', 'she', 'her']]
+oriCorefText: [['flowers', 'them'], ['she', 'she', 'a nurse', 'her', 'her']]
+newCorefText: [['she', 'she', 'a nurse', 'her', 'her']]
+buggy: False
+CorefChanged: True
+
+oriSent: On November 25 Wang and a handful of other leading industrialists went to call on the president at his official residence.
+genSent: On November 25 Wang and a handful of other leading industrialists went to call on the president a this official residence.
+repToken:   ->  
+goldCorefText: [['his', 'the president']]
+oriCorefText: [['the president', 'his']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his writing isf irst and foremost a celebration of freedom.
+repToken: f -> f
+goldCorefText: [['his writing', 'his writing'], ['his', 'his', 'His']]
+oriCorefText: [['his writing', 'his writing'], ['His', 'his', 'his']]
+newCorefText: [['His', 'his', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: Tonight, some of those families made it clear their battle is not over to get to the truth and however difficult, punish the real authors of this crime.
+genSent: Tonight, some of those families made it clear their battle isn't over to get to the truth and however difficult, punish the real authors of this crime.
+repToken:  o -> '
+goldCorefText: [['some of those families', 'their']]
+oriCorefText: [['some of those families', 'it', 'their']]
+newCorefText: [['some of those families', 'their']]
+buggy: True
+CorefChanged: False
+
+oriSent: The Scotts ran it past their vet and the vet assured them, as long as the hen left her crate to do business, she was no harm to the pup.
+genSent: The Scotts ran it past their vet and the vet assured them, as long as the hen left ehr crate to do business, she was no harm to the pup.
+repToken: e -> e
+goldCorefText: [['their vet', 'the vet'], ['she', 'the hen'], ['their', 'them', 'The Scotts']]
+oriCorefText: [['their', 'them'], ['The Scotts', 'her', 'she']]
+newCorefText: [['their', 'them'], ['The Scotts', 'she']]
+buggy: True
+CorefChanged: True
+
+oriSent: And if you are in South Asia, perhaps you heard the Radio Canada International test transmissions to your part of the world back on the 8th, 9th, and 10th of November.
+genSent: And if youa re in South Asia, perhaps you heard the Radio Canada International test transmissions to your part of the world back on the 8th, 9th, and 10th of November.
+repToken: a -> a
+goldCorefText: [['you', 'you', 'your'], ['South Asia', 'your part of the world']]
+oriCorefText: [['you', 'your', 'you']]
+newCorefText: [['your', 'you']]
+buggy: True
+CorefChanged: True
+
+oriSent: On the invitation of Prime Minister Mahathir of Malaysia, Premier Peng Li arrived in Malaysia on the afternoon of December 10th, 1990 to carry out a friendly official visit.
+genSent: On the invitation of Prime Minister Mahathir of Saudi Arabia, Premier Peng Li arrived in Saudi Arabia on the afternoon of December 10th, 1990 to carry out a friendly official visit.
+repToken: MlysMlys -> Sudi ArbSudi Arb
+goldCorefText: [['Malaysia', 'Malaysia']]
+oriCorefText: [['Malaysia', 'Malaysia']]
+newCorefText: [['Saudi Arabia', 'Saudi Arabia']]
+buggy: False
+CorefChanged: True
+
+oriSent: Looks are something you are born with, but character is something you can work on, and it can outweigh your appearance.
+genSent: Looks are something you are born with, but character is something you can work on, and itc an outweigh your appearance.
+repToken: c -> c
+goldCorefText: [['character', 'it']]
+oriCorefText: [['it', 'something'], ['you', 'your', 'you']]
+newCorefText: [['you', 'your', 'you']]
+buggy: True
+CorefChanged: True
+
+oriSent: Yesterday, Mr. Clinton spoke to supporters in his home state of Arkansas.
+genSent: Yesterday, Mr. Clinton spoke to supporters in ihs home state of Arkansas.
+repToken: i -> i
+goldCorefText: [['Mr. Clinton', 'his']]
+oriCorefText: [['Mr. Clinton', 'his']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with South Africa, and that over the past 30 years since the establishment of diplomatic relations between South Africa and France, the development of bilateral relations has been satisfactory overall despite some complications.
+repToken: CnCn -> Sout AfrcSout Afrc
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['China', 'China'], ['and France', 'France']]
+newCorefText: [['South Africa', 'South Africa'], ['France', 'and France']]
+buggy: True
+CorefChanged: True
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qian told the French guest that Peru is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and Peru, the development of bilateral relations has been satisfactory overall despite some complications.
+repToken: FrancFranc -> PruPru
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['China', 'China'], ['and France', 'France']]
+newCorefText: [['China', 'China']]
+buggy: True
+CorefChanged: True
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qian told the French guest that Angola is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and Angola, the development of bilateral relations has been satisfactory overall despite some complications.
+repToken: FraceFrace -> AgolaAgola
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['China', 'China'], ['and France', 'France']]
+newCorefText: [['China', 'China']]
+buggy: True
+CorefChanged: True
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qian told the French guest that Saudi Arabia is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and Saudi Arabia, the development of bilateral relations has been satisfactory overall despite some complications.
+repToken: FrnceFrnce -> Sudi ArabiaSudi Arabia
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['China', 'China'], ['and France', 'France']]
+newCorefText: [['China', 'China'], ['and Saudi Arabia', 'Saudi Arabia']]
+buggy: True
+CorefChanged: True
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qian told the French guest that Morocco is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and Morocco, the development of bilateral relations has been satisfactory overall despite some complications.
+repToken: FaneFane -> MoocoMooco
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['China', 'China'], ['and France', 'France']]
+newCorefText: [['China', 'China']]
+buggy: True
+CorefChanged: True
+
+oriSent: We will get by we will survive.
+genSent: We will get by w ewill survive.
+repToken:   ->  
+goldCorefText: [['We', 'we']]
+oriCorefText: [['We', 'we']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect Daniel Martinez can be retained and whether he can meet with attorneys.
+repToken: JosPdlla -> DanilMrtnez
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'Daniel Martinez']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect John Hall can be retained and whether he can meet with attorneys.
+repToken: sePdia -> hnH
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'John Hall']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect Joseph Parker can be retained and whether he can meet with attorneys.
+repToken: dilla -> phrker
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'Joseph Parker']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect David King can be retained and whether he can meet with attorneys.
+repToken: JosePadlla -> DavidKng
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'David King']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect Christopher Morris can be retained and whether he can meet with attorneys.
+repToken: Je Padilla -> Christpher Morri
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'Christopher Morris']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect James Robinson can be retained and whether he can meet with attorneys.
+repToken: e Padilla -> ames Rbinon
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'James Robinson']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect William Diaz can be retained and whether he can meet with attorneys.
+repToken: Jose Pad -> Wim Diaz
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'William Diaz']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect Michael Rivera can be retained and whether he can meet with attorneys.
+repToken: JosPadll -> MichalRver
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'Michael Rivera']]
+buggy: False
+CorefChanged: True
+
+oriSent: A federal appeals court will decide how long dirty bomb suspect Jose Padilla can be retained and whether he can meet with attorneys.
+genSent: A federal appeals court will decide how long dirty bomb suspect Matthew Moore can be retained and whether he can meet with attorneys.
+repToken: Js Padilla -> Matthew Mor
+goldCorefText: [['dirty bomb suspect Jose Padilla', 'he']]
+oriCorefText: [['he', 'dirty bomb suspect Jose Padilla']]
+newCorefText: [['he', 'Matthew Moore']]
+buggy: False
+CorefChanged: True
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Algeria have become new markets opened up by Shanghai.
+repToken: South fc -> lge
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Italy have become new markets opened up by Shanghai.
+repToken: Souh Afric -> Ily
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Kenya have become new markets opened up by Shanghai.
+repToken: South Afric -> Keny
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Nigeria have become new markets opened up by Shanghai.
+repToken: South Afrc -> Ngeri
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and India have become new markets opened up by Shanghai.
+repToken: South Afrc -> Ind
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Malaysia have become new markets opened up by Shanghai.
+repToken: South Afrc -> Malays
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Philippines have become new markets opened up by Shanghai.
+repToken: Sout Afrca -> Plippines
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and South Africa have become new markets opened up by Shanghai.
+genSent: Currently, Shanghai has established trade contacts with 205 countries and regions, and Southeast Asia, Oceania, Latin America, the Middle East and Tanzania have become new markets opened up by Shanghai.
+repToken: South Afrc -> Tanzan
+goldCorefText: [['Shanghai', 'Shanghai']]
+oriCorefText: [['Shanghai', 'Shanghai']]
+newCorefText: [['Shanghai', 'Shanghai']]
+buggy: False
+CorefChanged: False
+
+oriSent: The company is once again preparing to expand its physical plant.
+genSent: The company is once again preparing to expan dits physical plant.
+repToken:   ->  
+goldCorefText: [['its', 'The company']]
+oriCorefText: [['The company', 'its']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: Guangdong Province, fully utilizing its geographical advantage of being in close proximity to Hong Kong and Macao and being located in the Asian tropics, is vigorously developing extroverted agriculture.
+genSent: Guandgong Province, fully utilizing its geographical advantage of being in close proximity to Hong Kong and Macao and being located in the Asian tropics, is vigorously developing extroverted agriculture.
+repToken: g -> g
+goldCorefText: [['Guangdong Province', 'its']]
+oriCorefText: [['Guangdong Province', 'its']]
+newCorefText: []
+buggy: True
+CorefChanged: True
+
+oriSent: The two countries also signed a strategic partnership agreement, obligating both countries to avoid joining political or military alliances against each other.
+genSent: The two countries alsos igned a strategic partnership agreement, obligating both countries to avoid joining political or military alliances against each other.
+repToken: s -> s
+goldCorefText: [['both countries', 'The two countries']]
+oriCorefText: [['The two countries', 'both countries']]
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: They set high expectations for themselves, but their disappointments are likewise large.
+genSent: The yset high expectations for themselves, but their disappointments are likewise large.
+repToken:   ->  
+goldCorefText: [['They', 'themselves', 'their']]
+oriCorefText: [['They', 'themselves', 'their']]
+newCorefText: [['themselves', 'their']]
+buggy: False
+CorefChanged: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his plays in French
+repToken: . -> 
+goldCorefText: [['he', 'he', 'his']]
+oriCorefText: [['he', 'he', 'his']]
+newCorefText: [['about 18 plays', 'his plays'], ['he', 'he', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has publishde about 18 plays now and he writes his plays in French.
+repToken: d -> d
+goldCorefText: [['he', 'he', 'his']]
+oriCorefText: [['he', 'he', 'his']]
+newCorefText: [['publishde about 18 plays', 'his plays'], ['he', 'he', 'his']]
+buggy: True
+CorefChanged: False
+
+oriSent: Barring a cold snap or other crop problems in the growing areas, downward pressure on prices is likely to continue into January, when harvesting and processing of oranges in Florida reach their peak, the analyst said.
+genSent: Barring a cold snap or other crop problems in the growing areas, downward pressure on prices is likely to continue into January, when harvesting and processing of orange sin Florida reach their peak, the analyst said.
+repToken: s -> s
+goldCorefText: [['harvesting and processing of oranges in Florida', 'their']]
+oriCorefText: [['their', 'the analyst', 'harvesting and processing of oranges in Florida']]
+newCorefText: [['their', 'the analyst', 'harvesting and processing of orange sin']]
+buggy: True
+CorefChanged: True
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Christopher Stewart and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: AlGoe -> ChristopherStewat
+goldCorefText: [['their', 'George Bush and Al Gore', 'their']]
+oriCorefText: [['all their advisers', 'this', 'their', 'their']]
+newCorefText: [['this', 'their', 'their']]
+buggy: True
+CorefChanged: True
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Matthew Nelson and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: A Gre -> Matthew Nesn
+goldCorefText: [['their', 'George Bush and Al Gore', 'their']]
+oriCorefText: [['all their advisers', 'this', 'their', 'their']]
+newCorefText: [['this', 'their', 'their']]
+buggy: True
+CorefChanged: True
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both James Perez and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+repToken: Gog Bush -> Jams Pez
+goldCorefText: [['their', 'George Bush and Al Gore', 'their']]
+oriCorefText: [['all their advisers', 'this', 'their', 'their']]
+newCorefText: [['this', 'their', 'their']]
+buggy: True
+CorefChanged: True
+
+oriSent: Associates say he takes some defeats more personally than his colleagues, especially attempts to curtail the right to abortion first recognized in his 1973 opinion, Roe vs. Wade.
+genSent: Associates sayh e takes some defeats more personally than his colleagues, especially attempts to curtail the right to abortion first recognized in his 1973 opinion, Roe vs. Wade.
+repToken: h -> h
+goldCorefText: [['his', 'he', 'his']]
+oriCorefText: [['he', 'his', 'his']]
+newCorefText: [['his', 'his']]
+buggy: False
+CorefChanged: True
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: But Justice Jesus foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+repToken: Brnnan -> Jsus
+goldCorefText: [['his', 'Justice Brennan']]
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: [['Jesus', 'his']]
+buggy: True
+CorefChanged: True
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: ButJ ustice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+repToken: J -> J
+goldCorefText: [['his', 'Justice Brennan']]
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: [['ButJ ustice Brennan', 'his']]
+buggy: False
+CorefChanged: True
+
+oriSent: Writer Vojislav Jonetic says he is confident the new Yugoslav government will provide plenty of fresh material.
+genSent: Writer Vojislav Jonetic saysh e is confident the new Yugoslav government will provide plenty of fresh material.
+repToken: h -> h
+goldCorefText: [['he', 'Writer Vojislav Jonetic']]
+oriCorefText: [['Writer Vojislav Jonetic', 'he']]
+newCorefText: []
+buggy: False
+CorefChanged: True
+
+oriSent: Still, she promised that the United States would take appropriate action if terrorists were found to be behind the blast, a sentiment echoed later in the day by President Clinton.
+genSent: Still, she promised that the United States would take appropriate action if terrorists were found to be behind the blast, a sentiment echoed later in the day by President Scott.
+repToken: Clinon -> Scot
+goldCorefText: [['take', 'a sentiment echoed later in the day by President Clinton']]
+oriCorefText: []
+newCorefText: []
+buggy: True
+CorefChanged: True
+
+oriSent: President Clinton arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+genSent: President Isaac arrived in Brunei Tuesday, getting a red carpet welcome from officials of the tiny Islamic sultanate.
+repToken: Clinton -> Isaac
+goldCorefText: [['the tiny Islamic sultanate', 'Brunei']]
+oriCorefText: []
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: As Greg Lefevre reports, many stores have sold out of the game even before its release.
+genSent: As William Martinez reports, many stores have sold out of the game even before its release.
+repToken: Gg Lefevre -> William Matinz
+goldCorefText: [['the game', 'its']]
+oriCorefText: []
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: As Greg Lefevre reports, many stores have sold out of the game even before its release.
+genSent: As Greg Lefevre reports, many stores ahve sold out of the game even before its release.
+repToken: a -> a
+goldCorefText: [['the game', 'its']]
+oriCorefText: []
+newCorefText: []
+buggy: True
+CorefChanged: False
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car Corp., of New York, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+repToken: Chicag -> New Yrk
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: []
+newCorefText: []
+buggy: True
+CorefChanged: True
+
+oriSent: Still, she promised that the United States would take appropriate action if terrorists were found to be behind the blast, a sentiment echoed later in the day by President Clinton.
+genSent: Still, she promised that the United States would take appropriate action if terrorists were found to be behind the blast, a sentiment echoed later in the day by President Nathan.
+repToken: Clino -> Naha
+goldCorefText: [['take', 'a sentiment echoed later in the day by President Clinton']]
+oriCorefText: []
+newCorefText: []
+buggy: True
+CorefChanged: True
+

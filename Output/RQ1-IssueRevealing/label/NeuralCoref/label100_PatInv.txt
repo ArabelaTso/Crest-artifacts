@@ -1,0 +1,700 @@
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really sums down to a numbers game.
+repToken: comes -> sums
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+buggy: False
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his visions and his writing is first and foremost a celebration of freedom.
+repToken: writing -> visions
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+buggy: False
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their problems like they drive their cars, in high gear.
+repToken: factories -> problems
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they', 'their']]
+buggy: True
+
+oriSent: I want everybody who tried to vote who legally voted to have their vote count, including service people.
+genSent: I want everybody who tried to vote who legally voted to have their vote count, including service days.
+repToken: people -> days
+oriCorefText: [['everybody who tried to vote who legally voted to have their vote count, including service people', 'their']]
+newCorefText: [['everybody who tried to vote who legally voted', 'their']]
+buggy: False
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this area, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> area
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their things like they drive their cars, in high gear.
+repToken: factories -> things
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they', 'their']]
+buggy: True
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this game, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> game
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: Middle age and the changes it brings are like a revolving door.
+genSent: Middle age and the thing it brings are like a revolving door.
+repToken: changes -> thing
+oriCorefText: [['Middle age', 'it']]
+newCorefText: []
+buggy: True
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his college.
+repToken: country -> college
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+buggy: True
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his son.
+repToken: country -> son
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+buggy: True
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his girl.
+repToken: country -> girl
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+buggy: True
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its name in the world.
+repToken: kind -> name
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: [['the US', 'its']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his songs in French.
+repToken: plays -> songs
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+buggy: True
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require distribution suppliers in the West to keep sending their surplus electricity to California.
+repToken: power -> distribution
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+buggy: False
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their interests like they drive their cars, in high gear.
+repToken: factories -> interests
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they', 'their']]
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, especially, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+repToken: however -> especially
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain language to protect the congregation in criminal matters only.
+repToken: defendant -> congregation
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: She is asking anyone who finds the pair to give them back.
+genSent: She is asking anyone who runs the pair to give them back.
+repToken: finds -> runs
+oriCorefText: [['the pair', 'them']]
+newCorefText: [['anyone who runs the pair', 'them']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has made about 18 plays now and he writes his plays in French.
+repToken: published -> made
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he sends his plays in French.
+repToken: writes -> sends
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he'], ['about 18 plays', 'his plays']]
+buggy: True
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require service suppliers in the West to keep sending their surplus electricity to California.
+repToken: power -> service
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+buggy: False
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his festival is first and foremost a celebration of freedom.
+repToken: writing -> festival
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+buggy: False
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this time, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> time
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: It is because they know they have the inspiration in their country.
+genSent: It is because they know they have the inspiration in their dad.
+repToken: country -> dad
+oriCorefText: [['they', 'they', 'their']]
+newCorefText: [['they', 'they']]
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain language to describe the defendant in criminal matters only.
+repToken: protect -> describe
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his sister.
+repToken: country -> sister
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his novels in French.
+repToken: plays -> novels
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+buggy: True
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the plans with Israel, and really he cannot afford to let it fail.
+repToken: peace -> plans
+oriCorefText: [['He', 'he'], ['the peace with Israel', 'it']]
+newCorefText: [['He', 'he']]
+buggy: True
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their factories like they drive their cars, in full gear.
+repToken: high -> full
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they', 'their']]
+buggy: True
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the business with Israel, and really he cannot afford to let it fail.
+repToken: peace -> business
+oriCorefText: [['He', 'he'], ['the peace with Israel', 'it']]
+newCorefText: [['He', 'he'], ['the business', 'it']]
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The defendant, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+repToken: privilege -> defendant
+oriCorefText: [['The privilege', 'its']]
+newCorefText: [['The defendant', 'its', 'the defendant']]
+buggy: False
+
+oriSent: Individuals can always have their hands slapped.
+genSent: Individuals can always have their jaw slapped.
+repToken: hands -> jaw
+oriCorefText: [['Individuals', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: A man who had assault, he actually had assault with a deadly weapon, this is pictures.
+genSent: A man who had defense, he actually had assault with a deadly weapon, this is pictures.
+repToken: assault -> defense
+oriCorefText: [['A man who had assault', 'he']]
+newCorefText: []
+buggy: False
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their troubles, this really comes down to a numbers game.
+repToken: advisers -> troubles
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+buggy: True
+
+oriSent: A man who had assault, he actually had assault with a deadly weapon, this is pictures.
+genSent: A man who had honor, he actually had assault with a deadly weapon, this is pictures.
+repToken: assault -> honor
+oriCorefText: [['A man who had assault', 'he']]
+newCorefText: []
+buggy: False
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain language to represent the defendant in criminal matters only.
+repToken: protect -> represent
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its group in the world.
+repToken: kind -> group
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: [['the US', 'its']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 kids now and he writes his plays in French.
+repToken: plays -> kids
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he says his plays in French.
+repToken: writes -> says
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 newspapers now and he writes his plays in French.
+repToken: plays -> newspapers
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+buggy: True
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his sons.
+repToken: country -> sons
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he gives his plays in French.
+repToken: writes -> gives
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+buggy: True
+
+oriSent: One large utility company, Southern California Edison says it may have to file for bankruptcy unless government officials can offer some relief.
+genSent: One large utility increases, Southern California Edison says it may have to file for bankruptcy unless government officials can offer some relief.
+repToken: company -> increases
+oriCorefText: [['One large utility company, Southern California Edison', 'it']]
+newCorefText: [['Southern California Edison', 'it']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his sentences in French.
+repToken: plays -> sentences
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+buggy: True
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his city.
+repToken: country -> city
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+buggy: True
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this way, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> way
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: Each arrival seemed to bring many more on its heels.
+genSent: Each arrival managed to bring many more on its heels.
+repToken: seemed -> managed
+oriCorefText: [['Each arrival', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this place, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> place
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: Individuals can always have their hands slapped.
+genSent: Individuals can always have their hat slapped.
+repToken: hands -> hat
+oriCorefText: [['Individuals', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he said his plays in French.
+repToken: writes -> said
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain application to protect the defendant in criminal matters only.
+repToken: language -> application
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this moment, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> moment
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his creation is first and foremost a celebration of freedom.
+repToken: writing -> creation
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+buggy: False
+
+oriSent: Their candles are burning at both ends, because they are trying to live up to two old role models rather than establishing a new one for themselves.
+genSent: Their candles are burning at both men, because they are trying to live up to two old role models rather than establishing a new one for themselves.
+repToken: ends -> men
+oriCorefText: [['Their', 'they', 'themselves']]
+newCorefText: [['both men', 'they', 'themselves']]
+buggy: True
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this order, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> order
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: She is asking anyone who finds the pair to give them back.
+genSent: She is asking anyone who finds the boat to give them back.
+repToken: pair -> boat
+oriCorefText: [['the pair', 'them']]
+newCorefText: [['anyone who finds the boat', 'them']]
+buggy: True
+
+oriSent: Violence between Israelis and Palestinians continued in its third month, though at a slightly reduced level overall.
+genSent: Violence between Israelis and Palestinians continued in its third district, though at a slightly reduced level overall.
+repToken: month -> district
+oriCorefText: [['Violence between Israelis and Palestinians', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus distribution to California.
+repToken: electricity -> distribution
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: She is asking anyone who finds the pair to give them back.
+genSent: She is asking anyone who finds the house to give them back.
+repToken: pair -> house
+oriCorefText: [['the pair', 'them']]
+newCorefText: [['anyone who finds the house', 'them']]
+buggy: True
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China still believes in the form that it itself has specified.
+repToken: path -> form
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'it itself', 'itself']]
+buggy: True
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their time, this really comes down to a numbers game.
+repToken: advisers -> time
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+buggy: True
+
+oriSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its kind in the world.
+genSent: Among other things, the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund, the first of its shape in the world.
+repToken: kind -> shape
+oriCorefText: [['the Tropical Forest Conservation Fund, the first of its kind in the world', 'its']]
+newCorefText: []
+buggy: False
+
+oriSent: Each arrival seemed to bring many more on its heels.
+genSent: Each arrival held to bring many more on its heels.
+repToken: seemed -> held
+oriCorefText: [['Each arrival', 'its']]
+newCorefText: [['many more', 'its']]
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain promise to protect the defendant in criminal matters only.
+repToken: language -> promise
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his tradition is first and foremost a celebration of freedom.
+repToken: writing -> tradition
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+buggy: False
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this city, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: summit -> city
+oriCorefText: [['the Israelis', 'them']]
+newCorefText: [['The Palestinians', 'them']]
+buggy: True
+
+oriSent: She is asking anyone who finds the pair to give them back.
+genSent: She is asking anyone who finds the ring to give them back.
+repToken: pair -> ring
+oriCorefText: [['the pair', 'them']]
+newCorefText: []
+buggy: False
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would wear flowers in her hair while on location, if she were engaged she would know to wear them behind her left, not right, ear.
+repToken: duty -> location
+oriCorefText: [['a nurse', 'her', 'she', 'she', 'her']]
+newCorefText: [['a nurse', 'her', 'she', 'she', 'her'], ['flowers', 'them']]
+buggy: True
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their experience, this really comes down to a numbers game.
+repToken: advisers -> experience
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+buggy: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus projects to California.
+repToken: electricity -> projects
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal order will require power suppliers in the West to study sending their surplus electricity to California.
+repToken: keep -> study
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: Maybe before the weapon and then later he said, Oh, I should have said the nuclear weapon before I invaded.
+repToken: got -> said
+oriCorefText: [['he', 'I', 'I']]
+newCorefText: [['the weapon', 'the nuclear weapon'], ['he', 'I', 'I']]
+buggy: True
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to bring them behind her left, not right, ear.
+repToken: wear -> bring
+oriCorefText: [['a nurse', 'her', 'she', 'she', 'her']]
+newCorefText: [['a nurse', 'her', 'she', 'she', 'her'], ['flowers', 'them']]
+buggy: True
+
+oriSent: Maybe before the weapon and then later he said, Oh, I should have got the nuclear weapon before I invaded.
+genSent: Maybe before the weapon and then later he said, Oh, I should have allowed the nuclear weapon before I invaded.
+repToken: got -> allowed
+oriCorefText: [['he', 'I', 'I']]
+newCorefText: [['the weapon', 'the nuclear weapon'], ['he', 'I', 'I']]
+buggy: True
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China still left in the path that it itself has specified.
+repToken: believes -> left
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'it itself', 'itself']]
+buggy: True
+
+oriSent: I want everybody who tried to vote who legally voted to have their vote count, including service people.
+genSent: I want everybody who tried to vote who legally voted to have their vote count, including service hours.
+repToken: people -> hours
+oriCorefText: [['everybody who tried to vote who legally voted to have their vote count, including service people', 'their']]
+newCorefText: [['everybody who tried to vote who legally voted', 'their']]
+buggy: True
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his making is first and foremost a celebration of freedom.
+repToken: writing -> making
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+buggy: False
+
+oriSent: Social bias makes many of the middle aged afraid to discuss their problems.
+genSent: Social bias makes many of the deaf aged afraid to discuss their problems.
+repToken: middle -> deaf
+oriCorefText: [['many of the middle aged', 'their']]
+newCorefText: [['the deaf aged', 'their']]
+buggy: False
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their stuff, this really comes down to a numbers game.
+repToken: advisers -> stuff
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+buggy: False
+
+oriSent: This is a guy whose world revolves not so much around music as around his wife.
+genSent: This is a story whose world revolves not so much around music as around his wife.
+repToken: guy -> story
+oriCorefText: [['This', 'his']]
+newCorefText: []
+buggy: True
+
+oriSent: Each arrival seemed to bring many more on its heels.
+genSent: Each arrival tried to bring many more on its heels.
+repToken: seemed -> tried
+oriCorefText: [['Each arrival', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: Individuals can always have their hands slapped.
+genSent: Individuals can always have their parents slapped.
+repToken: hands -> parents
+oriCorefText: [['Individuals', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to wear them behind her left, not right, ear.
+genSent: And even if a nurse would wear flowers in her hair while on duty, if she were engaged she would know to keep them behind her left, not right, ear.
+repToken: wear -> keep
+oriCorefText: [['a nurse', 'her', 'she', 'she', 'her']]
+newCorefText: [['a nurse', 'her', 'she', 'she', 'her'], ['flowers', 'them']]
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain language to protect the church in criminal matters only.
+repToken: defendant -> church
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his stuff in French.
+repToken: plays -> stuff
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his movies in French.
+repToken: plays -> movies
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['I', 'he', 'he', 'his']]
+buggy: True
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his eyes and his writing is first and foremost a celebration of freedom.
+repToken: writing -> eyes
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+buggy: False
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his show is first and foremost a celebration of freedom.
+repToken: writing -> show
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his', 'his']]
+buggy: False
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers inc.
+repToken: game -> inc
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+buggy: True
+
+oriSent: The Senate also dropped a plan by its Finance Committee that would have increased the income threshold beyond which senior citizens have their Social Security benefits reduced.
+genSent: The Senate also dropped a plan by its Finance Committee that would have increased the income threshold beyond which overseas citizens have their Social Security benefits reduced.
+repToken: senior -> overseas
+oriCorefText: [['The Senate', 'its'], ['senior citizens', 'their']]
+newCorefText: [['The Senate', 'its']]
+buggy: False
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the old order will require power suppliers in the West to keep sending their surplus electricity to California.
+repToken: federal -> old
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: Middle age and the changes it brings are like a revolving door.
+genSent: Middle everything and the changes it brings are like a revolving door.
+repToken: age -> everything
+oriCorefText: [['Middle age', 'it']]
+newCorefText: [['the changes it brings', 'it']]
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain right to protect the defendant in criminal matters only.
+repToken: language -> right
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: He has invested an awful amount in the peace with Israel, and really he can not afford to let it fail.
+genSent: He has invested an awful amount in the peace with Israel, and even he cannot afford to let it fail.
+repToken: really -> even
+oriCorefText: [['He', 'he'], ['the peace with Israel', 'it']]
+newCorefText: [['He', 'even he'], ['the peace with Israel', 'it']]
+buggy: True
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I think he has published about 18 plays now and he writes his reviews in French.
+repToken: plays -> reviews
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he', 'his']]
+buggy: True
+
+oriSent: I want everybody who tried to vote who legally voted to have their vote count, including service people.
+genSent: I want everybody who tried to vote who legally voted to have their vote count, including service time.
+repToken: people -> time
+oriCorefText: [['everybody who tried to vote who legally voted to have their vote count, including service people', 'their']]
+newCorefText: [['everybody who tried to vote who legally voted', 'their']]
+buggy: True
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China still remain in the path that it itself has specified.
+repToken: believes -> remain
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'it itself', 'itself']]
+buggy: True
+
+oriSent: Each arrival seemed to bring many more on its heels.
+genSent: Each arrival found to bring many more on its heels.
+repToken: seemed -> found
+oriCorefText: [['Each arrival', 'its']]
+newCorefText: []
+buggy: True
+
+oriSent: The extension of the federal order will require power suppliers in the West to keep sending their surplus electricity to California.
+genSent: The extension of the federal circuit will require power suppliers in the West to keep sending their surplus electricity to California.
+repToken: order -> circuit
+oriCorefText: [['power suppliers in the West', 'their']]
+newCorefText: []
+buggy: True
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has been limited in accordance with its plain proposition to protect the defendant in criminal matters only.
+repToken: language -> proposition
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+buggy: True
+

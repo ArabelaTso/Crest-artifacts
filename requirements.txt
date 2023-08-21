@@ -1,0 +1,11 @@
+spacy==3.1.4
+metric4coref==0.0.2
+stanfordcorenlp==3.9.1.1
+nltk==3.8.1
+apted
+pandas
+stanfordnlp==0.2.0
+pytorch_pretrained_bert==0.6.2
+transformers==4.18.0
+huggingface-hub==0.5.1
+crosslingual_coreference

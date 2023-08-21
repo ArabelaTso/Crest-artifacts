@@ -1,0 +1,1100 @@
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the great bulk of them are very frankly managed and so forth.
+repToken: honestly -> frankly
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China still believes in the way that it itself has specified.
+repToken: path -> way
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'it itself', 'itself']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him spell in.
+repToken: write -> spell
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: N
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping close lookout over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+repToken: watch -> lookout
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'Tanshui'], ['her', 'the giant beast of development']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EE, ME
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is fulfill with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: filled -> fulfill
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE
+
+
+oriSent: Mr. Thygerson said he had planned to travel between the job in Denver and his San Diego home, but has found the commute too difficult to continue.
+genSent: Mr. Thygerson said he had planned to travel between the caper in Denver and his San Diego home, but has found the commute too difficult to continue.
+repToken: job -> caper
+oriCorefText: [['Mr. Thygerson', 'he', 'his']]
+newCorefText: [['Mr. Thygerson', 'he'], ['the caper', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I opine the great bulk of them are very honestly managed and so forth.
+repToken: think -> opine
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art.
+genSent: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for local endowment for the art.
+repToken: national -> local
+oriCorefText: [['The congressman', 'he', 'his']]
+newCorefText: [['The congressman', 'he', 'his'], ['the arts', 'the art']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians as its neighbors because they are his neighbors.
+genSent: I urge Mr. Barak to lift the siege of Palestinians, to verbalize to the Palestinians as its neighbors because they are his neighbors.
+repToken: speak -> verbalize
+oriCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its', 'they']]
+newCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its'], ['the Palestinians', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, ME
+newBuggy: MM, EE
+
+
+oriSent: The announcement clearly pointed out that goods violating intellectual property rights, including exclusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported, when Customs discovers the import and export of goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights, it has the right to ask the people importing and exporting the goods to provide legal proof of use of related intellectual property rights and make additional reports to Customs about the state of the intellectual property rights of goods.
+genSent: The announcement clearly pointed out that goods violating intellectual property rights, including exclusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported; when Customs discovers the inconsequence and export of goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights, it has the right to ask the people importing and exporting the goods to provide legal proof of use of related intellectual property rights and make additional reports to Customs about the state of the intellectual property rights of goods.
+repToken: import -> inconsequence
+oriCorefText: [['Customs', 'it', 'Customs'], ['goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights', 'the goods']]
+newCorefText: [['Customs', 'it', 'Customs'], ['goods that are reported as violating rights', 'the goods']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the large bulk of them are very honestly managed and so forth.
+repToken: great -> large
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil thing.
+repToken: matter -> thing
+oriCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+newCorefText: [['a civil case', 'the civil thing'], ['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME
+newBuggy: N
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to look him in congressional election.
+repToken: face -> look
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, EE
+newBuggy: N
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the keen bulk of them are very honestly managed and so forth.
+repToken: great -> keen
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him compose in.
+repToken: write -> compose
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realness that the cadres would have him write in.
+repToken: realism -> realness
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in soupcon with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: touch -> soupcon
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he trust in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: hopes -> trust
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: CE, EE
+newBuggy: CE, EE
+
+
+oriSent: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art.
+genSent: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for internal endowment for the art.
+repToken: national -> internal
+oriCorefText: [['The congressman', 'he', 'his']]
+newCorefText: [['The congressman', 'he', 'his'], ['the arts', 'the art']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in signature with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: touch -> signature
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: N
+
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in his writing and his writing is initiative and foremost a celebration of freedom.
+repToken: first -> initiative
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his'], ['his writing', 'his writing']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the nifty bulk of them are very honestly managed and so forth.
+repToken: great -> nifty
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted household, which boasts the largest concentration of Taiwan firms in the PRC.
+repToken: home -> household
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping tightlipped watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+repToken: close -> tightlipped
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'the giant beast of development', 'Tanshui']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EM
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I conceive he has published about 18 plays now and he writes his plays in French.
+repToken: think -> conceive
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China nonetheless believes in the path that it itself has specified.
+repToken: still -> nonetheless
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'it itself', 'itself']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: N
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I suppose the great bulk of them are very honestly managed and so forth.
+repToken: think -> suppose
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: I want everybody who tried to vote who legally voted to have their vote count, including service people.
+genSent: I require everybody who tried to vote who legally voted to have their vote count, including service people.
+repToken: want -> require
+oriCorefText: [['everybody who tried to vote who legally voted to have their vote count, including service people', 'their']]
+newCorefText: [['everybody who tried to vote who legally voted', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I intend the great bulk of them are very honestly managed and so forth.
+repToken: think -> intend
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mint on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: mountain -> mint
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil cause, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+repToken: case -> cause
+oriCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+newCorefText: [['a civil cause', 'the civil matter'], ['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME
+newBuggy: EE, ME
+
+
+oriSent: The announcement clearly pointed out that goods violating intellectual property rights, including exclusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported, when Customs discovers the import and export of goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights, it has the right to ask the people importing and exporting the goods to provide legal proof of use of related intellectual property rights and make additional reports to Customs about the state of the intellectual property rights of goods.
+genSent: The announcement clearly pointed out that goods violating intellectual dimension rights, including exclusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported; when Customs discovers the import and export of goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights, it has the right to ask the people importing and exporting the goods to provide legal proof of use of related intellectual property rights and make additional reports to Customs about the state of the intellectual property rights of goods.
+repToken: property -> dimension
+oriCorefText: [['Customs', 'it', 'Customs'], ['goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights', 'the goods']]
+newCorefText: [['Customs', 'it', 'Customs'], ['goods that are reported as violating rights', 'the goods']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the metre needed for sample preparation, the usefulness of such a fever chip is still limited, so that it cannot yet be widely promoted.
+repToken: time -> metre
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the great bulk of them are very dishonestly managed and so forth.
+repToken: honestly -> dishonestly
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of nation at a time.
+repToken: land -> nation
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'Tanshui'], ['her', 'the giant beast of development']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EE, MM
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping near watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+repToken: close -> near
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'the giant beast of development', 'Tanshui']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EM, MM
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample cookery, the usefulness of such a fever chip is still limited, so that it cannot yet be widely promoted.
+repToken: preparation -> cookery
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their parting said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> parting
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their parting', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I recall he has published about 18 plays now and he writes his plays in French.
+repToken: think -> recall
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he skip in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: hopes -> skip
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here lam their factories like they drive their cars, in high gear.
+repToken: run -> lam
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['their', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: MM
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their region said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> region
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their region', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest distribution of Taiwan firms in the PRC.
+repToken: concentration -> distribution
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here idle their factories like they drive their cars, in high gear.
+repToken: run -> idle
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['their', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: MM
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their role said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> role
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their role', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their share said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> share
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their share', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I cerebrate the great bulk of them are very honestly managed and so forth.
+repToken: think -> cerebrate
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soulfulness being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: soul -> soulfulness
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I cogitate the great bulk of them are very honestly managed and so forth.
+repToken: think -> cogitate
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The Scotts ran it past their vet and the vet assured them, as long as the hen left her crate to do business, she was no harm to the pup.
+genSent: The Scotts ran it past their vet and the vet assured them, as long as the hen left her crate to do business, she was no hurt to the pup.
+repToken: harm -> hurt
+oriCorefText: [['The Scotts', 'their', 'them'], ['their vet', 'the vet'], ['the hen', 'her', 'she']]
+newCorefText: [['The Scotts', 'their', 'them'], ['their vet', 'the vet', 'her', 'she']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: ME, EM
+
+
+oriSent: The announcement clearly pointed out that goods violating intellectual property rights, including exclusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported, when Customs discovers the import and export of goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights, it has the right to ask the people importing and exporting the goods to provide legal proof of use of related intellectual property rights and make additional reports to Customs about the state of the intellectual property rights of goods.
+genSent: The announcement unintelligibly pointed out that goods violating intellectual property rights, including exclusive rights of trademarks, copyrights and patent rights, were not allowed to be imported or exported; when Customs discovers the import and export of goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights, it has the right to ask the people importing and exporting the goods to provide legal proof of use of related intellectual property rights and make additional reports to Customs about the state of the intellectual property rights of goods.
+repToken: clearly -> unintelligibly
+oriCorefText: [['Customs', 'it', 'Customs'], ['goods that are reported as violating rights and other goods that were suspected of violating intellectual property rights', 'the goods']]
+newCorefText: [['Customs', 'it', 'Customs'], ['goods that are reported as violating rights', 'the goods']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted family, which boasts the largest concentration of Taiwan firms in the PRC.
+repToken: home -> family
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I conceive the great bulk of them are very honestly managed and so forth.
+repToken: think -> conceive
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted place, which boasts the largest concentration of Taiwan firms in the PRC.
+repToken: home -> place
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the great bulk of them are very aboveboard managed and so forth.
+repToken: honestly -> aboveboard
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the expectant bulk of them are very honestly managed and so forth.
+repToken: great -> expectant
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one bit of land at a time.
+repToken: piece -> bit
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'Tanshui'], ['her', 'the giant beast of development']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EE, MM
+
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China still trust in the path that it itself has specified.
+repToken: believes -> trust
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'it itself', 'itself']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: N
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earlier this class on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+repToken: year -> class
+oriCorefText: [['we', 'we', 'us']]
+newCorefText: [['we', 'we']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample prep, the usefulness of such a fever chip is still limited, so that it cannot yet be widely promoted.
+repToken: preparation -> prep
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the lot on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: mountain -> lot
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art.
+genSent: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national talent for the art.
+repToken: endowment -> talent
+oriCorefText: [['The congressman', 'he', 'his']]
+newCorefText: [['The congressman', 'he', 'his'], ['the arts', 'the art']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their persona said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> persona
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their persona', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to present him in congressional election.
+repToken: face -> present
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the scope of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+genSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the background of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+repToken: scope -> background
+oriCorefText: [['foreign business investment BOT projects', 'their'], ['BOT', 'BOT']]
+newCorefText: [['foreign business investment BOT projects', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM, EE
+newBuggy: MM, EM
+
+
+oriSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the scope of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+genSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the orbit of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+repToken: scope -> orbit
+oriCorefText: [['foreign business investment BOT projects', 'their'], ['BOT', 'BOT']]
+newCorefText: [['foreign business investment BOT projects', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM, EM
+newBuggy: MM, EM
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the clip needed for sample preparation, the usefulness of such a fever chip is still limited, so that it cannot yet be widely promoted.
+repToken: time -> clip
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co., also said they saw no effect.
+genSent: Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co., too said they saw no effect.
+repToken: also -> too
+oriCorefText: [['Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co.', 'they']]
+newCorefText: [['Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co., too', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest denseness of Taiwan firms in the PRC.
+repToken: concentration -> denseness
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their component said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> component
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their component', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the meter needed for sample preparation, the usefulness of such a fever chip is still limited, so that it cannot yet be widely promoted.
+repToken: time -> meter
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I consider he has published about 18 plays now and he writes his plays in French.
+repToken: think -> consider
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest engrossment of Taiwan firms in the PRC.
+repToken: concentration -> engrossment
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I believe the great bulk of them are very honestly managed and so forth.
+repToken: think -> believe
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this homage unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+repToken: court -> homage
+oriCorefText: [['It', 'it']]
+newCorefText: [['It', 'it', 'this homage']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME
+newBuggy: ME, EM
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hop in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: hopes -> hop
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him pen in.
+repToken: write -> pen
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the scope of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+genSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the oscilloscope of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+repToken: scope -> oscilloscope
+oriCorefText: [['foreign business investment BOT projects', 'their'], ['BOT', 'BOT']]
+newCorefText: [['foreign business investment BOT projects', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM, EE
+newBuggy: MM, EM
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their function said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> function
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their function', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he despair in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: hopes -> despair
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the scope of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+genSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the range of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+repToken: scope -> range
+oriCorefText: [['foreign business investment BOT projects', 'their'], ['BOT', 'BOT']]
+newCorefText: [['foreign business investment BOT projects', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, EM, MM
+newBuggy: EM, MM
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil causa, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+repToken: case -> causa
+oriCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+newCorefText: [['a civil causa', 'the civil matter'], ['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME
+newBuggy: ME, EE
+
+
+oriSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it can not yet be widely promoted.
+genSent: However, Pan points out that because of the difficulties in substantially reducing the time needed for sample preparation, the usefulness of such a fever chip is still limited, so that it cannot nevertheless be widely promoted.
+repToken: yet -> nevertheless
+oriCorefText: [['the usefulness of such a fever chip', 'it']]
+newCorefText: [['such a fever chip', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: N
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here ply their factories like they drive their cars, in high gear.
+repToken: run -> ply
+oriCorefText: [['their', 'they', 'their']]
+newCorefText: [['their', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: MM
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him indite in.
+repToken: write -> indite
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the scope of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+genSent: Data provided by the State Taxation Administration show that, starting next year, foreign business investment BOT projects will continue to enjoy preferential taxation, and the reach of their preferential policies will include investment enterprises and individual investors engaged in BOT projects.
+repToken: scope -> reach
+oriCorefText: [['foreign business investment BOT projects', 'their'], ['BOT', 'BOT']]
+newCorefText: [['foreign business investment BOT projects', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM, EM
+newBuggy: MM, EM
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I think the great mass of them are very honestly managed and so forth.
+repToken: bulk -> mass
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping airless watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+repToken: close -> airless
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'the giant beast of development', 'Tanshui']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: EM, MM
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S.A. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+repToken: U.S. -> U.S.A.
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Harry Truman', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: MM, EM
+
+
+oriSent: Enterprises whose system is changed in this form can enjoy preferential policies, such as income taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+genSent: Enterprises whose system is changed in this var. can enjoy preferential policies, such as income taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+repToken: form -> var.
+oriCorefText: [['income taxes', 'they']]
+newCorefText: [['income taxes', 'they']]
+isBuggy: False
+CorefChanged: False
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to back him in congressional election.
+repToken: face -> back
+oriCorefText: [['Sidney Yates', 'he'], ['Harry Truman', 'him']]
+newCorefText: [['Sidney Yates', 'he', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, MM
+newBuggy: N
+
+
+oriSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+genSent: The book is filled with marvelous descriptions of the gorges through which he walks, the mountains that he climbs, indeed the book is called Soul Mountain, the mountain on which he hopes in some way or another to get in touch with his soul, his individual soul, as opposed to that mass kind of person being enforced upon him by the Communist Chinese authorities, the social realism that the cadres would have him write in.
+repToken: soul -> person
+oriCorefText: [['The book', 'he', 'he', 'the book', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+newCorefText: [['The book', 'the book'], ['he', 'he', 'he', 'his', 'his', 'him', 'him'], ['his soul', 'his individual soul']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, CE
+newBuggy: EE, CE
+
+
+oriSent: I think he has published about 18 plays now and he writes his plays in French.
+genSent: I recollect he has published about 18 plays now and he writes his plays in French.
+repToken: think -> recollect
+oriCorefText: [['I', 'he', 'he']]
+newCorefText: [['he', 'he']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EM
+newBuggy: MM
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these jitney run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+repToken: buses -> jitney
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually occur and bulldoze Tanshui away one piece of land at a time.
+repToken: come -> occur
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'her', 'Tanshui']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: N
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their portion said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+repToken: part -> portion
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their portion', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I recall the great bulk of them are very honestly managed and so forth.
+repToken: think -> recall
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping unaired watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+repToken: close -> unaired
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'the giant beast of development', 'Tanshui']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: MM, EM
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping closelipped watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+repToken: close -> closelipped
+oriCorefText: [['Tanshui', 'her', 'the giant beast of development', 'Tanshui']]
+newCorefText: [['Tanshui', 'the giant beast of development', 'Tanshui']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: MM, EM
+
+
+oriSent: there are 15,000 companies in the United States, and I think the great bulk of them are very honestly managed and so forth.
+genSent: there are 15,000 companies in the United States, and I forget the great bulk of them are very honestly managed and so forth.
+repToken: think -> forget
+oriCorefText: [['15,000 companies in the United States', 'them']]
+newCorefText: [['15,000 companies', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+

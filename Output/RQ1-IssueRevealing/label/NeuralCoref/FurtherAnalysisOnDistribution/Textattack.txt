@@ -1,0 +1,1200 @@
+oriSent: At the same time, several states in the South and West have had their own population turnaround.
+genSent: At the same time, several states in the South and West have had thir own population turnaround.
+repToken: e -> 
+goldCorefText: [['their', 'several states in the South and West']]
+oriCorefText: [['several states in the South and West', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: And if you are in South Asia, perhaps you heard the Radio Canada International test transmissions to your part of the world back on the 8th, 9th, and 10th of November.
+genSent: And if you are in South Asia, perhap you heard the Raio Canada International test transmissions to yur part of the world back on the 8th, 9th, and 10th of November.
+repToken: sdo -> 
+goldCorefText: [['you', 'you', 'your'], ['South Asia', 'your part of the world']]
+oriCorefText: [['South Asia', 'your part of the world'], ['you', 'your']]
+newCorefText: [['South Asia', 'yur part of the world']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM
+newBuggy: ME
+
+
+oriSent: Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+genSent: Reports from Chna say North Korean President Kim Jong Il is planning to announce economic reforms for his country.
+repToken: i -> 
+goldCorefText: [['North Korean President Kim Jong Il', 'his']]
+oriCorefText: [['China', 'his country'], ['North Korean President Kim Jong Il', 'his']]
+newCorefText: [['North Korean President Kim Jong Il', 'his']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EM
+newBuggy: N
+
+
+oriSent: To those who attacked them, we say you will not find a safe harbor, we will find you and justice will prevail.
+genSent: To hose who attacked them, we ay you will not find a safe harbor, we will find you and justice will prevail.
+repToken: ts -> 
+goldCorefText: [['those who attacked them', 'you', 'you'], ['we', 'we']]
+oriCorefText: [['those who attacked them', 'them', 'you', 'you'], ['we', 'we']]
+newCorefText: [['hose who attacked them', 'you', 'you'], ['we', 'we']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EM
+newBuggy: N
+
+
+oriSent: This is another thing that the Indians were glad to hear him say, and he also said that both India and Russia suffer from the same sort of terrorism, as he put it, referring of course to the separatist militancies in Chechnya and Russia and in Jammu and Kashmir.
+genSent: This is another thing that the Indians were glad to her him say, and he aso said that both India and Russia suffer from the same sort of terrorism, as he put it, referring of course to the separatist miitancies in Chechna and Russia and in Jammu and Kashmir.
+repToken: ally -> 
+goldCorefText: [['Russia', 'Russia'], ['India', 'the Indians'], ['him', 'he', 'he']]
+oriCorefText: [['him', 'he', 'he'], ['Russia', 'Russia']]
+newCorefText: [['him', 'he aso', 'he'], ['Russia', 'Russia']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME
+newBuggy: SE, ME
+
+
+oriSent: It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq, but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the difficulties to be faced.
+genSent: It is no secret that the significant differences between our two countries earler this year on how best to hande Iraq, but we are now able t look forward together firmly in agreement on the route e have decided in the United Nations, although, the tragic loss of British lives today reminds us all of the ifficulties to be aced.
+repToken: ilowdf -> 
+goldCorefText: [['our two countries', 'we', 'we']]
+oriCorefText: [['our', 'we', 'we', 'us']]
+newCorefText: [['our two countries', 'we', 'e', 'us']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE, EM
+newBuggy: EM
+
+
+oriSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal Reserve.
+genSent: The Tresury was locked in a battle over international economic policy, although at that time it was with West German officials rather than th Federal Reserve.
+repToken: ae -> 
+goldCorefText: [['it', 'a battle over international economic policy']]
+oriCorefText: [['a battle over international economic policy', 'it']]
+newCorefText: [['The Tresury', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people here run their factories like they drive heir cars, in high gear.
+repToken: t -> 
+goldCorefText: [['their', 'their', 'Taiwanese business people here', 'they']]
+oriCorefText: [['Taiwanese business people here', 'their', 'they', 'their']]
+newCorefText: [['Taiwanese business people here', 'their', 'they']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Enterprises whose system is changed in this form can enjoy preferential policies, such as income taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+genSent: Enterprises whose syste is changed in this for can enjoy preferential policies, such as ncome taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+repToken: mmi -> 
+goldCorefText: [['income taxes', 'they']]
+oriCorefText: [['income taxes', 'they']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qin told he French guet that France is the first big wstern country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+repToken: atse -> 
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['France', 'France'], ['China', 'China']]
+newCorefText: [['Qichen Qin', 'he'], ['France', 'France'], ['China', 'China']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: The Israeli military says Palestinian gunmen at the Khan Younus refugee camp in the southern part of the Gaza Strip opened fire on Israeli forces and the soldiers responded.
+genSent: The Israeli military says Palestinian gunmen at the Khan Younus refugee camp in the southern part o the Gaza Strip opened fie on Israeli forces and the soldiers responded.
+repToken: fr -> 
+goldCorefText: [['Israeli forces', 'the soldiers']]
+oriCorefText: [['Israeli forces', 'the soldiers']]
+newCorefText: [['Palestinian gunmen at the Khan Younus refugee camp in the southern part o the Gaza Strip', 'the soldiers']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: In order to benefit society, the Wangma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to users, allowing them to copy by themselves.
+genSent: In order to benefit society, the Wanma Computer Company determinedly gave up an opportunity that would have earned big money by dedicating unencoded floppy disks to usrs, alloing them to copy by themselves.
+repToken: gew -> 
+goldCorefText: [['themselves', 'them', 'users']]
+oriCorefText: [['users', 'them', 'themselves']]
+newCorefText: [['unencoded floppy disks', 'them'], ['usrs', 'themselves']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EE, MM
+
+
+oriSent: It was the last of several speeches he has made in recent weeks to his backers across the country.
+genSent: It was the last of several speeches he has made in recent weeks to hi backers across the country.
+repToken: s -> 
+goldCorefText: [['his', 'he']]
+oriCorefText: [['he', 'his']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: They began production there in 1992, formally opening their own plant in Dongguan in 1994.
+genSent: They began production there in 1992, formally opening thir own plant in Dongguan in 1994.
+repToken: e -> 
+goldCorefText: [['They', 'their']]
+oriCorefText: [['They', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Fortunately, thanks to efforts by cultural and environmental activists from Tanshui, the plan was first postponed, and then was ultimately killed after an environmental impact assessment released in September refused to approve the scheme.
+genSent: Fortunately, thanks to efforts by cultural and environmental activists from Tanshui, the pla was first postponed, and then was ultimately killed after a environmental impact assessment released in September refused to approve the sceme.
+repToken: nnh -> 
+goldCorefText: [['the scheme', 'the plan']]
+oriCorefText: [['the plan', 'the scheme']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The privilege, however, has been limited in accordance with its plain language to protect the defendant in criminal matters only.
+genSent: The privilege, however, has ben limited in accordance with ts plain language to protect the defendant in criminal matters only.
+repToken: ei -> 
+goldCorefText: [['The privilege', 'its']]
+oriCorefText: [['The privilege', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these busses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the hugest concentration of Taiwan corporate in the PRC.
+repToken: larfims -> shucoporate
+goldCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their'], ['their adopted home', 'Dongguan']]
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 deparures a day, these buses run by a Taiwan firm ut of Dongguan take Taiwan expats to their adopted home, which boasts the largst concentration of Taiwan firms in the PRC.
+repToken: toe -> 
+goldCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their'], ['their adopted home', 'Dongguan']]
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Dongguan', 'their adopted home, which boasts the largst concentration of Taiwan firms in the PRC'], ['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, ME
+newBuggy: SE
+
+
+oriSent: Taiwanese business people here run their factories like they drive their cars, in high gear.
+genSent: Taiwanese business people ere run their factories like they drive their cars, in high gear.
+repToken: h -> 
+goldCorefText: [['their', 'their', 'Taiwanese business people here', 'they']]
+oriCorefText: [['Taiwanese business people here', 'their', 'they', 'their']]
+newCorefText: [['Taiwanese business people', 'their', 'they', 'their']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co., also said they saw no effect.
+genSent: Executives at Backer Spielvogel client Notices Serv., as well as at Saatchi client Philips Lighting Co., also said they saw no effect.
+repToken: AvInc -> NotceServ
+goldCorefText: [['Executives at Backer Spielvogel client Avis Inc. , as well as at Saatchi client Philips Lighting Co. ,', 'they']]
+oriCorefText: [['Executives at Backer Spielvogel client Avis Inc., as well as at Saatchi client Philips Lighting Co.,', 'they']]
+newCorefText: [['Executives at Backer Spielvogel client Notices Serv., as well as at Saatchi client Philips Lighting Co.', 'they']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Enterprises whose system is changed in this form can enjoy preferential policies, such as income taxes being returned when they exceed the base, temporarily not levying business tax on fixed assets, etc.
+genSent: Enterprises whose system is changed in this form can enjoys preferential policies, such as revenue taxes being returned when they exceed the base, temporarily not levying business taxes on fixed assets, etc.
+repToken: ioe txseing retrned when they exceed the batemporarily not levying business tax on fixed assets,  -> sreveue taxes being returned when they exeed the base, teporrily not lvyinginss taxes on fixed assets
+goldCorefText: [['income taxes', 'they']]
+oriCorefText: [['income taxes', 'they']]
+newCorefText: [['revenue taxes being returned when they exceed the base', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, EM
+
+
+oriSent: Qichen Qian told the French guest that France is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, the development of bilateral relations has been satisfactory overall despite some complications.
+genSent: Qichen Qian told the French guest that rance is the first big western country to establish diplomatic relations with China, and that over the past 30 years since the establishment of diplomatic relations between China and France, te development of bilateral relations hs ben satisfactory overall despite some complications.
+repToken: Fhae -> 
+goldCorefText: [['France', 'France'], ['China', 'China']]
+oriCorefText: [['France', 'France'], ['China', 'China']]
+newCorefText: [['China', 'China']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Well, the work that we have so far in English translation suggests that, and indeed this novel, which is a celebration as well of the self of the individual, goes so far as to even divide up to the self.
+genSent: Well, the work that we have so far in English translation suggests tha, and indeed this novel, which is a celebration as wel of the self of the individual, goes so far as to even divide up o the sel.
+repToken: tltf -> 
+goldCorefText: [['the self', 'the self of the individual']]
+oriCorefText: [['the individual', 'the self']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: Lovers of Tanshui, while keeping close watch over her, are fearful that the giant beast of development may eventually come and bulldoze Tanshui away one piece of land at a time.
+genSent: Lovers of Tanshui, while keeping close watch oer hr, are fearful that the giant beast of development may eventually come nd bulldoze Tanshui away one piece of land at a time.
+repToken: vea -> 
+goldCorefText: [['her', 'Tanshui', 'Tanshui']]
+oriCorefText: [['Tanshui', 'her', 'Tanshui']]
+newCorefText: [['Tanshui', 'Tanshui']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: A man who had assault, he actually had assault with a deadly weapon, this is pictures.
+genSent: A man who had assault, he actually had assault with a deadly weapon, his is pictures.
+repToken: t -> 
+goldCorefText: [['he', 'A man who had assault']]
+oriCorefText: [['A man who had assault', 'he']]
+newCorefText: [['A man who had assault', 'he', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Scotts ran it past their vet and the vet assured them, as long as the hen left her crate to do business, she was no harm to the pup.
+genSent: The Scotts ran it pat their vet and the vet assured them, a long as the hen left her crate to do business, she ws no harm to the pup.
+repToken: ssa -> 
+goldCorefText: [['their vet', 'the vet'], ['she', 'the hen'], ['their', 'them', 'The Scotts']]
+oriCorefText: [['The Scotts', 'their', 'them'], ['it', 'her crate'], ['their vet', 'the vet'], ['the hen', 'her', 'she']]
+newCorefText: [['The Scotts', 'their', 'them'], ['their vet', 'the vet'], ['the hen', 'her', 'she']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: EE, EM
+newBuggy: EM
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in thi summit, since the Israelis are not the only ones blaming hem for the outbreak of violence.
+repToken: st -> 
+goldCorefText: [['The Palestinians', 'them']]
+oriCorefText: [['The Palestinians', 'them']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The RTC had previously targeted five thrifts for quick sales in order to spend cash by certain budgetary deadlines, but the delays illustrate the tough chore facing the agency.
+genSent: The RTC had previously targeted five thrifts for quick sales in order to spend cash by certain budgetary deadlines, but te delays illustrate the tough chore facing the agenc.
+repToken: hy -> 
+goldCorefText: [['The RTC', 'the agency']]
+oriCorefText: [['The RTC', 'the agency']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians cleary face te greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+repToken: lh -> 
+goldCorefText: [['The Palestinians', 'them']]
+oriCorefText: [['The Palestinians', 'them']]
+newCorefText: [['the Israelis', 'them']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: EE, ME
+
+
+oriSent: Ashitaer, the UN representative of Yemen strongly condemned this incident and asked the United Nations Security Council to be responsible for the passed resolution No. 678 which permits military actions against Iraq.
+genSent: Ashitaer, the UN representative of Yemen strongly condemned this incident and asked the Unidos Nation Security Council to be responsability for the passed resolution No. 678 which permits military actions against Iraq.
+repToken: tesie -> osaiity
+goldCorefText: [['UN', 'United Nations']]
+oriCorefText: [['UN', 'United Nations']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+genSent: Financial orp. said it agreed to buy the bonds after a representative of Ian F. Boesky Corp. visited t in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+repToken: Cvi -> 
+goldCorefText: [['Financial Corp.', 'Financial Corp.', 'its', 'it', 'it'], ['the bonds', 'the bonds']]
+oriCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its'], ['the bonds', 'the bonds']]
+newCorefText: [['Financial orp', 'Financial orp.', 'it', 'Financial Corp.', 'its'], ['the bonds', 'the bonds']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EM
+
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: But Justice Brennan foresaw is new role, strongly defending the importance of dissents in a 1985 speech.
+repToken: h -> 
+goldCorefText: [['his', 'Justice Brennan']]
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: I was very stern, ery direct an it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vie President Al Gore.
+repToken: try direct and it left no quetion,I ink,inds of ybody that this cort unnimousybles that certification should include the manual recount, and that is a clear vc -> ery direct an it left no question, I think, in the minds of anybody that this court unanimously belieatcertficatio should includercount, and that s a clar 
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'it'], ['believes', 'that']]
+newCorefText: [['I', 'I'], ['believes', 'that']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, EE
+newBuggy: ME, EE
+
+
+oriSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians as its neighbors because they are his neighbors.
+genSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to th Palestinians as its neighbors because they are hs neighbors.
+repToken: ei -> 
+goldCorefText: [['the Palestinians', 'they', 'Palestinians'], ['his', 'Mr. Barak']]
+oriCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its'], ['the Palestinians', 'they']]
+newCorefText: [['Palestinians', 'its'], ['th Palestinians', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE
+newBuggy: ME, EE
+
+
+oriSent: The Israeli military says Palestinian gunmen at the Khan Younus refugee camp in the southern part of the Gaza Strip opened fire on Israeli forces and the soldiers responded.
+genSent: The Israeli military says Palestinian gunmen at the Khan Younus refugee camp i the southern part of the Gaza Strip opened fire on Israeli forces and the soldiers respoded.
+repToken: nn -> 
+goldCorefText: [['Israeli forces', 'the soldiers']]
+oriCorefText: [['Israeli forces', 'the soldiers']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Financial Corp. said it agreed to buy the bonds after a representative of Ivan F. Boesky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing the bonds.
+genSent: Financial Corp. said it agreed to buy the bonds afte a representative of Ivan F. Bosky Corp. visited it in November 1983 and said Financial Corp. could improve its financial condition by purchasing te bonds.
+repToken: reh -> 
+goldCorefText: [['Financial Corp.', 'Financial Corp.', 'its', 'it', 'it'], ['the bonds', 'the bonds']]
+oriCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its'], ['the bonds', 'the bonds']]
+newCorefText: [['Financial Corp.', 'it', 'it', 'Financial Corp.', 'its']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Mr. Nesbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level its urinary tract antibiotic.
+genSent: Mr. Nsbit also said the FDA has asked Bolar Pharmaceutical Co. to recall at the retail level is urinary tract antibiotic.
+repToken: et -> 
+goldCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+oriCorefText: [['Bolar Pharmaceutical Co.', 'its']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal Reserve.
+genSent: The Treaury was locked in a battle over international economic policy, although at that time it wa with West German officials rather than the Federal Reserve.
+repToken: ss -> 
+goldCorefText: [['it', 'a battle over international economic policy']]
+oriCorefText: [['a battle over international economic policy', 'it']]
+newCorefText: [['The Treaury', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EE, ME
+
+
+oriSent: This is another thing that the Indians were glad to hear him say, and he also said that both India and Russia suffer from the same sort of terrorism, as he put it, referring of course to the separatist militancies in Chechnya and Russia and in Jammu and Kashmir.
+genSent: his is another thing that the Indians were glad t hear him say, ad he also said that both India an Russia suffer from the same sort of terrorism, as he put it, referring of course to the separatist militancies in Chechnya and Russia and in Jammu and Kashmir.
+repToken: Tond -> 
+goldCorefText: [['Russia', 'Russia'], ['India', 'the Indians'], ['him', 'he', 'he']]
+oriCorefText: [['him', 'he', 'he'], ['Russia', 'Russia']]
+newCorefText: [['his', 'him', 'he', 'he'], ['Russia', 'Russia']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: EM, ME
+
+
+oriSent: Social bias makes many of the middle aged afraid to discuss their problems.
+genSent: Social bias makes many of the middle aged afraid to discuss thir problems.
+repToken: e -> 
+goldCorefText: [['many of the middle aged', 'their']]
+oriCorefText: [['many of the middle aged', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: And if you are in South Asia, perhaps you heard the Radio Canada International test transmissions to your part of the world back on the 8th, 9th, and 10th of November.
+genSent: And if you are in South Asia, perhaps you heard he Radio Canada International test transmissions to your part of the world back on the th, 9th, an 10th of November.
+repToken: t8d -> 
+goldCorefText: [['you', 'you', 'your'], ['South Asia', 'your part of the world']]
+oriCorefText: [['South Asia', 'your part of the world'], ['you', 'your']]
+newCorefText: [['you', 'your']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: ME
+
+
+oriSent: His politics are embedded in his writing and his writing is first and foremost a celebration of freedom.
+genSent: His politics are embedded in is writing and his writing is first and foremost a celebration of freedom.
+repToken: h -> 
+goldCorefText: [['his writing', 'his writing'], ['his', 'his', 'His']]
+oriCorefText: [['His', 'his', 'his'], ['his writing', 'his writing']]
+newCorefText: [['His', 'his'], ['is writing', 'his writing']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: They have both invested enormous amounts in it, and both regimes would be more vulnerable if the peace process were to fail, because detractors and opponents within each country would have ammunition by which to fire at them.
+genSent: hey have both invested enormous amounts in it, and both regimes would be more vulnerable if the peace process were to fail, bcause detractors and opponents within each country would have ammunition by whih to fire at them.
+repToken: Tec -> 
+goldCorefText: [['They', 'both regimes', 'them'], ['the peace process', 'it']]
+oriCorefText: [['They', 'both regimes', 'them'], ['it', 'the peace process']]
+newCorefText: [['both regimes', 'them']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM, ME
+
+
+oriSent: Especially deserving to be pointed out is that, after the first monthly deficit in July last year, the rest of the year saw successive monthly deficits with the amounts of deficit almost doubling, roaring from 20 million US dollars in July to 722 million US dollars in December, reducing the 1997 annual accumulative trade surplus amount to a trivial number.
+genSent: Especially deserving o be pointed out is that, after the first mnthly deficit in July lat year, the rest of the year sw successive monthly deficits with the amounts of deficit almost doubling, roaring from 2 million US dollars in July to 722 million US dollars in December, reducing the 197 annual accumulative trade surplus amount to a trivial number.
+repToken: tosa09 -> 
+goldCorefText: [['July', 'July'], ['last year', 'the year', '1997']]
+oriCorefText: [['July', 'July']]
+newCorefText: [['July lat year', 'July']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: SE, ME
+
+
+oriSent: When I was a young reporter stationed in Europe, there was a British woman reporter who liked me very much.
+genSent: When I was a young reporter stationed in Europe, there was a Britsh woman reporter who liked e very much.
+repToken: im -> 
+goldCorefText: [['me', 'I']]
+oriCorefText: [['I', 'me']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: W have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of our own ity in Petersburg.
+repToken: eyc -> 
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we']]
+newCorefText: [['W', 'we', 'our']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: EM, ME
+
+
+oriSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians as its neighbors because they are his neighbors.
+genSent: I urge Mr. Barak to lift the siege of Palestinians, to speak to the Palestinians s its neighbors because they are his neihbors.
+repToken: ag -> 
+goldCorefText: [['the Palestinians', 'they', 'Palestinians'], ['his', 'Mr. Barak']]
+oriCorefText: [['Mr. Barak', 'his'], ['the siege of Palestinians', 'its'], ['the Palestinians', 'they']]
+newCorefText: [['Mr. Barak', 'his'], ['Palestinians', 'its'], ['the Palestinians s its neighbors', 'they']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM, EE, ME
+newBuggy: EE
+
+
+oriSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not the only ones blaming them for the outbreak of violence.
+genSent: The Palestinians clearly face the greatest pressure in this summit, since the Israelis are not he only nes blaming them for the outbreak of violence.
+repToken: to -> 
+goldCorefText: [['The Palestinians', 'them']]
+oriCorefText: [['The Palestinians', 'them']]
+newCorefText: [['the Israelis', 'them']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EE, ME
+
+
+oriSent: Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had no plans to follow suit.
+genSent: Budget Rent a Car orp., of Chicago, and National Car Rental Systems Inc., of Minneapolis, both said they had n plans to follow suit.
+repToken: Co -> 
+goldCorefText: [['they', 'Budget Rent a Car Corp. , of Chicago , and National Car Rental Systems Inc. , of Minneapolis ,']]
+oriCorefText: [['Budget Rent a Car Corp., of Chicago, and National Car Rental Systems Inc., of Minneapolis', 'both', 'they']]
+newCorefText: [['Budget Rent a Car orp., of Chicago, and National Car Rental Systems Inc., of Minneapolis', 'both', 'they']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EM
+newBuggy: EM
+
+
+oriSent: But Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+genSent: Bt Justice Brennan foresaw his new role, strongly defending the importance of dissents in a 1985 speech.
+repToken: u -> 
+goldCorefText: [['his', 'Justice Brennan']]
+oriCorefText: [['Justice Brennan', 'his']]
+newCorefText: [['Bt Justice Brennan', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: It is because they know they have the inspiration in their country.
+genSent: It is because they know they have the inspiration in thei country.
+repToken: r -> 
+goldCorefText: [['their', 'they', 'they']]
+oriCorefText: [['they', 'they', 'their']]
+newCorefText: [['they', 'they']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Your journey, particularly to southern Iraq, what is evoked there a sense of both that you evoke is a sense of history of this regime.
+genSent: Your journey, particularly to southern Iraq, what is evoked there a sense of bth that you evok is a sense of history of this regime.
+repToken: oe -> 
+goldCorefText: [['you', 'Your']]
+oriCorefText: [['Your', 'you']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the Fifth, and his taking of the Fifth may permit the drawing of an adverse inference against him in the civil matter.
+genSent: Thus, in a civil case, a defendant may be called as a witness, he may be forced to testify or take the ifth, and his taking of the Fifth may permit the drawing of a adverse infernce against him in the civil mtter.
+repToken: ,ndhs kthe Fifth mypermit the drw of aderse nference against him in the civia -> ifth, and his taking of the myperm the drwdverse fernce aisthim in the ci
+goldCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth'], ['his taking of the Fifth', 'take']]
+oriCorefText: [['a defendant', 'he', 'his', 'him'], ['the Fifth', 'the Fifth']]
+newCorefText: [['a defendant', 'he', 'his', 'him']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: ME
+
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was very stern, vey direct an it eft no question, I think, in he minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+repToken: rdlt -> 
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'it'], ['believes', 'that']]
+newCorefText: [['believes', 'that']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, ME
+newBuggy: EE, ME
+
+
+oriSent: Republican leaders for their part said reopening the tax debate is not now realistic and the tax cut bill is probably tombed.
+genSent: Republican leaders for their art said reopening the tax debate is not now realistic and the tax cut bill is probabl tombed.
+repToken: py -> 
+goldCorefText: [['Republican leaders', 'their']]
+oriCorefText: [['Republican leaders', 'their']]
+newCorefText: [['Republican leaders for their art', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: They have both invested enormous amounts in it, and both regimes would be more vulnerable if the peace process were to fail, because detractors and opponents within each country would have ammunition by which to fire at them.
+genSent: They hae both invested enormous amounts in it, and both regimes would be more vulnerable i the peace process were to fail, because detractors and opponents within each country would have ammunition by which to fire at thm.
+repToken:  bohiested enormos amoutsniand oth rgimes wold bmorulnrable the peace process were to fal, because detactors and opponntswithin ech counrywould have ammuniion by wich to fire at the -> e both insedeormous amounts in it, and both regimes would be more lerablehe peace process were to failcasdtractorsand opponents within each country would haammuntion by which to 
+goldCorefText: [['They', 'both regimes', 'them'], ['the peace process', 'it']]
+oriCorefText: [['They', 'both regimes', 'them'], ['it', 'the peace process']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal Reserve.
+genSent: The Treasury was loced in a battle over international economic poicy, although at that time it was with West German officials rather than the Federal Reserve.
+repToken: kl -> 
+goldCorefText: [['it', 'a battle over international economic policy']]
+oriCorefText: [['a battle over international economic policy', 'it']]
+newCorefText: [['The Treasury', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EE, ME
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have ben enthralled by the elebrations of your own city n Petersburg.
+repToken: eci -> 
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: ME
+
+
+oriSent: After the angry outburst Mr. Arafat reaffirmed his commitment to peace and his willingness to meet Mr. Barak.
+genSent: After the angry outburst Monsieur. Arafat reaffirmed his commitment to peace and his willingness to meet Mr. Barak.
+repToken:  -> onsieu
+goldCorefText: [['Mr. Arafat', 'his', 'his']]
+oriCorefText: [['Mr. Arafat', 'his', 'his']]
+newCorefText: [['his', 'his']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM
+
+
+oriSent: Apparently, he was on his way to greet reporters at the time outside the main government office there in Belgrade.
+genSent: Apparently, he was on is way to greet reporters at the time outside the main government ofice there in Belgrade.
+repToken: hf -> 
+goldCorefText: [['he', 'his']]
+oriCorefText: [['he', 'his']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal Reserve.
+genSent: The Treasury was locked in a battle over international economi policy, although at that time it wa with West German officials rather than the Federal Reserve.
+repToken: cs -> 
+goldCorefText: [['it', 'a battle over international economic policy']]
+oriCorefText: [['a battle over international economic policy', 'it']]
+newCorefText: [['The Treasury', 'it']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EE, ME
+
+
+oriSent: China still believes in the path that it itself has specified.
+genSent: China still believes in the path that i itself has specified.
+repToken: t -> 
+goldCorefText: [['China', 'itself', 'it itself']]
+oriCorefText: [['China', 'it itself']]
+newCorefText: [['China', 'i itself', 'itself']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: MM
+newBuggy: N
+
+
+oriSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds, as well, so it was a knife edge.
+genSent: They use the gunships to kill, we think, not lss than 50,000 inhabitants of southrn Iraq and trying to do that to the Kurds, as well, so it was a knife dge.
+repToken: eee -> 
+goldCorefText: [['kill', 'that']]
+oriCorefText: [['use', 'that']]
+newCorefText: [['use', 'that'], ['the gunships', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, EE
+newBuggy: ME, EE
+
+
+oriSent: And if you are in South Asia, perhaps you heard the Radio Canada International test transmissions to your part of the world back on the 8th, 9th, and 10th of November.
+genSent: And if you are in South Asia, perhaps you heard te Radio Canada Internatioal test transmissions to your part of the world back on the 8th, 9th, ad 10th of November.
+repToken: hnn -> 
+goldCorefText: [['you', 'you', 'your'], ['South Asia', 'your part of the world']]
+oriCorefText: [['South Asia', 'your part of the world'], ['you', 'your']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: MM
+newBuggy: ME
+
+
+oriSent: We will get by we will survive.
+genSent: We will get by w will survive.
+repToken: e -> 
+goldCorefText: [['We', 'we']]
+oriCorefText: [['We', 'we']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute with the board over corporate strategy.
+genSent: Mr. Field aso had been chairman of McKesson Corp., resigning that post aftr a dispute with the board over corporate strategy.
+repToken: le -> 
+goldCorefText: [['that post', 'chairman of McKesson Corp.']]
+oriCorefText: [['chairman of McKesson Corp.', 'that post']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: The latter typically is the humor of the underdog, and it was perfected by both blacks and Jews on the minstrel and vaudeville stage as a means of mocking their white and gentile audiences along with themselves.
+genSent: The latter tpically is the humor of th underdog, and it was perfected by both blacks and Jews on the minstrel and vaudeville stage as a mans of mocking their white and gentile audiences along with themselves.
+repToken: picallyee -> picall
+goldCorefText: [['their', 'both blacks and Jews', 'themselves'], ['it', 'The latter']]
+oriCorefText: [['The latter', 'it'], ['both blacks and Jews', 'their', 'themselves']]
+newCorefText: [['The latter', 'it'], ['both blacks and Jews on the minstrel and vaudeville stage', 'their', 'themselves']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: Other money managers also opened their wallets.
+genSent: Other money managers also opened teir wallets.
+repToken: h -> 
+goldCorefText: [['Other money managers', 'their']]
+oriCorefText: [['Other money managers', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Treasury was locked in a battle over international economic policy, although at that time it was with West German officials rather than the Federal Reserve.
+genSent: The Treasury was locked in a battle over international economic politically, although at that time it was with Westen German officials rather than the Federal Reserve.
+repToken:  -> tiallen
+goldCorefText: [['it', 'a battle over international economic policy']]
+oriCorefText: [['a battle over international economic policy', 'it']]
+newCorefText: [['The Treasury', 'it']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME, EE
+
+
+oriSent: Sidney Yates was first elected to the U.S. house in 1948, when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election.
+genSent: Sidney Yates ws first elected to the U.S. house in 1948, when Harry Truman was President nd for more than 4 decades he trounced evey challenger to face him in congressional election.
+repToken: aar -> 
+goldCorefText: [['he', 'Sidney Yates', 'him']]
+oriCorefText: [['Sidney Yates', 'he', 'him']]
+newCorefText: [['Sidney Yates', 'he'], ['evey challenger', 'him']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: MM, EE
+
+
+oriSent: They use the gunships to kill, we think, not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds, as well, so it was a knife edge.
+genSent: The use the gunships to kill, we tink, not less than 50,000 inhabitants of southern Iraq and trying to o that to the Kurds, as well, so it was a knife edge.
+repToken: yhd -> 
+goldCorefText: [['kill', 'that']]
+oriCorefText: [['use', 'that']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: ME, EE
+newBuggy: ME
+
+
+oriSent: I report to the President, and he has always asked me to give him my best unadulterated advice.
+genSent: I report to the President, and he has always asked me to give him y best unadulterated advice.
+repToken: m -> 
+goldCorefText: [['my', 'I', 'me'], ['him', 'he', 'the President']]
+oriCorefText: [['I', 'me', 'my'], ['the President', 'he', 'him']]
+newCorefText: [['I', 'me'], ['the President', 'he', 'him']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute with the board over corporate strategy.
+genSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute ith the board over crporate strategy.
+repToken: wo -> 
+goldCorefText: [['that post', 'chairman of McKesson Corp.']]
+oriCorefText: [['chairman of McKesson Corp.', 'that post']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Allison says she hopes there will be other shows that feature kids like her.
+genSent: Allison sys she hopes there will be other shows that feature kids like her.
+repToken: a -> 
+goldCorefText: [['her', 'Allison', 'she']]
+oriCorefText: [['Allison', 'she', 'her']]
+newCorefText: [['she', 'her']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: MM
+
+
+oriSent: Your journey, particularly to southern Iraq, what is evoked there a sense of both that you evoke is a sense of history of this regime.
+genSent: Your journey, particularly to southern Iraq, wha is evoked there a sense of both that you evoke is a sense f history of this regime.
+repToken: to -> 
+goldCorefText: [['you', 'Your']]
+oriCorefText: [['Your', 'you']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: When American saxophonist David Murray recorded his acclaimed afrocentric jazz album, Fo Juke Review in Dakar, he recruited Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have.
+genSent: hen American saxophonist David Murray recorded his acclaimed afrocentric jazz album, Fo Juke Review in Dakar, h recruitd Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have.
+repToken: Wee -> 
+goldCorefText: [['his', 'he', 'American saxophonist David Murray']]
+oriCorefText: [['American saxophonist David Murray', 'his', 'he']]
+newCorefText: [['hen American saxophonist David Murray', 'his']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: That, he says, is just fine with him.
+genSent: That, he says, is just fine with hi.
+repToken: m -> 
+goldCorefText: [['him', 'he']]
+oriCorefText: [['he', 'him']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Well, the work that we have so far in English translation suggests that, and indeed this novel, which is a celebration as well of the self of the individual, goes so far as to even divide up to the self.
+genSent: Well, the work that we have so far in nglish translatio suggests that, and indeed this novel, which is a celebration as well of the sef of te individual, goes so far as to even divide up to the self.
+repToken: Enlh -> 
+goldCorefText: [['the self', 'the self of the individual']]
+oriCorefText: [['the individual', 'the self']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE
+newBuggy: ME
+
+
+oriSent: They set high expectations for themselves, but their disappointments are likewise large.
+genSent: Tey set high expectations for themselves, but their disappointments are likewise large.
+repToken: h -> 
+goldCorefText: [['They', 'themselves', 'their']]
+oriCorefText: [['They', 'themselves', 'their']]
+newCorefText: [['themselves', 'their']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: With 27 departures a day, these buses run by a Taiwan firm out of Dongguan take Taiwan expats to their adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+genSent: With 27 departures a day, these buses run by a Taiwan firm out of Donggan take Taiwan expas to thir adopted home, which boasts the largest concentration of Taiwan firms in the PRC.
+repToken: ute -> 
+goldCorefText: [['Taiwan', 'Taiwan', 'Taiwan'], ['Taiwan expats', 'their'], ['their adopted home', 'Dongguan']]
+oriCorefText: [['Taiwan', 'Taiwan'], ['Taiwan expats', 'their']]
+newCorefText: [['Taiwan', 'Taiwan', 'Taiwan']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME, MM
+newBuggy: ME
+
+
+oriSent: He made his remarks to a PLO gathering in Baghdad.
+genSent: He made hi remarks to a PLO gathering in Baghdad.
+repToken: s -> 
+goldCorefText: [['his', 'He']]
+oriCorefText: [['He', 'his']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: She was quite a misfit for this administration, and she showed that over and over.
+genSent: She was quite a misfit for this administration, and she showed tat over and over.
+repToken: h -> 
+goldCorefText: [['was', 'that'], ['She', 'she']]
+oriCorefText: [['She', 'she'], ['was', 'that']]
+newCorefText: [['She', 'she']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: As you point out, of course, for the fact of the matter is, the mistakes of Saddam Hussein made possible his removal from power ultimately.
+genSent: As you point ut, of course, for the fact of the matter is, the mistakes of Saddam Hussein made possible hs removal from power ultimately.
+repToken: oi -> 
+goldCorefText: [['his', 'Saddam Hussein']]
+oriCorefText: [['Saddam Hussein', 'his']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The United Nations Industrial Development Organization recently implemented a thorough investigation into the current state of industrial projects in the Tumen River region, and made some suggestions about future industrial development projects in this area.
+genSent: The United Nations Industrial Development Organization recently implemented a thorough investigation into the current state of industrial projects in th Tumen River region, and ade some suggestions about future industrial development projects in this are.
+repToken: ema -> 
+goldCorefText: [['this area', 'the Tumen River region']]
+oriCorefText: [['the Tumen River region', 'this area']]
+newCorefText: [['th Tumen River region', 'this']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Tonight for both George Bush and Al Gore and their war rooms all their advisers, this really comes down to a numbers game.
+genSent: Tonight for both George Bush and Al Gore and their war ooms ll their advisers, this really comes down to a numbers game.
+repToken: ra -> 
+goldCorefText: [['their', 'George Bush and Al Gore', 'their']]
+oriCorefText: [['both George Bush and Al Gore', 'their']]
+newCorefText: [['both George Bush and Al Gore', 'their', 'their']]
+isBuggy: True
+CorefChanged: False
+oriBuggy: SE, MM
+newBuggy: SE
+
+
+oriSent: Just before Christmas break, the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien river, held its first ever Wax Apple Festival.
+genSent: Just before Christmas break, the rural township of Linpien, on the Pingtung Plain at the mouth of the Linpien revere, held its first ever Beeswax Apple Festival.
+repToken: iW -> eeBeesw
+goldCorefText: [['the rural township of Linpien , on the Pingtung Plain at the mouth of the Linpien river', 'its']]
+oriCorefText: [['the rural township of Linpien', 'its']]
+newCorefText: [['the rural township of Linpien', 'Linpien', 'its']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE
+newBuggy: SE, EM
+
+
+oriSent: The latter typically is the humor of the underdog, and it was perfected by both blacks and Jews on the minstrel and vaudeville stage as a means of mocking their white and gentile audiences along with themselves.
+genSent: The latter typically is the humor o the underdog, and it was perfected by boh blacks and Jews on the minstrel and vaudeville stage as a mans of mocking their white and gentile audiences along with themselves.
+repToken: fte -> 
+goldCorefText: [['their', 'both blacks and Jews', 'themselves'], ['it', 'The latter']]
+oriCorefText: [['The latter', 'it'], ['both blacks and Jews', 'their', 'themselves']]
+newCorefText: [['The latter', 'it'], ['boh blacks and Jews on the minstrel and vaudeville stage', 'their', 'themselves']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: SE
+
+
+oriSent: We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your own city in Petersburg.
+genSent: e hav also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square, and we, in turn, have been enthralled by the celebrations of your wn city in Petersburg.
+repToken: Weo -> 
+goldCorefText: [['Petersburg', 'your own city'], ['We', 'we']]
+oriCorefText: [['We', 'we']]
+newCorefText: []
+isBuggy: True
+CorefChanged: True
+oriBuggy: ME
+newBuggy: N
+
+
+oriSent: Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts.
+genSent: Electrical resources in the West Coast state are stretched to ther limit with a looming threat of rolling blackouts.
+repToken: i -> 
+goldCorefText: [['Electrical resources in the West Coast state', 'their']]
+oriCorefText: [['Electrical resources in the West Coast state', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Ashitaer, the UN representative of Yemen strongly condemned this incident and asked the United Nations Security Council to be responsible for the passed resolution No. 678 which permits military actions against Iraq.
+genSent: Ashiter, the UN representtive of Yemen strongly condemned this incident and asked the nited Nations Security Council to be responsible for the passed resolution No. 678 which permits military actions against Iraq.
+repToken: aaU -> 
+goldCorefText: [['UN', 'United Nations']]
+oriCorefText: [['UN', 'United Nations']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: If their intention was to deter us from our mission of promoting peace and security in the Middle East, they will fail utterly.
+genSent: If their ambition was to deter usa from our mission of promoting peace and security in the Middle East, they will fail utterly.
+repToken: nten -> amba
+goldCorefText: [['our', 'us'], ['they', 'their']]
+oriCorefText: [['their', 'they'], ['us', 'our']]
+newCorefText: [['their', 'they']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: It was very stern, very direct and it left no question, I think, in the minds of anybody that this court unanimously believes that certification should include the manual recount, and that is a clear victory for Vice President Al Gore.
+genSent: It was ery stern, very direct and t left no question, I think, in the minds of anybody that this court unanimouly believes that certification should include the manual recount, and that is a clear victoy for Vice President Al Gore.
+repToken: sten,ry direct and it left no quetion,I ink,inds of ybody that this cort unnimousybles that certfiain should include the manual recount, and that is a clear victor -> ery stern, diectand t left no question, I think, in the minds of anybody that this court unanimouly belieatcertficatio should includercount, and that s a clar 
+goldCorefText: [['that', 'include'], ['it', 'It']]
+oriCorefText: [['It', 'it'], ['believes', 'that']]
+newCorefText: [['include', 'that']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: EE, ME
+newBuggy: N
+
+
+oriSent: Once I was driving her somewhere to report a story when we had an accident, and she suffered some badly broken bones.
+genSent: Once I was driving he somewhere to report a tory when we had an accident, and she suffered some badly broken bones.
+repToken: rs -> 
+goldCorefText: [['her', 'she']]
+oriCorefText: [['her', 'she']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Senate also dropped a plan by its Finance Committee that would have increased the income threshold beyond which senior citizens have their Social Security benefits reduced.
+genSent: The Senate also dropped a plan by ts Finance Committee that would have increased the income threshold beond which senior citizens have their Social Security benefits reduced.
+repToken: iy -> 
+goldCorefText: [['their', 'senior citizens'], ['its', 'The Senate']]
+oriCorefText: [['The Senate', 'its'], ['senior citizens', 'their']]
+newCorefText: [['senior citizens', 'their']]
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Your journey, particularly to southern Iraq, what is evoked there a sense of both that you evoke is a sense of history of this regime.
+genSent: Your journey, particularly to southern Iraq, what is evoked there a sense f both tat you evoke is a sense of history of this regime.
+repToken: oh -> 
+goldCorefText: [['you', 'Your']]
+oriCorefText: [['Your', 'you']]
+newCorefText: []
+isBuggy: True
+CorefChanged: False
+oriBuggy: N
+newBuggy: ME
+
+
+oriSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, their minds elsewhere, thinking of youthful fun or romance.
+genSent: Students, who have enough money to keep several streets of shops going, carelessly wheel their motorcycles through the narrow streets, thir inds elsewhere, thinking of youthful fun or romance.
+repToken: em -> 
+goldCorefText: [['their', 'their', 'Students , who have enough money to keep several streets of shops']]
+oriCorefText: [['Students, who have enough money to keep several streets of shops going', 'their', 'their']]
+newCorefText: [['Students, who have enough money to keep several streets of shops going', 'their']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: SE
+newBuggy: SE
+
+
+oriSent: We will get by we will survive.
+genSent: W will get by we will survive.
+repToken: e -> 
+goldCorefText: [['We', 'we']]
+oriCorefText: [['We', 'we']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: The Israeli Army said it was checking the reports.
+genSent: The Israeli Army said t was checking the reports.
+repToken: i -> 
+goldCorefText: [['The Israeli Army', 'it']]
+oriCorefText: [['The Israeli Army', 'it']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
+oriSent: Mr. Field also had been chairman of McKesson Corp., resigning that post after a dispute with the board over corporate strategy.
+genSent: Mr. Field also had been chairman o McKesson Corp., resigning that post after a dispute with the boad over corporate strategy.
+repToken: fr -> 
+goldCorefText: [['that post', 'chairman of McKesson Corp.']]
+oriCorefText: [['chairman of McKesson Corp.', 'that post']]
+newCorefText: [['chairman o McKesson Corp.', 'that post'], ['McKesson Corp.', 'the boad']]
+isBuggy: True
+CorefChanged: True
+oriBuggy: N
+newBuggy: EE
+
+
+oriSent: No one knows what will happen as the pups grow older and are able to open their eyes.
+genSent: No one knows what will happen as the pups grow older and are able to open thir eyes.
+repToken: e -> 
+goldCorefText: [['their', 'the pups']]
+oriCorefText: [['the pups', 'their']]
+newCorefText: []
+isBuggy: False
+CorefChanged: True
+oriBuggy: N
+newBuggy: N
+
+
