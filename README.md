@@ -8,9 +8,9 @@ This repository is the project for paper **Testing Coreference Resolution System
 
 
 ## Reproductibility
-See [codebook/EasyReproduce.ipynb](./notebook/EasyReproduce.ipynb) for easy reproduction of pipeline of CREST and other baselines
+See [notebook/EasyReproduce.ipynb](./notebook/EasyReproduce.ipynb) for easy reproduction of pipeline of CREST and other baselines
 
-See [codebook/Visualization.ipynb](./notebook/Visualization.ipynb) for visualizing all experiment figures in the paper
+See [notebook/Visualization.ipynb](./notebook/Visualization.ipynb) for visualizing all experiment figures in the paper
 
 
 **TL;DR**
