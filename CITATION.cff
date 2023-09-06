@@ -1,12 +1,9 @@
-@inproceedings{crest,
-    author = {Cao, Jialun and Lu, Yaojie and Wen, Ming and Cheung, Shing-Chi},
-    title = {Testing Coreference Resolution Systems without Labeled Test Sets},
-    year = {2023},
-    publisher = {Association for Computing Machinery},
-    address = {New York, NY, USA},
-    booktitle = {Proceedings of The 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software
-Engineering},
-    numpages = {13},
-    keywords = {Coreference Resolution Testing, Metamorphic Testing, SE4AI},
-    series = {ESEC/FSE'23}
-}
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Jialun
+    given-names: Cao
+    orcid: https://orcid.org/0000-0003-4892-6294
+title: ArabelaTso/Crest-artifacts: Intial release
+version: release
+date-released: 2023-09-06
